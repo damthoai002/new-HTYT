@@ -1,0 +1,110 @@
+D:\test\UKPI.ImportRegistration\bin\Debug\RegImportMapping.xml
+D:\test\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.dll
+D:\test\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.pdb
+D:\test\UKPI.ImportRegistration\bin\Debug\log4net.dll
+D:\test\UKPI.ImportRegistration\bin\Debug\UKPI.Core.dll
+D:\test\UKPI.ImportRegistration\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\test\UKPI.ImportRegistration\bin\Debug\UKPI.Core.pdb
+D:\test\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.csprojResolveAssemblyReference.cache
+D:\test\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.dll
+D:\test\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.pdb
+D:\Disc D\HTCC\UKPI.ImportRegistration\bin\Debug\RegImportMapping.xml
+D:\Disc D\HTCC\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.dll
+D:\Disc D\HTCC\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.pdb
+D:\Disc D\HTCC\UKPI.ImportRegistration\bin\Debug\log4net.dll
+D:\Disc D\HTCC\UKPI.ImportRegistration\bin\Debug\UKPI.Core.dll
+D:\Disc D\HTCC\UKPI.ImportRegistration\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Disc D\HTCC\UKPI.ImportRegistration\bin\Debug\UKPI.Core.pdb
+D:\Disc D\HTCC\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.csprojResolveAssemblyReference.cache
+D:\Disc D\HTCC\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.dll
+D:\Disc D\HTCC\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.pdb
+E:\Working\Projects\UngDungQuanLyYTe\Framework\UKPI.ImportRegistration\bin\Debug\RegImportMapping.xml
+E:\Working\Projects\UngDungQuanLyYTe\Framework\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.dll
+E:\Working\Projects\UngDungQuanLyYTe\Framework\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.pdb
+E:\Working\Projects\UngDungQuanLyYTe\Framework\UKPI.ImportRegistration\bin\Debug\log4net.dll
+E:\Working\Projects\UngDungQuanLyYTe\Framework\UKPI.ImportRegistration\bin\Debug\UKPI.Core.dll
+E:\Working\Projects\UngDungQuanLyYTe\Framework\UKPI.ImportRegistration\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Working\Projects\UngDungQuanLyYTe\Framework\UKPI.ImportRegistration\bin\Debug\UKPI.Core.pdb
+E:\Working\Projects\UngDungQuanLyYTe\Framework\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.csprojResolveAssemblyReference.cache
+E:\Working\Projects\UngDungQuanLyYTe\Framework\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.dll
+E:\Working\Projects\UngDungQuanLyYTe\Framework\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.pdb
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\UKPI.ImportRegistration\bin\Debug\RegImportMapping.xml
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.dll
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.pdb
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\UKPI.ImportRegistration\bin\Debug\log4net.dll
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\UKPI.ImportRegistration\bin\Debug\UKPI.Core.dll
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\UKPI.ImportRegistration\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\UKPI.ImportRegistration\bin\Debug\UKPI.Core.pdb
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.csprojResolveAssemblyReference.cache
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.dll
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.pdb
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\Code\UKPI.ImportRegistration\bin\Debug\RegImportMapping.xml
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\Code\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.dll
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\Code\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.pdb
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\Code\UKPI.ImportRegistration\bin\Debug\log4net.dll
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\Code\UKPI.ImportRegistration\bin\Debug\UKPI.Core.dll
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\Code\UKPI.ImportRegistration\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\Code\UKPI.ImportRegistration\bin\Debug\UKPI.Core.pdb
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\Code\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.dll
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\Code\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.pdb
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\Code\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.csprojResolveAssemblyReference.cache
+D:\Working\PartTime\HUFS\Code\UKPI.ImportRegistration\bin\Debug\RegImportMapping.xml
+D:\Working\PartTime\HUFS\Code\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.dll
+D:\Working\PartTime\HUFS\Code\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.pdb
+D:\Working\PartTime\HUFS\Code\UKPI.ImportRegistration\bin\Debug\log4net.dll
+D:\Working\PartTime\HUFS\Code\UKPI.ImportRegistration\bin\Debug\UKPI.Core.dll
+D:\Working\PartTime\HUFS\Code\UKPI.ImportRegistration\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Working\PartTime\HUFS\Code\UKPI.ImportRegistration\bin\Debug\UKPI.Core.pdb
+D:\Working\PartTime\HUFS\Code\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.csprojResolveAssemblyReference.cache
+D:\Working\PartTime\HUFS\Code\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.dll
+D:\Working\PartTime\HUFS\Code\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.pdb
+D:\Working\PartTime\HUFS\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\RegImportMapping.xml
+D:\Working\PartTime\HUFS\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.dll
+D:\Working\PartTime\HUFS\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.pdb
+D:\Working\PartTime\HUFS\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\log4net.dll
+D:\Working\PartTime\HUFS\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\UKPI.Core.dll
+D:\Working\PartTime\HUFS\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Working\PartTime\HUFS\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\UKPI.Core.pdb
+D:\Working\PartTime\HUFS\CodeWithNewDB\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.csprojResolveAssemblyReference.cache
+D:\Working\PartTime\HUFS\CodeWithNewDB\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.dll
+D:\Working\PartTime\HUFS\CodeWithNewDB\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.pdb
+D:\Disk E\HTYT\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\RegImportMapping.xml
+D:\Disk E\HTYT\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.dll
+D:\Disk E\HTYT\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.pdb
+D:\Disk E\HTYT\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\log4net.dll
+D:\Disk E\HTYT\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\UKPI.Core.dll
+D:\Disk E\HTYT\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Disk E\HTYT\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\UKPI.Core.pdb
+D:\Disk E\HTYT\CodeWithNewDB\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.csprojResolveAssemblyReference.cache
+D:\Disk E\HTYT\CodeWithNewDB\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.dll
+D:\Disk E\HTYT\CodeWithNewDB\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.pdb
+D:\Disk E\HTYT 1\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\RegImportMapping.xml
+D:\Disk E\HTYT 1\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.dll
+D:\Disk E\HTYT 1\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.pdb
+D:\Disk E\HTYT 1\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\log4net.dll
+D:\Disk E\HTYT 1\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\UKPI.Core.dll
+D:\Disk E\HTYT 1\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Disk E\HTYT 1\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\UKPI.Core.pdb
+D:\Disk E\HTYT 1\CodeWithNewDB\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.csprojResolveAssemblyReference.cache
+D:\Disk E\HTYT 1\CodeWithNewDB\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.dll
+D:\Disk E\HTYT 1\CodeWithNewDB\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.pdb
+D:\HTYT Homebase\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\RegImportMapping.xml
+D:\HTYT Homebase\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.dll
+D:\HTYT Homebase\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.pdb
+D:\HTYT Homebase\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\log4net.dll
+D:\HTYT Homebase\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\UKPI.Core.dll
+D:\HTYT Homebase\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\HTYT Homebase\CodeWithNewDB\UKPI.ImportRegistration\bin\Debug\UKPI.Core.pdb
+D:\HTYT Homebase\CodeWithNewDB\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.csprojResolveAssemblyReference.cache
+D:\HTYT Homebase\CodeWithNewDB\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.dll
+D:\HTYT Homebase\CodeWithNewDB\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.pdb
+D:\new HTYT\UKPI.ImportRegistration\bin\Debug\RegImportMapping.xml
+D:\new HTYT\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.dll
+D:\new HTYT\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.pdb
+D:\new HTYT\UKPI.ImportRegistration\bin\Debug\log4net.dll
+D:\new HTYT\UKPI.ImportRegistration\bin\Debug\UKPI.Core.dll
+D:\new HTYT\UKPI.ImportRegistration\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\new HTYT\UKPI.ImportRegistration\bin\Debug\UKPI.Core.pdb
+D:\new HTYT\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.csprojResolveAssemblyReference.cache
+D:\new HTYT\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.dll
+D:\new HTYT\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.pdb

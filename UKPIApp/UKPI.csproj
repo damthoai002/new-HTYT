@@ -1,0 +1,1783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{335111FD-CD1C-4F2F-AAD6-842BFE3E9607}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>HHCC</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UKPI</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>UKPI.Program</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>499569BDB6D3325A9126D239DAC8D97342CFE7F8</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>UKPI_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="dotnetskin.skincontrols, Version=1.1.2336.29007, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\dotnetskin.skincontrols.dll</HintPath>
+    </Reference>
+    <Reference Include="ExportCSVDLL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\ExportCSVDLL.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.4.369, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Excel, Version=1.5.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MT.WindowsUI, Version=2.6.4.0, Culture=neutral, PublicKeyToken=6a0e81d0b9165633, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\MT.WindowsUI.dll</HintPath>
+    </Reference>
+    <Reference Include="purecomponents.nicepanel, Version=1.0.1013.4, Culture=neutral, PublicKeyToken=2f0f2e4259d7a8e4">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\purecomponents.nicepanel.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="UnicodeConvertLibs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\UnicodeConvertLibs.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessObject\BenhNhanExporter.cs" />
+    <Compile Include="BusinessObject\ReportBo.cs" />
+    <Compile Include="BusinessObject\TonKhoExporter.cs" />
+    <Compile Include="BusinessObject\XuatKhoExporter.cs" />
+    <Compile Include="BusinessObject\ManageStaffOfGroupBO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObject\NhanVienUserBo.cs" />
+    <Compile Include="BusinessObject\NhanVienBo.cs" />
+    <Compile Include="BusinessObject\ClsNgayNghiBo.cs" />
+    <Compile Include="BusinessObject\ClsNgayNghiHopLeBo.cs" />
+    <Compile Include="BusinessObject\TeamBo.cs" />
+    <Compile Include="BusinessObject\CreateTimesheetBO.cs" />
+    <Compile Include="BusinessObject\CreatedTimesheet.cs" />
+    <Compile Include="BusinessObject\EditApproveTimesheetExporter.cs" />
+    <Compile Include="BusinessObject\ParameterBo.cs" />
+    <Compile Include="Controls\AutoCompleteComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AutoCompleteComboBox.Designer.cs">
+      <DependentUpon>AutoCompleteComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AutoCompleteDataGridViewCombobox.cs" />
+    <Compile Include="Controls\AutoCompleteDataGridViewCombobox.Designer.cs">
+      <DependentUpon>AutoCompleteDataGridViewCombobox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessObject\BaoCaoYTeDao.cs" />
+    <Compile Include="DataAccessObject\ChotTonKhoDao.cs" />
+    <Compile Include="DataAccessObject\NgayNghiDao.cs" />
+    <Compile Include="DataAccessObject\NhanVienUsersDao.cs" />
+    <Compile Include="DataAccessObject\NhanVienDao.cs" />
+    <Compile Include="DataAccessObject\CaLamViecDao.cs" />
+    <Compile Include="DataAccessObject\ClsNgayNghiDao.cs" />
+    <Compile Include="DataAccessObject\ClsNgayNghiHopLeDao.cs" />
+    <Compile Include="DataAccessObject\ManageStaffOfGroupDao.cs" />
+    <Compile Include="DataAccessObject\CreatedTimesheetDao.cs" />
+    <Compile Include="DataAccessObject\QuanLyThuocDao.cs" />
+    <Compile Include="DataAccessObject\ShareEntityDao.cs" />
+    <Compile Include="DataAccessObject\ReportDao.cs" />
+    <Compile Include="DataAccessObject\TeamDao.cs" />
+    <Compile Include="DataAccessObject\ParameterDao.cs" />
+    <Compile Include="DataAccessObject\ThongTinKhamBenhDao.cs" />
+    <Compile Include="DataAccessObject\ThongTinNhapKhoDao.cs" />
+    <Compile Include="HTYTHomebaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HTYTHomebaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HTYTHomebaseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HTYTHomebaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HTYTHomebaseDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HTYTHomebaseDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HTYTHomebaseDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HTYTHomebaseDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HTYTHomebaseDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HTYTHomebaseDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HTYTHomebaseDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HTYTHomebaseDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HTYTHomebaseDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HTYTHomebaseDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HTYTHomebaseDataSet151.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HTYTHomebaseDataSet151.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HTYTHomebaseDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HTYTHomebaseDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HTYTHomebaseDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HTYTHomebaseDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HTYTHomebaseDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HTYTHomebaseDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HTYTHomebaseDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HTYTHomebaseDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HTYTHomebaseDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HTYTHomebaseDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HTYTHomebaseDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HTYTHomebaseDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HTYTHomebaseDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HTYTHomebaseDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HTYTHomebaseDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HTYTHomebaseDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HTYTHomebaseDataSet8.Designer.cs">
+      <DependentUpon>HTYTHomebaseDataSet8.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="HTYTHomebaseDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HTYTHomebaseDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmViewBenhNhanKhambenh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmViewBenhNhanKhambenh.Designer.cs">
+      <DependentUpon>frmViewBenhNhanKhambenh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmListDanhSachBenhNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmListDanhSachBenhNhan.Designer.cs">
+      <DependentUpon>frmListDanhSachBenhNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmSearchNhanVienNghiPhep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmSearchNhanVienNghiPhep.Designer.cs">
+      <DependentUpon>frmSearchNhanVienNghiPhep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoTheoDoiNghiOm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoTheoDoiNghiOm.Designer.cs">
+      <DependentUpon>frmBaoCaoTheoDoiNghiOm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoGhiChuKhac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoGhiChuKhac.Designer.cs">
+      <DependentUpon>frmBaoCaoGhiChuKhac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoTongTienBHYT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoTongTienBHYT.Designer.cs">
+      <DependentUpon>frmBaoCaoTongTienBHYT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoBenhNhanNamNu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoBenhNhanNamNu.Designer.cs">
+      <DependentUpon>frmBaoCaoBenhNhanNamNu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoKhamBenhBHYT_Thang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoKhamBenhBHYT_Thang.Designer.cs">
+      <DependentUpon>frmBaoCaoKhamBenhBHYT_Thang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoXuatNhapTon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoXuatNhapTon.Designer.cs">
+      <DependentUpon>frmBaoCaoXuatNhapTon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmNhanVien.Designer.cs">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoLichSuKhamChuaBenhVaPhatThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoLichSuKhamChuaBenhVaPhatThuoc.Designer.cs">
+      <DependentUpon>frmBaoCaoLichSuKhamChuaBenhVaPhatThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoBNBHYTTTBH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoBNBHYTTTBH.Designer.cs">
+      <DependentUpon>frmBaoCaoBNBHYTTTBH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoDMThuocYHCTTTBH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoDMThuocYHCTTTBH.Designer.cs">
+      <DependentUpon>frmBaoCaoDMThuocYHCTTTBH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoDanhMucThuocTTBH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmBaoCaoDanhMucThuocTTBH.Designer.cs">
+      <DependentUpon>frmBaoCaoDanhMucThuocTTBH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmbaocaodieuchinhkho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmbaocaodieuchinhkho.Designer.cs">
+      <DependentUpon>frmbaocaodieuchinhkho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmChotTonKhoDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmChotTonKhoDetail.Designer.cs">
+      <DependentUpon>frmChotTonKhoDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmChotTonKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmChotTonKho.Designer.cs">
+      <DependentUpon>frmChotTonKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Reports\ReportInDonThuocBH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Reports\ReportInDonThuocBH.Designer.cs">
+      <DependentUpon>ReportInDonThuocBH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Reports\ReportInDonThuocFull.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Reports\ReportInDonThuocFull.Designer.cs">
+      <DependentUpon>ReportInDonThuocFull.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\ApproveTSLookup\AddL0ForL1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\ApproveTSLookup\AddL0ForL1.Designer.cs">
+      <DependentUpon>AddL0ForL1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\ApproveTSLookup\AddL1ForL2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\ApproveTSLookup\AddL1ForL2.Designer.cs">
+      <DependentUpon>AddL1ForL2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\ApproveTSLookup\AddL2ForL3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\ApproveTSLookup\AddL2ForL3.Designer.cs">
+      <DependentUpon>AddL2ForL3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\ApproveTSLookup\AddL3ForL4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\ApproveTSLookup\AddL3ForL4.Designer.cs">
+      <DependentUpon>AddL3ForL4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\ApproveTSLookup\UpdateStaffInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\ApproveTSLookup\UpdateStaffInfo.Designer.cs">
+      <DependentUpon>UpdateStaffInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\ApproveTSLookup\ChooseStaffToAddManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\ApproveTSLookup\ChooseStaffToAddManual.Designer.cs">
+      <DependentUpon>ChooseStaffToAddManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\ApproveTSLookup\ReviewTimesheets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\ApproveTSLookup\ReviewTimesheets.Designer.cs">
+      <DependentUpon>ReviewTimesheets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\ApproveTSLookup\RejectedTimesheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\ApproveTSLookup\RejectedTimesheet.Designer.cs">
+      <DependentUpon>RejectedTimesheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Authenticate\frmAddStaffUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmbaocaotonkho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmbaocaotonkho.Designer.cs">
+      <DependentUpon>frmbaocaotonkho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmbaocaolichsubenhnhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmbaocaolichsubenhnhan.Designer.cs">
+      <DependentUpon>frmbaocaolichsubenhnhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmChinhSachGiaChiTiet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmChinhSachGiaChiTiet.Designer.cs">
+      <DependentUpon>frmChinhSachGiaChiTiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmChinhSachGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmChinhSachGia.Designer.cs">
+      <DependentUpon>frmChinhSachGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmdanhmucthuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmdanhmucthuoc.Designer.cs">
+      <DependentUpon>frmdanhmucthuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmChonHanSuDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmChonHanSuDung.Designer.cs">
+      <DependentUpon>frmChonHanSuDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmSearchNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmSearchNhanVien.Designer.cs">
+      <DependentUpon>frmSearchNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmXuatKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmXuatKho.Designer.cs">
+      <DependentUpon>frmXuatKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmnhapkhothuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmnhapkhothuoc.Designer.cs">
+      <DependentUpon>frmnhapkhothuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmNghiPhep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmNghiPhep.Designer.cs">
+      <DependentUpon>frmNghiPhep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmKhambenh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmKhambenh.Designer.cs">
+      <DependentUpon>frmKhambenh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmCreateHoliday.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmCreateHoliday.Designer.cs">
+      <DependentUpon>frmCreateHoliday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\FrmCreateLeaveMaternity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\FrmCreateLeaveMaternity.Designer.cs">
+      <DependentUpon>FrmCreateLeaveMaternity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmCreateLeaveAccident.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmCreateLeaveAccident.Designer.cs">
+      <DependentUpon>frmCreateLeaveAccident.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmCreateLeavePlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmCreateLeavePlan.Designer.cs">
+      <DependentUpon>frmCreateLeavePlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmCreateTimesheetManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmCreateTimesheetManual.Designer.cs">
+      <DependentUpon>frmCreateTimesheetManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmManageShiftForTeam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmManageShiftForTeam.Designer.cs">
+      <DependentUpon>frmManageShiftForTeam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmNhanVienQLy_Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmNhanVienQLy_Users.Designer.cs">
+      <DependentUpon>frmNhanVienQLy_Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmManageStaffs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmManageStaffs.Designer.cs">
+      <DependentUpon>frmManageStaffs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmArchiveDataFromProwatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmArchiveDataFromProwatch.Designer.cs">
+      <DependentUpon>frmArchiveDataFromProwatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmMapUserLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmMapUserLevel.Designer.cs">
+      <DependentUpon>frmMapUserLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmUpdateStaffCc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmUpdateStaffCc.Designer.cs">
+      <DependentUpon>frmUpdateStaffCc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmUpdateStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmUpdateStaff.Designer.cs">
+      <DependentUpon>frmUpdateStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmManageTeam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmManageTeam.Designer.cs">
+      <DependentUpon>frmManageTeam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmManageStaffInGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmManageStaffInGroup.Designer.cs">
+      <DependentUpon>frmManageStaffInGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmCreateTimesheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmCreateTimesheet.Designer.cs">
+      <DependentUpon>frmCreateTimesheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmApproveTimesheetL4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmApproveTimesheetL4.Designer.cs">
+      <DependentUpon>frmApproveTimesheetL4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmApproveTimesheetL3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmApproveTimesheetL3.Designer.cs">
+      <DependentUpon>frmApproveTimesheetL3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmApproveTimesheetL2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmApproveTimesheetL2.Designer.cs">
+      <DependentUpon>frmApproveTimesheetL2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\MakeToString.cs" />
+    <Compile Include="ValueObject\BenhNhanExportColumns.cs" />
+    <Compile Include="ValueObject\BoPhan.cs" />
+    <Compile Include="ValueObject\CachUongThuoc.cs" />
+    <Compile Include="ValueObject\ChinhSachGia.cs" />
+    <Compile Include="ValueObject\ChinhSachGiaChiTiet.cs" />
+    <Compile Include="ValueObject\ChotTonKhoDetail.cs" />
+    <Compile Include="ValueObject\ChotTonKhoHeader.cs" />
+    <Compile Include="ValueObject\clsCreateTimesheet.cs" />
+    <Compile Include="ValueObject\clsCalamViec.cs" />
+    <Compile Include="ValueObject\clsNhanVien.cs" />
+    <Compile Include="ValueObject\clsNhanVienUser.cs" />
+    <Compile Include="ValueObject\clsNgayNghi.cs" />
+    <Compile Include="ValueObject\clsNgayNghiChiTiet.cs" />
+    <Compile Include="ValueObject\clsTeam.cs" />
+    <Compile Include="ValueObject\clsLichLamViec.cs" />
+    <Compile Include="ValueObject\ChinhSachGiaDT.cs" />
+    <Compile Include="ValueObject\CachDungChiTiet.cs" />
+    <Compile Include="ValueObject\NgayNghiKhamBenh.cs" />
+    <Compile Include="ValueObject\Employees.cs" />
+    <Compile Include="ValueObject\WareHouse.cs" />
+    <Compile Include="ValueObject\ThongTinThuocKhamBenh.cs" />
+    <Compile Include="ValueObject\CustomKey.cs" />
+    <Compile Include="ValueObject\DanhMucThuoc.cs" />
+    <Compile Include="ValueObject\NhaSanXuat.cs" />
+    <Compile Include="ValueObject\DonViTinh.cs" />
+    <Compile Include="ValueObject\GioiTinh.cs" />
+    <Compile Include="ValueObject\KeyPrefix.cs" />
+    <Compile Include="ValueObject\KhuVuc.cs" />
+    <Compile Include="ValueObject\LyDo.cs" />
+    <Compile Include="ValueObject\LyDoChiTiet.cs" />
+    <Compile Include="ValueObject\MaICD.cs" />
+    <Compile Include="ValueObject\NhomBenh.cs" />
+    <Compile Include="ValueObject\NhomThuoc.cs" />
+    <Compile Include="ValueObject\PhongKham.cs" />
+    <Compile Include="ValueObject\QuocGia.cs" />
+    <Compile Include="ValueObject\QuyetDinhNghiPhep.cs" />
+    <Compile Include="ValueObject\ThongTinBenhNhan.cs" />
+    <Compile Include="ValueObject\ThongTinDonThuocKhamBenh.cs" />
+    <Compile Include="ValueObject\ThongTinGiaoDich.cs" />
+    <Compile Include="ValueObject\ThongTinKhamBenh.cs" />
+    <Compile Include="ValueObject\ThongTinKhamBenhReport.cs" />
+    <Compile Include="ValueObject\ThongTinKhamBenhReportDetail.cs" />
+    <Compile Include="ValueObject\ThongTinKhamBenhReportHeader.cs" />
+    <Compile Include="ValueObject\ThongTinNhapKho.cs" />
+    <Compile Include="ValueObject\ThongTinNhapKhoDetail.cs" />
+    <Compile Include="ValueObject\ThongTinThuoc.cs" />
+    <Compile Include="ValueObject\ThongTinThuocDictionary.cs" />
+    <Compile Include="ValueObject\ThongTinThuocTomLuoc.cs" />
+    <Compile Include="ValueObject\TonKhoExportColumns.cs" />
+    <Compile Include="ValueObject\XuatKhoExportColumns.cs" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="AuditResultInformation.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AuditResultDetail.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="HTYTHomebaseDataSet.xsc">
+      <DependentUpon>HTYTHomebaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HTYTHomebaseDataSet.xss">
+      <DependentUpon>HTYTHomebaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet1.xsc">
+      <DependentUpon>HTYTHomebaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HTYTHomebaseDataSet1.xss">
+      <DependentUpon>HTYTHomebaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet10.xsc">
+      <DependentUpon>HTYTHomebaseDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HTYTHomebaseDataSet10.xss">
+      <DependentUpon>HTYTHomebaseDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet11.xsc">
+      <DependentUpon>HTYTHomebaseDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HTYTHomebaseDataSet11.xss">
+      <DependentUpon>HTYTHomebaseDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet12.xsc">
+      <DependentUpon>HTYTHomebaseDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HTYTHomebaseDataSet12.xss">
+      <DependentUpon>HTYTHomebaseDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet13.xsc">
+      <DependentUpon>HTYTHomebaseDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HTYTHomebaseDataSet13.xss">
+      <DependentUpon>HTYTHomebaseDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet14.xsc">
+      <DependentUpon>HTYTHomebaseDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HTYTHomebaseDataSet14.xss">
+      <DependentUpon>HTYTHomebaseDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet151.xsc">
+      <DependentUpon>HTYTHomebaseDataSet151.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet151.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet151.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HTYTHomebaseDataSet151.xss">
+      <DependentUpon>HTYTHomebaseDataSet151.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet16.xsc">
+      <DependentUpon>HTYTHomebaseDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HTYTHomebaseDataSet16.xss">
+      <DependentUpon>HTYTHomebaseDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet17.xsc">
+      <DependentUpon>HTYTHomebaseDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HTYTHomebaseDataSet17.xss">
+      <DependentUpon>HTYTHomebaseDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet2.xsc">
+      <DependentUpon>HTYTHomebaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HTYTHomebaseDataSet2.xss">
+      <DependentUpon>HTYTHomebaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet3.xsc">
+      <DependentUpon>HTYTHomebaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HTYTHomebaseDataSet3.xss">
+      <DependentUpon>HTYTHomebaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet4.xsc">
+      <DependentUpon>HTYTHomebaseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HTYTHomebaseDataSet4.xss">
+      <DependentUpon>HTYTHomebaseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet5.xsc">
+      <DependentUpon>HTYTHomebaseDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HTYTHomebaseDataSet5.xss">
+      <DependentUpon>HTYTHomebaseDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet6.xsc">
+      <DependentUpon>HTYTHomebaseDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HTYTHomebaseDataSet6.xss">
+      <DependentUpon>HTYTHomebaseDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet7.xsc">
+      <DependentUpon>HTYTHomebaseDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HTYTHomebaseDataSet7.xss">
+      <DependentUpon>HTYTHomebaseDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet8.xsc">
+      <DependentUpon>HTYTHomebaseDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet8.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet8.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="HTYTHomebaseDataSet8.xss">
+      <DependentUpon>HTYTHomebaseDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet9.xsc">
+      <DependentUpon>HTYTHomebaseDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="HTYTHomebaseDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HTYTHomebaseDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HTYTHomebaseDataSet9.xss">
+      <DependentUpon>HTYTHomebaseDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Images\HelpIcon.png" />
+    <None Include="Image\Filter.png" />
+    <Content Include="KPITemplate.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Log4Net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PureComponents_NicePanel.license" />
+    <Content Include="App.ico" />
+    <Content Include="Icons\applications.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\book.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\btnClose.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\btnSearch.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\btnSelect.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\calendar.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Cancel_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\cancel_4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\cascade.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\chart.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\chart2.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\check.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Clipboard.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\compstui-3.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\configure.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\contact_list.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Delete.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\delivery.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\edit.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\English.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\exec.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\exit.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\export.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\export2.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Eye.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\files_add.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\files_edit.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\find.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\find2.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\find3.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Folder.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\folder_downloads.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\help.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\home.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\import.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\lock.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\logout.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\maintainuser.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\maximized.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\min.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\money.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\money2.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\move.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\new.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\paint.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\save_as3.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\stock.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\stock2.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\style.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\swap.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\swap2.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\up.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\user.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\user2.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\users.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\user_add.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\user_edit.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Vietnam.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\VMIIcon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\arrival1024.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\dreamsky12.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\gfx_42.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\gfx_422 Medium.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\mac_button_blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\mac_button_cyan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\mac_button_maveric.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\mac_button_orange.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\mac_button_silver.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Thienthan.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\VMIIcon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UKPI.Messages.EN.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="UKPI.Messages.VN.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="UKPI.Titles.EN.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="UKPI.Titles.VN.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Unilever.jpg" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObject\Authenticate\clsAutPolicyBO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObject\Authenticate\clsAutUserBO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObject\Authenticate\clsParameterBO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObject\Authenticate\clsTrackingUserBO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObject\Authenticate\clsUserRoleBO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObject\clsBaseBO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BusinessObject\CommonObject.cs" />
+    <Compile Include="BusinessObject\ChamCongLichLamViecBO.cs" />
+    <Compile Include="BusinessObject\ToDoListBO.cs" />
+    <Compile Include="Controls\ComboBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\RegexTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataAccessObject\ChamCongLichLamViecDAO.cs" />
+    <Compile Include="Entity\AuditResult.cs" />
+    <Compile Include="Entity\BaseEntity.cs" />
+    <Compile Include="Entity\BasicExtraSetRelation.cs" />
+    <Compile Include="Entity\CommonDef.cs" />
+    <Compile Include="Entity\DisplaySet.cs" />
+    <Compile Include="Entity\DisplaySetShopFormatRelation.cs" />
+    <Compile Include="Entity\MarketingProgram.cs" />
+    <Compile Include="Entity\ProgramType.cs" />
+    <Compile Include="Presentation\AuditHistoryFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\AuditHistoryFrm.Designer.cs">
+      <DependentUpon>AuditHistoryFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\cpoTodoList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Presentation\cpoTodoList.Designer.cs">
+      <DependentUpon>cpoTodoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Utils\TableValidationResult.cs" />
+    <Compile Include="Controls\DataGridView_RowNum.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SelectAllSupplyTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridComboBoxColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridDisableCell.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridRadioColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridTextAutoHilight.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridTimePickerColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MDMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MDToolBarButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NumericTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataAccessObject\Authenticate\clsAutPolicyDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccessObject\Authenticate\clsAutUserDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccessObject\Authenticate\clsParameterDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccessObject\Authenticate\clsSMSConfigurationDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccessObject\Authenticate\clsSMSReportDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccessObject\Authenticate\clsTrackingUserDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccessObject\Authenticate\clsUserRoleDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccessObject\clsBaseDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\CommonEntity.cs" />
+    <Compile Include="Presentation\Authenticate\frmAutPolicy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Authenticate\frmChangeCustCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Authenticate\frmChangePWD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Authenticate\frmEditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Authenticate\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Authenticate\frmMaintainUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Authenticate\frmParameter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Authenticate\frmUserRole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmReportAuditing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmReportAuditing.Designer.cs">
+      <DependentUpon>frmReportAuditing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\IDataEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\IDataViewer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\Trace_User\frmHistoryTracking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\clsCommon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsConstants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsConvertUnicode.cs" />
+    <Compile Include="Utils\clsCryptography.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsCSVHelper.cs" />
+    <Compile Include="Utils\clsEncrypt.cs" />
+    <Compile Include="Utils\clsExcelBase.cs" />
+    <Compile Include="Utils\clsExcelHelper.cs" />
+    <Compile Include="Utils\clsFormManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsGlobal.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsGridCopyPaste.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsResources.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsStyleManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsSystemConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsTitleManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsZip.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\CustomColumStyles.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridViewCalendarColumn.cs" />
+    <Compile Include="Utils\DataServices.cs" />
+    <Compile Include="Utils\FileHelper.cs" />
+    <Compile Include="Utils\FtpHelper.cs" />
+    <Compile Include="Utils\Logger.cs" />
+    <Compile Include="Utils\SingleApplication.cs" />
+    <Compile Include="Utils\SQLHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\TypeHelper.cs" />
+    <Compile Include="ValueObject\clsBaseObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ValueObject\clsExportCheckListsEntity.cs" />
+    <Compile Include="ValueObject\clsParameter.cs" />
+    <Compile Include="ValueObject\clsExportKpiEntity.cs" />
+    <EmbeddedResource Include="Controls\DataGridComboBoxColumn.resx">
+      <DependentUpon>DataGridComboBoxColumn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DataGridDisableCell.resx">
+      <DependentUpon>DataGridDisableCell.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DataGridRadioColumn.resx">
+      <DependentUpon>DataGridRadioColumn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DataGridTextAutoHilight.resx">
+      <DependentUpon>DataGridTextAutoHilight.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DataGridTimePickerColumn.resx">
+      <DependentUpon>DataGridTimePickerColumn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MDMenuItem.resx">
+      <DependentUpon>MDMenuItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MDToolBarButton.resx">
+      <DependentUpon>MDToolBarButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages\MessageEN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages\MessageVN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages\TitleEN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages\TitleVN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmViewBenhNhanKhambenh.resx">
+      <DependentUpon>frmViewBenhNhanKhambenh.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmListDanhSachBenhNhan.resx">
+      <DependentUpon>frmListDanhSachBenhNhan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmSearchNhanVienNghiPhep.resx">
+      <DependentUpon>frmSearchNhanVienNghiPhep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmBaoCaoTheoDoiNghiOm.resx">
+      <DependentUpon>frmBaoCaoTheoDoiNghiOm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmBaoCaoGhiChuKhac.resx">
+      <DependentUpon>frmBaoCaoGhiChuKhac.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmBaoCaoTongTienBHYT.resx">
+      <DependentUpon>frmBaoCaoTongTienBHYT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmBaoCaoBenhNhanNamNu.resx">
+      <DependentUpon>frmBaoCaoBenhNhanNamNu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmBaoCaoKhamBenhBHYT_Thang.resx">
+      <DependentUpon>frmBaoCaoKhamBenhBHYT_Thang.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmBaoCaoXuatNhapTon.resx">
+      <DependentUpon>frmBaoCaoXuatNhapTon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmNhanVien.resx">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmBaoCaoLichSuKhamChuaBenhVaPhatThuoc.resx">
+      <DependentUpon>frmBaoCaoLichSuKhamChuaBenhVaPhatThuoc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmBaoCaoBNBHYTTTBH.resx">
+      <DependentUpon>frmBaoCaoBNBHYTTTBH.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmBaoCaoDMThuocYHCTTTBH.resx">
+      <DependentUpon>frmBaoCaoDMThuocYHCTTTBH.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmBaoCaoDanhMucThuocTTBH.resx">
+      <DependentUpon>frmBaoCaoDanhMucThuocTTBH.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmbaocaodieuchinhkho.resx">
+      <DependentUpon>frmbaocaodieuchinhkho.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmChotTonKhoDetail.resx">
+      <DependentUpon>frmChotTonKhoDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmChotTonKho.resx">
+      <DependentUpon>frmChotTonKho.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Reports\baoCaoBenhNhanNamNu.rdlc" />
+    <EmbeddedResource Include="Presentation\Reports\BaoCaoGhiChuKhac.rdlc" />
+    <EmbeddedResource Include="Presentation\Reports\BaoCaoKhamBenhBHYT_Thang.rdlc" />
+    <EmbeddedResource Include="Presentation\Reports\BaoCaoLichSuBenhNhan.rdlc" />
+    <EmbeddedResource Include="Presentation\Reports\BaoCaoLichSuKhamBenhVaPhatThuoc.rdlc" />
+    <EmbeddedResource Include="Presentation\Reports\BaoCaoNguoiBenhBHYTDNTT1.rdlc" />
+    <EmbeddedResource Include="Presentation\Reports\BaoCaoTheoDoiNghiOm.rdlc" />
+    <EmbeddedResource Include="Presentation\Reports\BaoCaoThuocTDTTBHYT.rdlc" />
+    <EmbeddedResource Include="Presentation\Reports\BaoCaoThuocCPYHCTTTBHYT.rdlc" />
+    <EmbeddedResource Include="Presentation\Reports\BaoCaoNguoiBenhBHYTDNTT.rdlc" />
+    <EmbeddedResource Include="Presentation\Reports\BaoCaoTonKho.rdlc" />
+    <EmbeddedResource Include="Presentation\Reports\BaoCaoXuatNhapTon.rdlc" />
+    <EmbeddedResource Include="Presentation\Reports\BaoCaoTongTienSuDungBHYT.rdlc" />
+    <EmbeddedResource Include="Presentation\Reports\ReportInDonThuocFull.rdlc" />
+    <EmbeddedResource Include="Presentation\Reports\ReportInDonThuoc.rdlc" />
+    <EmbeddedResource Include="Presentation\Reports\ReportInDonThuocBH.resx">
+      <DependentUpon>ReportInDonThuocBH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Reports\ReportInDonThuocFull.resx">
+      <DependentUpon>ReportInDonThuocFull.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\ApproveTSLookup\AddL0ForL1.resx">
+      <DependentUpon>AddL0ForL1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\ApproveTSLookup\AddL1ForL2.resx">
+      <DependentUpon>AddL1ForL2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\ApproveTSLookup\AddL2ForL3.resx">
+      <DependentUpon>AddL2ForL3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\ApproveTSLookup\AddL3ForL4.resx">
+      <DependentUpon>AddL3ForL4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\ApproveTSLookup\UpdateStaffInfo.resx">
+      <DependentUpon>UpdateStaffInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\ApproveTSLookup\ChooseStaffToAddManual.resx">
+      <DependentUpon>ChooseStaffToAddManual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\ApproveTSLookup\ReviewTimesheets.resx">
+      <DependentUpon>ReviewTimesheets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\ApproveTSLookup\RejectedTimesheet.resx">
+      <DependentUpon>RejectedTimesheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\AuditHistoryFrm.resx">
+      <DependentUpon>AuditHistoryFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Authenticate\frmAutPolicy.resx">
+      <DependentUpon>frmAutPolicy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Authenticate\frmChangeCustCode.resx">
+      <DependentUpon>frmChangeCustCode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Authenticate\frmChangePWD.resx">
+      <DependentUpon>frmChangePWD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Authenticate\frmAddStaffUser.resx">
+      <DependentUpon>frmAddStaffUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Authenticate\frmEditUser.resx">
+      <DependentUpon>frmEditUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Authenticate\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Authenticate\frmMaintainUsers.resx">
+      <DependentUpon>frmMaintainUsers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Authenticate\frmParameter.resx">
+      <DependentUpon>frmParameter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Authenticate\frmUserRole.resx">
+      <DependentUpon>frmUserRole.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmbaocaotonkho.resx">
+      <DependentUpon>frmbaocaotonkho.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmbaocaolichsubenhnhan.resx">
+      <DependentUpon>frmbaocaolichsubenhnhan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmChinhSachGiaChiTiet.resx">
+      <DependentUpon>frmChinhSachGiaChiTiet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmChinhSachGia.resx">
+      <DependentUpon>frmChinhSachGia.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmdanhmucthuoc.resx">
+      <DependentUpon>frmdanhmucthuoc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmChonHanSuDung.resx">
+      <DependentUpon>frmChonHanSuDung.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmSearchNhanVien.resx">
+      <DependentUpon>frmSearchNhanVien.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmXuatKho.resx">
+      <DependentUpon>frmXuatKho.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmnhapkhothuoc.resx">
+      <DependentUpon>frmnhapkhothuoc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmNghiPhep.resx">
+      <DependentUpon>frmNghiPhep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmKhambenh.resx">
+      <DependentUpon>frmKhambenh.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\cpoTodoList.resx">
+      <DependentUpon>cpoTodoList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmCreateHoliday.resx">
+      <DependentUpon>frmCreateHoliday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\FrmCreateLeaveMaternity.resx">
+      <DependentUpon>FrmCreateLeaveMaternity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmCreateLeaveAccident.resx">
+      <DependentUpon>frmCreateLeaveAccident.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmCreateLeavePlan.resx">
+      <DependentUpon>frmCreateLeavePlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmCreateTimesheetManual.resx">
+      <DependentUpon>frmCreateTimesheetManual.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmManageShiftForTeam.resx">
+      <DependentUpon>frmManageShiftForTeam.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmNhanVienQLy_Users.resx">
+      <DependentUpon>frmNhanVienQLy_Users.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmManageStaffs.resx">
+      <DependentUpon>frmManageStaffs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmArchiveDataFromProwatch.resx">
+      <DependentUpon>frmArchiveDataFromProwatch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmMapUserLevel.resx">
+      <DependentUpon>frmMapUserLevel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmUpdateStaffCc.resx">
+      <DependentUpon>frmUpdateStaffCc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmUpdateStaff.resx">
+      <DependentUpon>frmUpdateStaff.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmManageTeam.resx">
+      <DependentUpon>frmManageTeam.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmManageStaffInGroup.resx">
+      <DependentUpon>frmManageStaffInGroup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmCreateTimesheet.resx">
+      <DependentUpon>frmCreateTimesheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmApproveTimesheetL4.resx">
+      <DependentUpon>frmApproveTimesheetL4.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmApproveTimesheetL3.resx">
+      <DependentUpon>frmApproveTimesheetL3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmApproveTimesheetL2.resx">
+      <DependentUpon>frmApproveTimesheetL2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmReportAuditing.resx">
+      <DependentUpon>frmReportAuditing.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Trace_User\frmHistoryTracking.resx">
+      <DependentUpon>frmHistoryTracking.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\InKeToaThuoc.rdlc" />
+    <EmbeddedResource Include="Reports\InNhapKho.rdlc" />
+    <EmbeddedResource Include="Reports\intoathuoc.rdlc" />
+    <EmbeddedResource Include="Utils\CustomColumStyles.resx">
+      <DependentUpon>CustomColumStyles.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="UKPI_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FPT.Componet.Excel\FPT.Component.ExcelPlus.csproj">
+      <Project>{8F68EE94-F371-4722-9B26-3113F1FC80AF}</Project>
+      <Name>FPT.Component.ExcelPlus</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UKPI.AuditResult\UKPI.AuditResult.csproj">
+      <Project>{E73A1B4E-B5C6-4F76-991B-42608FA2B349}</Project>
+      <Name>UKPI.AuditResult</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UKPI.BlendedReport\UKPI.BlendedReport.csproj">
+      <Project>{66520BE1-0AB6-4821-AEA7-F6CE49008242}</Project>
+      <Name>UKPI.BlendedReport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UKPI.Core\UKPI.Core.csproj">
+      <Project>{480C8475-5AF3-4FC5-85C3-3898FF9B17EB}</Project>
+      <Name>UKPI.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UKPI.ImportRegistration\UKPI.ImportRegistration.csproj">
+      <Project>{93629FD0-63A4-44CF-921A-24079F203FAD}</Project>
+      <Name>UKPI.ImportRegistration</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

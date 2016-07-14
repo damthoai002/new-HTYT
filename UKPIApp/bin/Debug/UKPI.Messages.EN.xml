@@ -1,0 +1,2114 @@
+<!--<?xml version="1.0" encoding="utf-8" ?>-->
+<HUFS>
+  <Messages>
+    <Name>frmChangeCustCode.CustomerExist</Name>
+    <Value>Old customer code not existed. Please input another !</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChangeCustCode.NewCustomer</Name>
+    <Value>New customer code length must be equal 5 !</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChangeCustCode.NewCustomerExist</Name>
+    <Value>New customer code existed in {0} table. Please input another !</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChangeCustCode.NewCustomer_1</Name>
+    <Value>New customer code must be contains region code !</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChangeCustCode.NewCustomer_2</Name>
+    <Value>New customer code must be have region code same as old customer code!</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChangeCustCode.NewCustomer_3</Name>
+    <Value>Change customer code fail, data will roll back !</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChangeCustCode.NewCustomer_4</Name>
+    <Value>New customer code must be numeric and not any space !</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChangeCustCode.ChangedCustomer</Name>
+    <Value>Changed customer code success</Value>
+  </Messages>
+  <Messages>
+    <Name>frmMain.stopImportProcess</Name>
+    <Value>On importing... Import progress will be stoped when finish!!!</Value>
+  </Messages>
+  <Messages>
+    <Name>frmMain.Information</Name>
+    <Value>Information</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.SearchDate</Name>
+    <Value>From date must before to date!</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.Error</Name>
+    <Value>Error</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.SearchKpiPromotionCompliance</Name>
+    <Value>Search Kpi Promotion Compliance</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.SearchKpiStandardPrice</Name>
+    <Value>Search kpi standard price : </Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.SearchKpiSOF</Name>
+    <Value>Search Search Kpi SOF: </Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.SearchKpiSos</Name>
+    <Value>Search Search Kpi SOS: </Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.SearchKpiNpd</Name>
+    <Value>Search Search Kpi NPD: </Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.RowsApproved</Name>
+    <Value> row(s) were approved.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.RowsError</Name>
+    <Value> row(s) got error(s).</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.Information</Name>
+    <Value>Information</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.SaveKPIFail</Name>
+    <Value>Error: Save {0} Fail</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.Define_Store_And_Checklist</Name>
+    <Value>Form closing: Define_Store_And_Checklist</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.WrongSheetName</Name>
+    <Value>Wrong sheetName.       </Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.NofoundChecklist</Name>
+    <Value>No found checklist.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.Error</Name>
+    <Value>Error</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.ImportFile</Name>
+    <Value>Please choose file for Import.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.ExportFail</Name>
+    <Value>Error when exporting Fail KPI data.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.ErrorImportKpi</Name>
+    <Value>Error when import KPI data.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.Approve.SelectToApprove</Name>
+    <Value>Please select row(s) to approve.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.Reject.SelectToReject</Name>
+    <Value>Please select row(s) to Reject.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.Import.KpiFormatFail</Name>
+    <Value>Format of KPI {0} is not correct.</Value>
+  </Messages>
+
+  <!-- PhongNTT - Giong nhau tren moi ngon ngu -->
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.WrongValueVoidMT</Name>
+    <Value>Wrong {0} value. {0} must be 0 or 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.WrongValueStoreIsMTOrGT</Name>
+    <Value>Wrong {0} value. {0} must be 0 or 1 or blank.</Value>
+  </Messages>
+  <!--DongTC ShelfStandardGT-->
+  <Messages>
+    <Name>frmshelfstandardGT.CheckvailDisplay</Name>
+    <Value>{0} must be 0 or 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmshelfstandardGT.CheckvailDisplayZone</Name>
+    <Value>{0} must be 0 or 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmshelfstandardGT.CheckvailPOSM</Name>
+    <Value>{0} must be 0 or 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmshelfstandardMT.CheckvailDisplay</Name>
+    <Value>{0} must be 0 or 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmshelfstandardMT.CheckvailDisplayZone</Name>
+    <Value>{0} must be 0 or 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmshelfstandardMT.CheckvailPOSM</Name>
+    <Value>{0} must be 0 or 1.</Value>
+  </Messages>
+  <!--End-->
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.WrongValueVoidGT</Name>
+    <Value>Wrong {0} value. {0} must be blank.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.WrongValue.Store</Name>
+    <Value>Can not find {0} in the master data.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.WrongValue</Name>
+    <Value>Wrong {0} value.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.WrongValue.SubCat</Name>
+    <Value>Can not find {0} in define checklist.</Value>
+  </Messages>
+  <Messages>
+    frmshelfstandardMT.CheckvailDisplay
+    <Name>frmImportKPIData.CheckApproveData.WrongValue.Product</Name>
+    <Value>Can not find {0} in define checklist.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.DuplicateRow</Name>
+    <Value>Data on row is duplication</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.NotCompatible_Store_Product</Name>
+    <Value>Product's Division is not compatible with Store Classification</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.NotCompatible_Store_Category_GT</Name>
+    <Value>Category's Division is not compatible with Store Classification.{0} must be N/A.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.NotCompatible_Store_Category_MT</Name>
+    <Value>Category's Division is not compatible with Store Classification.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.NotCompatible_Store_Category</Name>
+    <Value>Category's Division is not compatible with Store Classification.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.NotCompatible_Brand_Category</Name>
+    <Value>Brand is not compatible with Category</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.GreaterEqualZeroNumber</Name>
+    <Value>{0} must be a numeric that greater than or equal to 0</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.GreaterEqualZeroNumberIntegers</Name>
+    <Value>{0} must be a integers that greater than or equal to 0</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.GreaterEqualTwoValueIntegers</Name>
+    <Value>{1} must be a integers and {1} must be less than or equal to {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.MustBeEqual</Name>
+    <Value>{0} must be equal to {1}</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.SubcatNotRequire</Name>
+    <Value>Sub category {0} is not required to audit on any hotspot</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.GreaterEqualTwoValue</Name>
+    <Value>{1} must be a numeric and {1} must be less than or equal to {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.StoreNotAppearOnOthersKpi</Name>
+    <Value>STORE_CODE does not appear on others KPIs of it's checklist.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.OutOfPromotionPeriod</Name>
+    <Value>Audit time is out of Promotion, {0} must be N/A.</Value>
+  </Messages>
+  <!-- END - PhongNTT - Giong nhau tren moi ngon ngu -->
+
+  <Messages>
+    <Name>frmExportUpdatedStoresAddress.Messages.Distributor</Name>
+    <Value>Please input 'Distributor ID' to search.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmExportKpiOption.Messages.Export</Name>
+    <Value>Export KPI</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.Replacing</Name>
+    <Value>Replacing progress has completed. There are  </Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.ReplacingSameData</Name>
+    <Value> Data input are the same. There are 0 replacement.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.Warning.replace</Name>
+    <Value>Can not input data replace be greater than 250 character!</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.NotDataToExport</Name>
+    <Value>No data for Export.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.SaveStoreslist</Name>
+    <Value>Please save storeslist before export.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.TurnOver</Name>
+    <Value>Turnover must be numeric.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.DefineStore</Name>
+    <Value>Form closing: Define Stores List</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.Edit_Store</Name>
+    <Value>Form closing: Edit Stores</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.ConfirmDeletePromotion</Name>
+    <Value>Do you also want to delete promotion?</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Inputdataforchannel</Name>
+    <Value>Table FPT_ENV_CHANNEL no data, please input data for table.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.ConfrimDelete</Name>
+    <Value>Confirm delete</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.ConfrimOverWrite</Name>
+    <Value>Confirm overwrite</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.OverWrite</Name>
+    <Value>Are you sure want to overwrite duplicate rows?   </Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.ProductOfPromotionEmpty</Name>
+    <Value>Product of Promotion: {0} is empty. Can't Save</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.PromotionEmpty</Name>
+    <Value>Promotion is empty. Can't Save</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.CanNotSave</Name>
+    <Value>Can't save. Please input data</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Description</Name>
+    <Value>Description must not be blank</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.DuplicationPromotion</Name>
+    <Value>Duplication in Promotion:</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.DuplicationProductOfPromotion</Name>
+    <Value>Duplication in product of  promotion: </Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.ChecklistScope</Name>
+    <Value>Save Checklist_Scope: don't have Checklist_id to save Checklist_scope.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.Description</Name>
+    <Value>Please enter the description.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.ErrorSave</Name>
+    <Value>Error: Save {0} </Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.StoreslistExport</Name>
+    <Value>Please select storeslist for export.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.SearchStore</Name>
+    <Value>Error when searching stores!</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.ExportChecklistSuccess</Name>
+    <Value>Export checklists successful!</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.ExportChecklistError</Name>
+    <Value>There isn't any data to export checklist.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.InactiveKpi</Name>
+    <Value>Current checklist have '{0}'. Are you sure want to delete '{0}'?</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.Confirm</Name>
+    <Value>Confirm Delete</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStores.Messages.ExportChecklistSuccess</Name>
+    <Value>Export stores successful!</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.general</Name>
+    <Value>Error</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.general</Name>
+    <Value>Warning</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.general</Name>
+    <Value>Thông Báo</Value>
+  </Messages>
+
+  <Messages>
+    <Name>confirms.general</Name>
+    <Value>Confirm</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.export.nothing</Name>
+    <Value>Customer'{0}' have been exported. Please update status if you want to export.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.login.ACCOUNT_NOT_EXIST</Name>
+    <Value>Account not exist</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.login.PasswordExpired</Name>
+    <Value>Password expired</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.login.AccoutnExpired</Name>
+    <Value>Account expired</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.login.InvalidLogin</Name>
+    <Value>Invalid LogIn</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.login.AcountNotActive</Name>
+    <Value>Account is not active</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.login.PASSWORD_WRONG</Name>
+    <Value>Password is wrong</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.required</Name>
+    <Value>{0} is required.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.Isnumeric</Name>
+    <Value>must be integer.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericIconicHPCStreet</Name>
+    <Value>Iconic Street HPC Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericIconicHPCMarket</Name>
+    <Value>Iconic Market HPC Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericIconicFoods</Name>
+    <Value>Iconic Foods Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericIconicFoodsSet</Name>
+    <Value>Iconic Foods Set must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericUrbanHPCStreet</Name>
+    <Value>Urban Street HPC Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericUrbanHPCMarket</Name>
+    <Value>Urban Market HPC Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericUrbanPC</Name>
+    <Value>Urban PC Shop must be integer and greater than 0.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericUrbanFoods</Name>
+    <Value>Urban Foods Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericUrbanFoodsSet</Name>
+    <Value>Urban Foods Set must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericRuralHPCStreet</Name>
+    <Value>Rural Street HPC Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericRuralHPCMarket</Name>
+    <Value>Rural Market HPC Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericRuralHPCFoods</Name>
+    <Value>Rural Foods Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericRuralHPCFoodsSet</Name>
+    <Value>Rural Foods Set must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.Nodatatocopy</Name>
+    <Value>No data to copy.     </Value>
+  </Messages>
+  <Messages>
+    <Name>copy.successful</Name>
+    <Value>Copy successful.     </Value>
+  </Messages>
+  <!--DongTC frmDefineStoreAndChecklist-->
+  <Messages>
+    <Name>errors.fromdate</Name>
+    <Value>{0} must be before to date</Value>
+  </Messages>
+  <!--End DongTC-->
+  <Messages>
+    <Name>errors.compare.equal</Name>
+    <Value>{0} must be less than or equal to {1}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.compare.datetime</Name>
+    <Value>{0} must be before {1}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.Douplicate</Name>
+    <Value> is duplicate with row </Value>
+  </Messages>
+  <Messages>
+    <Name>errors.number</Name>
+    <Value>{0} must be a number.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.date</Name>
+    <Value>{0} must be a date(MON, TUE, WED,...).</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.timer</Name>
+    <Value>{0} must be a time by format HH:mm</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.float</Name>
+    <Value>{0} must be a number(ex float: 13,91; 1)</Value>
+  </Messages>
+
+  <Messages>
+    <Name>errors.string</Name>
+    <Value>{0} must be a string.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.char</Name>
+    <Value>{0} must be a character.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.email</Name>
+    <Value>{0} is a not valid email address.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.userName.exist</Name>
+    <Value>User name's already existed. Please change the user name.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.string.specialChar</Name>
+    <Value>{0} cannot contain any special character (such as @, #, $, %, * ...)</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.policy.update</Name>
+    <Value>Errors. Maybe data's been changed. Please refresh data.</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.delete</Name>
+    <Value>Do you want to delete {0}?</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.closeform</Name>
+    <Value>Do you want to close this screen {0}?</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChooseProduct.ConfirmCloseform</Name>
+    <Value>Confirm close this screen</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.Duplicateproduct</Name>
+    <Value>Product [{0}] is selected already</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.DuplicateSector</Name>
+    <Value>Sector [{0}] is selected already</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.DuplicateDistributor</Name>
+    <Value>Distributor already exist.</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.deletedatabeforecopy</Name>
+    <Value>You must delete the old data before copying new data.    </Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.Reject</Name>
+    <Value>Do you want to Reject {0}?</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.policy</Name>
+    <Value>You must save this role to database before set policy to this role.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.save</Name>
+    <Value>Do you want to save?</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.save.success</Name>
+    <Value>Lưu Dữ Liệu Thành Công.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.ApprovedTimesheets.success</Name>
+    <Value>Lưu Dữ Liệu Thành Công.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.save.importSuccess</Name>
+    <Value>Import data successfully.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.save.fail</Name>
+    <Value>Save data fail.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.form.create</Name>
+    <Value>Form name is not correct. Cannot create a form with type {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.changepassword.success</Name>
+    <Value>Change password successfully.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.changepassword.fail</Name>
+    <Value>Cann't change password.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.logout</Name>
+    <Value>Do you want to log out?</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.username.title</Name>
+    <Value>User: {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.exit</Name>
+    <Value>Do you want to exit?</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.export</Name>
+    <Value>Do you want to export to file?</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.form.alreadyopen</Name>
+    <Value>{0}'s already opened. You must close the child form before show {0}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.date</Name>
+    <Value>Date is not valid! Please try again!</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.InvalidFromDateToDate</Name>
+    <Value>[From Date] must be less than or equal to [To Date]</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.bool</Name>
+    <Value>{0}: Data invalid. Please choose Y or N!</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.period</Name>
+    <Value>{0}: The value is invalid. Require format: [Integer]@[Integer] and [Integer] must be in range(ex: 1@20)</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.success</Name>
+    <Value>   Save successfully</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.delete</Name>
+    <Value>   Delete successfully</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.noresult</Name>
+    <Value>   No search entry found </Value>
+  </Messages>
+  <Messages>
+    <Name>errors.fill</Name>
+    <Value>Please fill in all the fields</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.available</Name>
+    <Value>No group is available</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.exist</Name>
+    <Value>{0} does not exist.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.general</Name>
+    <Value>Errors.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.numeric</Name>
+    <Value>{0} must be interger and > 0 </Value>
+  </Messages>
+  <Messages>
+    <Name>errors.numericoverflow</Name>
+    <Value>This number is overflow </Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.select</Name>
+    <Value>You must select one record.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.delete.success</Name>
+    <Value>Delete successfully.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.createfolderParam.confirm</Name>
+    <Value>Folder for exporting parameter not found or invalid path. Do you want to export to {0} folder by default?</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.importStore.noData</Name>
+    <Value>No data for import.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.importStore.success</Name>
+    <Value>Importing store data is successful.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.exportStore.EditStore</Name>
+    <Value>Export data successfully.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.importStore.ColumnError</Name>
+    <Value>Lack of header column(s)!</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.System.SystemRunning</Name>
+    <Value>HUFS System is running!</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.System.Noted</Name>
+    <Value>Noted</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.importStore.NoRow</Name>
+    <Value>No row to import.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.importStore.finishWithRowsError</Name>
+    <Value>Importing store data finish! Row(s) below were not imported because of error(s):</Value>
+  </Messages>
+  <Messages>
+    <Name>error.DefineChecklists.SomeRowLackInfo</Name>
+    <Value>Lack of information on row(s) :</Value>
+  </Messages>
+  <Messages>
+    <Name>error.DefineChecklists.SaveChecklistsBeforeExport</Name>
+    <Value>Checklist must not be blank.</Value>
+  </Messages>
+  <Messages>
+    <Name>error.DefineChecklists.ListCheckListMustBeSave</Name>
+    <Value>Checklist(s) below must be saved before export:</Value>
+  </Messages>
+  <Messages>
+    <Name>error.DefineChecklists.SaveAllDataError</Name>
+    <Value>Error when saving checklists:</Value>
+  </Messages>
+  <Messages>
+    <Name>frmExportUpdatedStoresAddress.Search.NoResult</Name>
+    <Value>Data not found.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmExportUpdatedStoresAddress.Search.ErrorInSearching</Name>
+    <Value>Error in searching progress. Please view log file for detail.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmExportUpdatedStoresAddress.Export.Finish</Name>
+    <Value>Export finish.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmEditStore.Nofound</Name>
+    <Value>No match found.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmEditStore.Nodata</Name>
+    <Value>Store not found</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmKPIData.Nodata</Name>
+    <Value>No data found.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmEditStore.Checkdata</Name>
+    <Value>Turnover is must be greater than 0.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmEditStore.StoreslistExport</Name>
+    <Value>Please select stores list for export.</Value>
+  </Messages>
+
+
+
+
+
+  <Messages>
+
+    <Name>message.FrmApproveTimesheet.Nodata</Name>
+
+    <Value>Không có dữ liệu.</Value>
+
+  </Messages>
+
+  <Messages>
+    <Name>message.FrmApproveTimesheet.LineInvalidTime</Name>
+    <Value>Lỗi nhập thời gian (giờ vào L1 {0}, giờ ra L1 {1})!</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.Approve</Name>
+    <Value>Form: Xác Nhận Chấm Công!</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.FrmApproveTimesheet.WantToRejectedTS</Name>
+    <Value>Bạn có chắt reject những bảng chấm công được chọn?</Value>
+  </Messages>
+  <Messages>
+
+    <Name>message.FrmApproveTimesheet.NoTimesheetFound</Name>
+
+    <Value>Không có dữ liệu cần lấy kết quả chấm công!</Value>
+
+  </Messages>
+  <Messages>
+    <Name>message.FrmApproveTimesheet.FromDateInvalid</Name>
+    <Value>
+      Từ ngày không phù hợp!
+    </Value>
+  </Messages>
+  <Messages>
+    <Name>message.FrmApproveTimesheet.ToDateInvalid</Name>
+    <Value>
+      Đến ngày không phù hợp!
+    </Value>
+  </Messages>
+  <Messages>
+    <Name>message.FrmApproveTimesheet.ToDateOutOfRange</Name>
+    <Value>
+      Đến ngày phải nhỏ hơn ngày {0}!
+    </Value>
+  </Messages>
+
+  <Messages>
+    <Name>message.RejectSuccessfull</Name>
+    <Value>
+      Reject chấm công thành công!
+    </Value>
+  </Messages>
+  <Messages>
+    <Name>message.FrmApproveTimesheet.MonthInvalid</Name>
+    <Value>
+      Tháng không phù hợp!
+    </Value>
+  </Messages>
+  <Messages>
+    <Name>message.FrmApproveTimesheet.NoDataFoundToRejected</Name>
+    <Value>
+      Không có dữ liệu đễ reject!
+    </Value>
+  </Messages>
+  <Messages>
+    <Name>message.FrmApproveTimesheet.ConfirmToRejected</Name>
+    <Value>
+      Bạn có chắt chắn Reject dữ liệu được chọn!
+    </Value>
+  </Messages>
+  <Messages>
+    <Name>message.FrmApproveTimesheet.WantToRejectedTS</Name>
+    <Value>
+      Bạn có chắt chắn Reject dữ liệu được chọn!
+    </Value>
+  </Messages>
+
+  <Messages>
+    <Name>message.FrmApproveTimesheet.WantToRejectedTS</Name>
+    <Value>
+      Bạn có chắc chắn Reject dữ liệu được chọn!
+    </Value>
+  </Messages>
+  <Messages>
+    <Name>Messages.frmApproveTimesheet.ApproveTS</Name>
+    <Value>Form closing: Xác Nhận Chấm Công</Value>
+  </Messages>
+  <Messages>
+    <Name>Messages.frmApproveTimesheet.Approve</Name>
+    <Value>
+      Bạn có chắc chắn xác nhận chấm công!
+    </Value>
+  </Messages>
+
+
+
+
+
+  <Messages>
+    <Name>message.frmImportKPIData.CheckDataTotalhotspot</Name>
+    <Value>Total targetted hotspot is must be greater than 0.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.CheckDataTotalhotspothit</Name>
+    <Value>Total hotspot hit is must be greater than 0.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.SearchBeforeExport</Name>
+    <Value>Please search KPIs before export.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.ExportFinish</Name>
+    <Value>Export finish!</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.ExportFinishWantContinueExport</Name>
+    <Value>Do you want to do another export?</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.SaveAllFailKpi.Error</Name>
+    <Value>Error when saving KPI(s):</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.ExportFailKpi.Error</Name>
+    <Value>Error when exporting Fail KPI(s) Data.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.importKPI.success</Name>
+    <Value>Importing KPI data is successful!</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.StoreDuplicate</Name>
+    <Value>STORE_CODE is duplicate row.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.Correctdata</Name>
+    <Value>Wrong in others KPI data.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.LackOfdata</Name>
+    <Value>Lack of data.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Kpi.ApplyForChecklist</Name>
+    <Value>Apply for checklist period:</Value>
+  </Messages>
+
+  <Messages>
+    <Name>message.System.NoResult</Name>
+    <Value>No data found!</Value>
+  </Messages>
+
+  <Messages>
+    <Name>message.Others.Row</Name>
+    <Value> Row </Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.Fail</Name>
+    <Value> Fail  </Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.Correct</Name>
+    <Value> Correct  </Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.Message</Name>
+    <Value> Message  </Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.InputNumberOnly</Name>
+    <Value> Must be input number only  </Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.Error</Name>
+    <Value>Error</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.WrongValue</Name>
+    <Value> Wrong {0} value </Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.Wrong</Name>
+    <Value> Wrong </Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.Information</Name>
+    <Value>Information</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.Messages.F3Seach</Name>
+    <Value>(Press F3 to search)</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.Messages.replacements</Name>
+    <Value>replacements </Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.UnsavedDataOnForm</Name>
+    <Value>There are un-saved checklists on form. All data will be lost when close the from.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.SureWantToCloseTheForm</Name>
+    <Value>Are you sure want to close the form?</Value>
+    <!--Do you want to save the changes-->
+  </Messages>
+  <Messages>
+    <Name>message.Others.DataHasChanged</Name>
+    <Value>The stores's data has changed.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.WantToSaveTheChanges</Name>
+    <Value>Do you want to save the changes?</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.FileNotExists</Name>
+    <Value>File '{0}' does not exist.</Value>
+  </Messages>
+  <!--DongTCfrmEditStore-->
+  <Messages>
+    <Name>message.frmEditStore.FindReplace</Name>
+    <Value>Please input search data.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.TestCharacter</Name>
+    <Value>Don't enter this character! Please reEnter.</Value>
+  </Messages>
+  <!--Import Edit Store after edit data-->
+  <Messages>
+    <Name>frmEditStore.ImportDataNullStoreID</Name>
+    <Value>Store ID data null</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullStoreName</Name>
+    <Value>Store Name data null</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullStoreAddress</Name>
+    <Value>Store Address data null</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullDistributorCode</Name>
+    <Value>Distributor code data null</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullDistributorName</Name>
+    <Value>Distributor name data null</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullTown</Name>
+    <Value>Town data null</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullProvince</Name>
+    <Value>Province data null</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullRegion</Name>
+    <Value>Region data null</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullUrban</Name>
+    <Value>Urban data null</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullTypeofOutlet</Name>
+    <Value>Type of Outlet data null</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullLocation</Name>
+    <Value>Location data null</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullLocation</Name>
+    <Value>Location data null</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullStarclub</Name>
+    <Value>Star club data null</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullPSType</Name>
+    <Value>PS Type data null</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportStoreIDNotExists</Name>
+    <Value>Store ID not existed.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.SaveOnGridStoreIDNotExists</Name>
+    <Value>StoreID: </Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportStoreIDExists</Name>
+    <Value>Store ID existed.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.SaveOnGridStoreIDExists</Name>
+    <Value>StoreID: </Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportStoreIDNotExists</Name>
+    <Value>Store ID not existed.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportPSTypeNotExists</Name>
+    <Value>PS Type not exists.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportTurnOverFail</Name>
+    <Value>Turnover  must be numeric greater than or equal to 0.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportSaleSupIDNotExists</Name>
+    <Value>Sales Sup ID not exists.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullSaleSupID</Name>
+    <Value>Sales Sup ID no data.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullTurnover</Name>
+    <Value>Turnover no data.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.StoreCodeRegisterDisplay</Name>
+    <Value>Display set doesn't match with shop format.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.StoreCodeWrongRegisterExtraDisplaySet</Name>
+    <Value>Wrong extra display set.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.StoreCodeRegisterTwoDisplaySet</Name>
+    <Value>Store doesn't allow to register more than 2 display set.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.StoreCodeWrongUrbanOrShopFormatOrLocation</Name>
+    <Value>Store wrong value urban or classification or location.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.StoreCodeWrongValueRegisterShopType</Name>
+    <Value>Wrong value register shop format, value must be integer and greater than 0.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.WrongTypeOfOutlets</Name>
+    <Value>Data on fields Urban or shop format or Location for StoreID</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.WrongTypeOfOutlets.Invalid</Name>
+    <Value> are invalid.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.StoreNonExistMasterdata</Name>
+    <Value>Information of Store Non-Exist in master data.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.WrongTypeOfOutletsOnGrid</Name>
+    <Value>Urban or shop format or Location for StoreID: </Value>
+  </Messages>
+  <!--End-->
+  <!-- clsStore-->
+  <Messages>
+    <Name>message.clsStore.NullDistributorId</Name>
+    <Value>Null [DISTRIBUTOR ID]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullDistributorName</Name>
+    <Value>Null [DISTRIBUTOR NAME]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullPerfectStoreID</Name>
+    <Value>Null [PERFECT STORE ID]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullPerfectStoreName</Name>
+    <Value>Null [PERFECT STORE NAME]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullSalesSupID</Name>
+    <Value>Null [SALES SUP ID]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullSalesSupName</Name>
+    <Value>Null [SALES SUP NAME]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullLocation</Name>
+    <Value>Null [LOCATION]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.ShopTypeRegister</Name>
+    <Value>Display set doesn't match with shop format.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.IsnumericShopType</Name>
+    <Value>Display set register value must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.WrongValue</Name>
+    <Value>Wrong value.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullStoreId</Name>
+    <Value>Null [STORE ID]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullStoreName</Name>
+    <Value>Null [STORE NAME]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullStoreAddress</Name>
+    <Value>Null [STORE ADDRESS]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullTown</Name>
+    <Value>Null [TOWN]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullProvince</Name>
+    <Value>Null [PROVINCE]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullRegion</Name>
+    <Value>Null [REGION]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullUrban</Name>
+    <Value>Null [URBAN]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullTypeOfOutlet</Name>
+    <Value>Null [TYPE OF OUTLET]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullChannel</Name>
+    <Value>Null [CHANNEL]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullTurnover</Name>
+    <Value>Null [TURNOVER]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.LackColumn</Name>
+    <Value>Null [TURNOVER]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.LacksColumn</Name>
+    <Value>Lack of columns.     </Value>
+  </Messages>
+  <!--frm Distributor-->
+  <Messages>
+    <Name>frmEditDistributor.Import.LackColulmn</Name>
+    <Value>Lack of columns.     </Value>
+  </Messages>
+  <!--End-->
+  <!-- End - clsStore-->
+  <!--DongTC frmDefinechecklist-->
+  <Messages>
+    <Name>message.shelfstandard.checklist.Nosave</Name>
+    <Value>No data for save.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.shelfstandard.checklist.Delete</Name>
+    <Value>Deleted data define checklist.</Value>
+  </Messages>
+  <!--End-->
+  <!--DongTC frmCategory-->
+  <Messages>
+    <Name>message.Others.UnsavedDataOnFormCategory</Name>
+    <Value>There are un-saved category on form. All data will be lost when close the from.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.SureWantToCloseTheFormCategory</Name>
+    <Value>Are you sure want to close the form?</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditUser.CheckPhone.GreaterEqualZeroNumber</Name>
+    <Value>{0} must be a number</Value>
+  </Messages>
+  <!--End-->
+
+  <!--About Form-->
+  <Messages>
+    <Name>frmAbout.txtAboutInfo.Content</Name>
+    <Value>This software copyrighted by Unilever Viet Nam. Vendor Managed Inventory and Unilever Logos are trademarks  of the Unilever Vietnam. All rights reserved.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmAbout.txtAboutInfo.Content_seperate</Name>
+    <Value>_</Value>
+  </Messages>
+  <Messages>
+    <Name>frmAbout.lblVersion.Content</Name>
+    <Value>{0}v.{1}. Build 17-Feb-2012 1240</Value>
+  </Messages>
+  <!--End - About Form-->
+  <!-- Import Blend -->
+  <Messages>
+    <Name>ImportError.Blank</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Cell value cannot be blank.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.HeaderName</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Invalid header name in import data.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.HeaderIndex</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Invalid header column position.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.Numeric</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Cell value must be numeric.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.OutOfRange</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Numeric cell value is out of range.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.Duplicate</Name>
+    <Value>Invalid rows: Sheet[{0}] Rows [{1}]. Data is dupplicate.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.MonthFormat</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Invalid month format.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.OLNotExisted</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Outlet(store) {3} does not exist in database.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.DTNotExisted</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Distributor {3} does not exist in database.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.Unknown</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Unknown error has occurred. Please check application configuration.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.ChannelNotExisted</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Channel [{3}] does not exist.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.WrongTemplate</Name>
+    <Value>Imported file has wrong template</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.InvalidTimePeriod</Name>
+    <Value>TimePeriod is invalid</Value>
+  </Messages>
+  <!-- End Import Blend -->
+  <Messages>
+    <Name>errors.required.FileName</Name>
+    <Value>Filename is required. Please select a file.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.validate.Failed</Name>
+    <Value>Data validation failed. Please view import report/log file for more details.</Value>
+  </Messages>
+  <Messages>
+    <Name>warning.export.LackChannel</Name>
+    <Value>Please choose Channel.</Value>
+  </Messages>warning
+  <Messages>
+    <Name>warning.export.LackRegion</Name>
+    <Value>Please choose Region.</Value>
+  </Messages>warning
+  <Messages>
+    <Name>warning.export.LackProvince</Name>
+    <Value>Please choose Province.</Value>
+  </Messages>warning
+  <Messages>
+    <Name>warning.export.LackDistributor</Name>
+    <Value>Please choose Store ID.</Value>
+  </Messages>warning
+  <Messages>
+    <Name>errors.file.inused</Name>
+    <Value>Cannot open file "{0}". This file is opened by another application.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.unknown</Name>
+    <Value>An unknown error has occurred in the application. Please see log file for more details.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.validate.success</Name>
+    <Value>File has been validated and loaded successfully.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.export.success</Name>
+    <Value>Data has been exported successfully.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.export.file</Name>
+    <Value>Cannot save data to file "{0}".</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.import.supportfiletype</Name>
+    <Value>File type is not supported.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.EditStore.InvalidDisplayRegistrationValue</Name>
+    <Value>Registration value is an integer that greater than or equal to 1</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.EditStore.BaisDisplaySetRegistrationOutOfRange</Name>
+    <Value>Total of registered BasicDisplaySet must be in range from [{0]} to [{1}]</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.EditStore.ExtraDisplaySetRegistrationOutOfRange</Name>
+    <Value>Total of registered ExtraDisplaySet must be in range from [{0}] to [{1}]</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.EditStore.CannotRegisterExtraDisplaySet</Name>
+    <Value>Cannot register extra display set, please refer to Display Registration Rule</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.EditStore.RegisterBasicDisplaySetFirst</Name>
+    <Value>You have to register one of basic display sets first: [{0}]</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.EditStore.TOLimit</Name>
+    <Value>To register this display set, required turn-over is [{0}]</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.EditStore.MaxNumOfRegisteredDisplaySet</Name>
+    <Value>Number of registered basic display set must be less than or equal to {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.EditStore.MaxNumOfTotalOfRegisteredDisplaySet</Name>
+    <Value>Total number of registered basic display set must be less than or equal to {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.EditStore.StoreValidationFail</Name>
+    <Value>Some information is invalid. Data has not saved yet</Value>
+  </Messages>
+  <Messages>
+    <Name>editStore.ImportMessage</Name>
+    <Value>Import store from file was done. Success: [{0}]; Fail: [{1}]</Value>
+  </Messages>
+  <Messages>
+    <Name>editStore.ImportMessage.NoData</Name>
+    <Value>File has no data to import</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.EditStore.ValidateStoreError</Name>
+    <Value>Store validation error. Please refer to Display registration rules or required information</Value>
+  </Messages>
+  <Messages>
+    <Name>message.EditStore.Export</Name>
+    <Value>System only export for single Channel. Please select single Channel to search, and try again</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDisplaySet.DisplaysetCode</Name>
+    <Value>The Display Set Code is not empty or space.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDisplaySet.DisplaysetName</Name>
+    <Value>The Display Set Name is not empty or space.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDisplaySet.Existed</Name>
+    <Value>The DisplaySet Code does exist.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStores.DefineStoreExport</Name>
+    <Value>Export is successfull.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.saveConfirm</Name>
+    <Value>Do you want to save?</Value>
+  </Messages>
+  <Messages>
+    <Name>validate.DisplayRegistrationRule.MinMaxValidateFail</Name>
+    <Value>Minimum number must less than or equal to Maximum number</Value>
+  </Messages>
+  <Messages>
+    <Name>DefineCheckListFrm.DescriptionRequired</Name>
+    <Value>CheckList name is required. Data has not saved yet</Value>
+  </Messages>
+  <Messages>
+    <Name>DefineCheckListFrm.PSTypeRequired</Name>
+    <Value>PSType is required. Data has not saved yet</Value>
+  </Messages>
+  <Messages>
+    <Name>DefineCheckListFrm.InvalidInformation</Name>
+    <Value>Some information is invalid. Data has not saved yet</Value>
+  </Messages>
+  <Messages>
+    <Name>DefineCheckListFrm.DataChanged</Name>
+    <Value>Data of KPI checklist(s) {0} was changed. {1}Which action that you want to do?</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineScheduleCTAPromC.Compare</Name>
+    <Value>TO_DATE value not less then FROM_DATE value.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineScheduleCTAPromC.CompareSubtractI</Name>
+    <Value>STANDARD_AUDIT_DATE not more than ( TO_DATE - INSTALLATION_DATE).</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineScheduleCTAPromC.CompareSubtractA</Name>
+    <Value>STANDARD_AUDIT_DATE not more than ( TO_DATE - ACTIVATION_DATE).</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineScheduleCTAPromC.CompareSubtractP</Name>
+    <Value>STANDARD_AUDIT_DATE not more than ( TO_DATE - PROMOTION_DATE).</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineScheduleCTAPromC.Compare1</Name>
+    <Value>LAUNCH_DATE value not less then TO_DATE value.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineScheduleCTAPromC.LaunchDate</Name>
+    <Value>LAUNCH_DATE value is not empty.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineScheduleCTAPromC.FromDate</Name>
+    <Value>FROM_DATE value is not empty.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineScheduleCTAPromC.ToDate</Name>
+    <Value>TO_DATE value is not empty.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineScheduleCTAPromC.ValidateStandardAuditDate</Name>
+    <Value>The Standard Audit Date must be integer.</Value>
+  </Messages>
+  <Messages>
+    <Name>AuditValidate.Duplicate</Name>
+    <Value>Values is duplicated with columns: [{0}]</Value>
+  </Messages>
+  <Messages>
+    <Name>AuditValidate.InvalidCoordinate</Name>
+    <Value>The coordinate of column [{0}] is invalid</Value>
+  </Messages>
+  <Messages>
+    <Name>AuditValidate.InvalidDateFormat</Name>
+    <Value>The date(time) format of column [{0}] is invalid. Valid format is '{1}'</Value>
+  </Messages>
+  <Messages>
+    <Name>KpiImporter.InvalidPeriod</Name>
+    <Value>The audit date at column [{0}] is invalid. Audit date must be between {1} and {2}.</Value>
+  </Messages>
+  <Messages>
+    <Name>AuditValidate.InvalidPeriod</Name>
+    <Value>The audit date at column [{0}] is invalid. Audit date must belong to period {1}.</Value>
+  </Messages>
+  <Messages>
+    <Name>AuditValidate.InvalidStore</Name>
+    <Value>The store at column [{0}] is blank or not existed in audit plan for period {1}.</Value>
+  </Messages>
+  <Messages>
+    <Name>AuditValidate.OutOfRange</Name>
+    <Value>The value at column [{0}] is invalid. Value must be in &lt;{1}&gt;.</Value>
+  </Messages>
+  <Messages>
+    <Name>AuditValidate.PsDependency</Name>
+    <Value>The value at column [{0}] is invalid. When PS Compliance is 1, other compliance must be blank or 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>AuditValidate.InvalidAuditDisplaySet</Name>
+    <Value>The display set [{1}] is blank or don't define for store [{0}].</Value>
+  </Messages>
+  <Messages>
+    <Name>AuditValidate.InvalidAuditCategory</Name>
+    <Value>The category [{1}] is blank or don't define in audit period.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>message.frmDefineStoresListForAudit.Nodata</Name>
+    <Value>Please select the store to be save</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmDefineStoresListForAudit.NodataToExport</Name>
+    <Value>Please select the store to be export</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmDefineStoresListForAudit.NoStore</Name>
+    <Value>Store not found</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Error.Unknown</Name>
+    <Value>An unknown error has occured. Please look into log file for more detail.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportAuditStore.NotFoundDataInFile</Name>
+    <Value>Not found data in csv file. Please check again.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportAuditStore.NotFoundDataForSaving</Name>
+    <Value>Not found data in grid for saving. Please check again.</Value>
+  </Messages>
+  <Messages>
+    <Name>CopyCheckList.NoYetDefined</Name>
+    <Value>CheckList {0} of [{1}] was not yet defined</Value>
+  </Messages>
+  <Messages>
+    <Name>CopyCheckList.Comfirmation</Name>
+    <Value>This will copy all information of selected CheckList and overwrite to current CheckList. Do you really want to continue?</Value>
+  </Messages>
+  <Messages>
+    <Name>errorMsg.OpenFile</Name>
+    <Value>Can not open file {0}.</Value>
+  </Messages>
+  <Messages>
+    <Name>title.FileError</Name>
+    <Value>File error</Value>
+  </Messages>
+  <Messages>
+    <Name>AuditValidate.UndefineAuditStatus</Name>
+    <Value>Audit result status is not defined.</Value>
+  </Messages>
+  <Messages>
+    <Name>AuditValidate.RequireValue</Name>
+    <Value>Value at column {0} is require.</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.InvalidProduct</Name>
+    <Value>Product code at column [{0}] does not exist in KPI checklist for period [{1}].</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.InvalidMonth</Name>
+    <Value>Report of Month value (column [{0}]) must be {1}.</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.InvalidMonthFormat</Name>
+    <Value>Invalid month format at column [{0}] does not exist in KPI checklist.</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.ImportKpiInvalid</Name>
+    <Value>KPI data is invalid. Please check and update the data.</Value>
+  </Messages>
+  <Messages>
+    <Name>Importer.KPI.SaveInvalidMsg</Name>
+    <Value>Import KPI completed with some invalid data. Do you want to save invalid data to Excel file ?</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.OSA.VoidDT</Name>
+    <Value>VOID value must be blank for channel DT</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.OSA.ValueShopFormatMIX</Name>
+    <Value>OSA value must be 1 for MIX shop format</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.OSA.UnmatchProductShopFormat</Name>
+    <Value>Product and store classification(shop format) is not match, value at column [{0}] must be NA.</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.NotExistKpiChecklist</Name>
+    <Value>The KPI checklist is not existed in database.</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.ErrorStoresReference</Name>
+    <Value>The store is error in check-list(s) {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.NonNegativeNumericValue</Name>
+    <Value>The value at column {0} must be non-negative numeric value</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.InvalidSector</Name>
+    <Value>The sector ID at column {0} is not existed in kpi checklisst {1}</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.InvalidMarket</Name>
+    <Value>The market ID at column {0} is not existed in kpi checklisst {1}</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.NotApplicationMarket</Name>
+    <Value>The market ID at column {0} is not existed in defined list of market/category</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.InvalidChecklistInformation</Name>
+    <Value>Cannot find checklist with provided information (Channel, Region and Checklist Time Period)</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStoreCoordinate.Template</Name>
+    <Value>The template you have chosen is invalid.</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.NotConsistencyShopFormat</Name>
+    <Value>{0} must be matched with shop-format.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.DefineCheckListFrm.ExportComplete</Name>
+    <Value>Export completed</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.SSGT.DisplayResultNA</Name>
+    <Value>Display result value must be NA when all other values (display quantity, order, zone and POSM) are NA</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.SSGT.DisplayResultZero</Name>
+    <Value>Display result value must be 0 when one of other values (display quantity, order, zone and POSM) is 0</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.SSGT.DisplayResultOne</Name>
+    <Value>Display result value must be 1</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.ExportKPIData.NoDataExport</Name>
+    <Value>No Data to export</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.ExportKPIData.ExportSuccess</Name>
+    <Value>Export Susccessfull</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.ExportKPIData.ExportOtherError</Name>
+    <Value>An error has occured during exporting</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.KPI.InvalidStore</Name>
+    <Value>The store at column [{0}] is not existed in audit plan for channel {2}, region {3} and period {1}.</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.KPI.DataExisted</Name>
+    <Value>Record(s) in this file is existed in database</Value>
+  </Messages>
+  <!--Add by KienTNT-->
+  <!--Begin-->
+  <Messages>
+    <Name>ExportKPIBO.GetFilename.Template.HasPeriod</Name>
+    <Value>{0}ENV_ExportKPIData_{1}_{2}_{3}_{4}.csv</Value>
+  </Messages>
+  <Messages>
+    <Name>ExportKPIBO.GetFilename.Template.NoPeriod</Name>
+    <Value>{0}ENV_ExportKPIData_{1}_{2}_{3}.csv</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.ExportKPIData.NoDatatoExport</Name>
+    <Value>No KPI Data To Export</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.ExportKPIData.UnknownError</Name>
+    <Value>Cannot Export CSV file</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.ExportKPIData.ExportSuccessfull</Name>
+    <Value>Export Successfull</Value>
+  </Messages>
+  <Messages>
+    <Name>message.checkchanges.save</Name>
+    <Value>Some items have been changed. Do you want to save the changes ?</Value>
+  </Messages>
+  <Messages>
+    <Name>message.checkchanges.nodata</Name>
+    <Value>There's no changes to save.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.auditresult.approve</Name>
+    <Value>Do you want to approve qualification result for selected sold-to (customer)?</Value>
+  </Messages>
+  <Messages>
+    <Name>message.auditresult.sent</Name>
+    <Value>Qualification result for selected customers (sold-to) have been sent to DT ({0}) and NUTI system.</Value>
+  </Messages>
+  <!--Add By KienTNT-->
+  <Messages>
+    <Name>ConfigException.WasSent</Name>
+    <Value>"The {0} were sent"</Value>
+  </Messages>
+  <Messages>
+    <Name>ConfigException.AddDuplicateStore</Name>
+    <Value>Adding duplicate store.Duplicate Stores: {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>ConfigException.SaveExceptionFail</Name>
+    <Value>Update Fail.Please review log file for more information</Value>
+  </Messages>
+  <Messages>
+    <Name>ConfigException.SaveExceptionSuccess</Name>
+    <Value>Update new exceptions successfull.</Value>
+  </Messages>
+  <Messages>
+    <Name>ConfigException.SendExceptionFail</Name>
+    <Value>Sending Exceptions failed.Please review log file for more information</Value>
+  </Messages>
+  <Messages>
+    <Name>ConfigException.SendExceptionSuccess</Name>
+    <Value>Exceptions were exported successfull at {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>ConfigException.NoRowToUpdate</Name>
+    <Value>All rows has been updated or No rows to update</Value>
+  </Messages>
+  <Messages>
+    <Name>ConfigException.NoRowsToExport</Name>
+    <Value>No new exceptions to export</Value>
+  </Messages>
+  <Messages>
+    <Name>ConfigException.NoRowsToDeleted</Name>
+    <Value>Please choose exception before delete</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChooseStore.DuplicateSelectedStore</Name>
+    <Value>Duplicate selected store</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChooseStore.EmptySelectedOK</Name>
+    <Value>Please choose Store</Value>
+  </Messages>
+  <Messages>
+    <Name>frmParameter.SendParameter.Success</Name>
+    <Value>Parameters were exported successfull at {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>frmParameter.SendParameter.Fail</Name>
+    <Value>Send parameters fail</Value>
+  </Messages>
+  <Messages>
+    <Name>frmParameter.SendParameter.Filename</Name>
+    <Value>PAY_Parameters_{0}.zip</Value>
+  </Messages>
+  <Messages>
+    <Name>ActualIncentive.SearchIncentive.NoData</Name>
+    <Value>No Incentive found.</Value>
+  </Messages>
+  <Messages>
+    <Name>ActualIncentive.SearchIncentive.Error</Name>
+    <Value>Searching Error.\nPlease review log file for more information</Value>
+  </Messages>
+  <Messages>
+    <Name>ExceptionStoreForm.LoadException.NotDefinePeriod</Name>
+    <Value>The current period hasn't been defined {0} Exception List. Do you want to load the list from nearest defined period</Value>
+  </Messages>
+  <Messages>
+    <Name>TodoList.Description.SendDisplayStructure</Name>
+    <Value>Extract display structure before 7th T-1</Value>
+  </Messages>
+  <Messages>
+    <Name>TodoList.Description.SendRegisterlistToTPC</Name>
+    <Value>Review and extract to TPC register list before 25th T-1</Value>
+  </Messages>
+  <Messages>
+    <Name>TodoList.Description.SendQualifiedToDT</Name>
+    <Value>Enter and extract qualified store to DT before 30th T</Value>
+  </Messages>
+  <Messages>
+    <Name>TodoList.Description.SendQualifiedToNuti</Name>
+    <Value>Extract Audit result and qualified store to Nuti on 30th T</Value>
+  </Messages>
+
+  <!--End-->
+
+  <Messages>
+    <Name>message.export.success</Name>
+    <Value>Exporting successfully!</Value>
+  </Messages>
+  <Messages>
+    <Name>message.export.NoData</Name>
+    <Value>No data to export!</Value>
+  </Messages>
+  <Messages>
+    <Name>message.PendingProcess.Complete</Name>
+    <Value>Pending data has been processed completely!</Value>
+  </Messages>
+
+  <!--End-->
+  <Messages>
+    <Name>DisplayStructureForm.ExportSuccess</Name>
+    <Value>Master data have been exported successfully at: {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>DisplayStructureForm.RegistrationRulesRequire</Name>
+    <Value>Please setting at least one relation between basic display set and shop-format before sending to DT.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>General.Information</Name>
+    <Value>Information!</Value>
+  </Messages>
+  <Messages>
+    <Name>DisplayStructure.InvalidShopFormatRow</Name>
+    <Value>Shop format must be registered 1 basic display set in at least</Value>
+  </Messages>
+  <Messages>
+    <Name>DisplayStructure.InvalidInformation</Name>
+    <Value>Some information is invalid. Data has not saved yet</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.FrmCreateTimesheet.WantToContinue</Name>
+    <Value>Lịch Làm Việc Đã Tồn Tại.  Bạn Có Muốn Tạo Lại không?</Value>
+  </Messages>
+
+
+  <Messages>
+    <Name>messages.frmKhamBenh.Waring</Name>
+    <Value>Bạn có muốn xác nhận không ?</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.Title</Name>
+    <Value>Cảnh báo</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmNghiPhep.Waring</Name>
+    <Value>Từ ngày lớn hơn Đến ngày .Hãy nhập lại</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.frmNghiPhep.Waring1</Name>
+    <Value> Đến ngày nhỏ hơn Từ ngày .Hãy nhập lại</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.frmNghiPhep.Title</Name>
+    <Value>Cảnh báo</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.Success</Name>
+    <Value> Dữ liệu đã được cập nhật thành công</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.SuccessTitle</Name>
+    <Value>Thông tin</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.Error</Name>
+    <Value> Có lỗi trong quá trình cập nhật dữ liệu</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.ErrorTitle</Name>
+    <Value>Lỗi</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.CheckValidSoLuong</Name>
+    <Value>Số lượng thuốc không hợp lệ .Vui lòng nhập lại</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.CheckValidGia</Name>
+    <Value>Giá thuốc không hợp lệ .Vui lòng nhập lại</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.CheckValidDonThuoc</Name>
+    <Value>Đơn thuốc không hợp lệ. Không thể xác nhận đơn thuốc</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.CheckValidThongTinNhanVien</Name>
+    <Value>Thông tin nhân viên không hợp lệ</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.frmKhamBenh.CheckSoLuongTrongKho</Name>
+    <Value> không còn trong kho</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.CheckTrungLapThuoc</Name>
+    <Value>Thông tin thuốc bị trùng lặp.Vui lòng kiểm tra lại</Value>
+  </Messages>
+
+
+
+
+
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.Title</Name>
+    <Value>Cảnh báo</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.Success</Name>
+    <Value> Dữ liệu đã được cập nhật thành công</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.SuccessTitle</Name>
+    <Value>Thông tin</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.Error</Name>
+    <Value> Có lỗi trong quá trình cập nhật dữ liệu</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.ErrorTitle</Name>
+    <Value>Lỗi</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.CheckValidSoLuong</Name>
+    <Value>Số lượng thuốc không hợp lệ .Vui lòng nhập lại</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.CheckTrungLapThuoc</Name>
+    <Value>Thông tin thuốc bị trùng lặp.Vui lòng kiểm tra lại</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.CheckTrungLapThuoc1</Name>
+    <Value>Thuốc đã được chọn. Bạn vui lòng chọn thuốc khác</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.CheckHanSuDungThuoc</Name>
+    <Value>Bạn vui lòng nhập hạn sử dụng thuốc</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.ValidateThongSoNhapKho</Name>
+    <Value>Bạn vui lòng nhập thông tin bắt buộc</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.CheckValidGiaSauThue</Name>
+    <Value>Thông tin giá sau thuế không hợp lệ</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.CheckValidGiaTruocThue</Name>
+    <Value>Thông tin giá trước thuế không hợp lệ</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.CheckValidGiaMua</Name>
+    <Value>Thông tin giá thời điểm nhập không hợp lệ</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.WarningMessage</Name>
+    <Value>Bạn có chắt chắn muốn nhập kho?</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.frmKhamBenh.CheckTrungLapThuoc1</Name>
+    <Value>Thuốc đã được chọn. Bạn vui lòng chọn thuốc khác</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmdanhmucthuoc.Success</Name>
+    <Value> Dữ liệu đã được cập nhật thành công</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmdanhmucthuoc.SuccessTitle</Name>
+    <Value>Thông tin</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmdanhmucthuoc.Error</Name>
+    <Value> Có lỗi trong quá trình cập nhật dữ liệu</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmdanhmucthuoc.ErrorTitle</Name>
+    <Value>Lỗi</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGia.Success</Name>
+    <Value> Dữ liệu đã được cập nhật thành công</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGia.SuccessTitle</Name>
+    <Value>Thông tin</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGia.Error</Name>
+    <Value> Có lỗi trong quá trình cập nhật dữ liệu</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGia.ErrorTitle</Name>
+    <Value>Lỗi</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGia.NgayBatDau</Name>
+    <Value> Ngày bắt đầu lớn hơn ngày kết thúc</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGia.NgayKetThuc</Name>
+    <Value> Ngày kết thúc lớn hơn ngày bắt đầu</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGia.NgayHetHan</Name>
+    <Value> Ngày hết hạn không hợp lệ</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGia.TenChinhSachGia</Name>
+    <Value> Hãy nhập tên chính sách giá</Value>
+  </Messages>
+
+
+  <Messages>
+    <Name>messages.frmChinhSachGiaChiTiet.CheckTrungLapThuoc1</Name>
+    <Value>Thuốc đã được chọn. Bạn vui lòng chọn thuốc khác</Value>
+  </Messages>
+
+
+  <Messages>
+    <Name>messages.frmChinhSachGiaChiTiet.Success</Name>
+    <Value> Dữ liệu đã được cập nhật thành công</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGiaChiTiet.SuccessTitle</Name>
+    <Value>Thông tin</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGiaChiTiet.Error</Name>
+    <Value> Có lỗi trong quá trình cập nhật dữ liệu</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGiaChiTiet.ErrorTitle</Name>
+    <Value>Lỗi</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGiaChiTiet.CheckTrungLapThuoc</Name>
+    <Value>Thông tin thuốc bị trùng lặp.Vui lòng kiểm tra lại</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmSearchNhanVien.ErrorTitle</Name>
+    <Value>Lỗi</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmSearchNhanVien.SelectNhanVien</Name>
+    <Value>Bạn chưa chọn nhân viên</Value>
+  </Messages>
+</HUFS>

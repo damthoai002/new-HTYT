@@ -1,0 +1,49 @@
+
+26/07/2011-----------------------------------------------
+	TuanDH:
+	- Data unification: dictionary data (CHANNEL, REGION, PROVINCE,...) is stored in 3 places (DISTRIBUTOR_HIERARCHY, STORE, and private tables: channel, region, province,...)
+	
+	-> Solution: just use DISTRIBUTOR_HIERARCHY, remove from STORE and private tables
+		+ In FPT_ENV_STORE table, drop columns: TOWN_NAME, PROVINCE_NAME, REGION_NAME, DISTRIBUTOR_NAME, CHANNEL_CODE
+		=> Undo drop these columns because of transfering from other system
+		
+		+ Drop tables: FPT_ENV_CHANNEL, FPT_ENV_REGION_HIERARCHY, FPT_ENV_PROVINCE, FPT_ENV_TOWN, 
+
+27/07/2011-----------------------------------------------
+	TuanDH:
+	- Spend much time to make source code become clear
+	
+	- We should remove unused codes when we have free time (later)
+10/08/2011------------------------------------------------
+	TuanDH:
+	- Update SRS during coding time
+	
+29/08/2011------------------------------------------------
+	TuanDH: Validate Customer_Store_Code
+	- Add new: accept all value (include blank)
+	- Update: 
+			+ Blank/Null (DB): accept all value (include blank)
+			+ Other value (DB): validate, reject store if it has Customer_Store_Code that differ from DB
+	
+30/08/2011
+	TuanDH	
+	- DT: 
+		+ Phase 2A: OSA, NPD, ProC, Shelf Std, CTA (define and export to HHT)
+	- MT: 
+		+ Phase 2A: OSA, NPD, ProC, Shelf Std, CTA, Std Price, SOF (define and export to HHT)
+		+ Phase 3:  SOS, SOG, SSD, POSM
+		
+01/09/2011:
+	TuanDH
+	- Spend more time for coding: make SRS clear, analysis and design (database,...)
+	
+15/09/2011
+	TuanDH
+	- Potential and stupid errors (old verion): 
+		+ select wrong product(product selection dialog); 
+		+ delete middle-location of promotion grid (define checklist promotion compliance)
+		
+		
+		
+17/10/2011:
+	Shelf Std, CTA: Area is required

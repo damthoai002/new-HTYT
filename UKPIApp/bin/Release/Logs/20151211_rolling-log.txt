@@ -1,0 +1,16 @@
+﻿2015-12-11 11:34:10,245 [4] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-12-11 11:34:33,304 [1] ERROR UKPI.Presentation.frmKhambenh - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at UKPI.Presentation.frmKhambenh.BuildThongTinKhamBenh()
+   at UKPI.Presentation.frmKhambenh.btnXacNhan_Click(Object sender, EventArgs e)
+2015-12-11 11:35:34,451 [1] ERROR UKPI.Presentation.frmKhambenh - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at UKPI.Presentation.frmKhambenh.BuildThongTinKhamBenh()
+   at UKPI.Presentation.frmKhambenh.btnXacNhan_Click(Object sender, EventArgs e)
+2015-12-11 11:36:10,295 [1] ERROR UKPI.Presentation.frmKhambenh - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at UKPI.Presentation.frmKhambenh.BuildThongTinKhamBenh()
+   at UKPI.Presentation.frmKhambenh.btnXacNhan_Click(Object sender, EventArgs e)
+2015-12-11 11:36:33,782 [4] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-12-11 15:47:50,826 [4] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-12-11 17:20:56,318 [4] DEBUG UKPI.frmMain - Thread was being aborted.

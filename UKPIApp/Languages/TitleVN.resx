@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChooseCustomer_btnChoose" xml:space="preserve">
+    <value>Chọn</value>
+  </data>
+  <data name="ChooseCustomer_btnClose" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="ChooseCustomer_btnSearch" xml:space="preserve">
+    <value>Tìm</value>
+  </data>
+  <data name="ChooseCustomer_custIdColumn" xml:space="preserve">
+    <value>Mã KH</value>
+  </data>
+  <data name="ChooseCustomer_lblCustomer" xml:space="preserve">
+    <value>Khách Hàng</value>
+  </data>
+  <data name="ChooseCustomer_NameColumn" xml:space="preserve">
+    <value>Tên KH</value>
+  </data>
+  <data name="ConfirmOrder_btnClose" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="ConfirmOrder_btnReceiveFromSIP" xml:space="preserve">
+    <value>Cập nhật đơn giao hàng</value>
+  </data>
+  <data name="ConfirmOrder_btnSentToSIP" xml:space="preserve">
+    <value>Xuất ra Excel và gửi mail cho SIP</value>
+  </data>
+  <data name="ConfirmOrder_custIdCol" xml:space="preserve">
+    <value>Mã KH</value>
+  </data>
+  <data name="ConfirmOrder_CustIdColumn" xml:space="preserve">
+    <value>Mã KH</value>
+  </data>
+  <data name="ConfirmOrder_custNameCol" xml:space="preserve">
+    <value>Tên KH</value>
+  </data>
+  <data name="ConfirmOrder_CustNameColumn" xml:space="preserve">
+    <value>Tên KH</value>
+  </data>
+  <data name="ConfirmOrder_deliveryDateCol" xml:space="preserve">
+    <value>Ngày Giao Hàng</value>
+  </data>
+  <data name="ConfirmOrder_grpCO" xml:space="preserve">
+    <value>Đơn hàng đã cập nhật ngày giao</value>
+  </data>
+  <data name="ConfirmOrder_grpPO" xml:space="preserve">
+    <value>Đơn hàng chưa gửi SIP</value>
+  </data>
+  <data name="ConfirmOrder_lblHeader" xml:space="preserve">
+    <value>Xác Nhận Đơn Hàng</value>
+  </data>
+  <data name="ConfirmOrder_lblOrder" xml:space="preserve">
+    <value>Thư mục đơn giao hàng</value>
+  </data>
+  <data name="ConfirmOrder_lblOrderDate" xml:space="preserve">
+    <value>Ngày đặt hàng</value>
+  </data>
+  <data name="ConfirmOrder_lblProgress" xml:space="preserve">
+    <value>Đang thực hiện xử lý...</value>
+  </data>
+  <data name="ConfirmOrder_OrderCodeColumn" xml:space="preserve">
+    <value>Mã Đơn Hàng</value>
+  </data>
+  <data name="ConfirmOrder_OrderDateColumn" xml:space="preserve">
+    <value>Ngày Đặt Hàng</value>
+  </data>
+  <data name="ConfirmOrder_orderNbrCol" xml:space="preserve">
+    <value>Mã Đơn Hàng</value>
+  </data>
+  <data name="ConfirmOrder_SlsPerIdCol" xml:space="preserve">
+    <value>Mã NVBH</value>
+  </data>
+  <data name="ConfirmOrder_SlsPerIdColumn" xml:space="preserve">
+    <value>Mã NVBH</value>
+  </data>
+  <data name="ConfirmOrder_STT" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="ConfirmOrder_STTColumn" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="ConfirmOrder_totalAmountCol" xml:space="preserve">
+    <value>Tổng Tiền</value>
+  </data>
+  <data name="ConfirmOrder_TotalAmountColumn" xml:space="preserve">
+    <value>Tổng Tiền</value>
+  </data>
+  <data name="ConfirmOrder_totalSKUCol" xml:space="preserve">
+    <value>Tổng SKU</value>
+  </data>
+  <data name="ConfirmOrder_TotalSKUColumn" xml:space="preserve">
+    <value>Tổng SKU</value>
+  </data>
+  <data name="CustomerMapping_btnAdd" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="CustomerMapping_btnClose" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="CustomerMapping_btnDelete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="CustomerMapping_btnSave" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="CustomerMapping_custIdColumn" xml:space="preserve">
+    <value>Mã KH</value>
+  </data>
+  <data name="CustomerMapping_custNameColumn" xml:space="preserve">
+    <value>Tên KH</value>
+  </data>
+  <data name="CustomerMapping_DeleteColumn" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="CustomerMapping_lblHeader" xml:space="preserve">
+    <value>Định nghĩa khách hàng được phụ trách theo nhân viên bán hàng</value>
+  </data>
+  <data name="CustomerMapping_lblKhachHang" xml:space="preserve">
+    <value>Khách Hàng</value>
+  </data>
+  <data name="CustomerMapping_lblNVBH" xml:space="preserve">
+    <value>NVBH</value>
+  </data>
+  <data name="CustomerMapping_SIPCodeColumn" xml:space="preserve">
+    <value>Mã SIP</value>
+  </data>
+  <data name="CustomerMapping_SIPemailColumn" xml:space="preserve">
+    <value>Email SIP</value>
+  </data>
+  <data name="CustomerMapping_SIPnameColumn" xml:space="preserve">
+    <value>Tên SIP</value>
+  </data>
+  <data name="CustomerMapping_STTColumn" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="DonGiaoHang_cmt_NgayGiao" xml:space="preserve">
+    <value>Điền đúng định dạng: MM/DD/YYYY và không được trước Ngày Đặt.</value>
+  </data>
+  <data name="DonGiaoHang_cmt_SaiNgayGiao" xml:space="preserve">
+    <value>Vui lòng điền đúng Ngày Giao</value>
+  </data>
+  <data name="DonGiaoHang_col_DonGia" xml:space="preserve">
+    <value>Đơn Giá</value>
+  </data>
+  <data name="DonGiaoHang_col_MaSP" xml:space="preserve">
+    <value>Mã SP</value>
+  </data>
+  <data name="DonGiaoHang_col_SLDat" xml:space="preserve">
+    <value>SL Đặt</value>
+  </data>
+  <data name="DonGiaoHang_col_SLGiao" xml:space="preserve">
+    <value>SL Giao</value>
+  </data>
+  <data name="DonGiaoHang_col_TenSP" xml:space="preserve">
+    <value>Tên SP</value>
+  </data>
+  <data name="DonGiaoHang_col_ThanhTien" xml:space="preserve">
+    <value>Thành Tiền</value>
+  </data>
+  <data name="DonGiaoHang_Excel_MaDon" xml:space="preserve">
+    <value>Mã Đơn</value>
+  </data>
+  <data name="DonGiaoHang_Excel_MaSieuThi" xml:space="preserve">
+    <value>Mã Siêu Thị</value>
+  </data>
+  <data name="DonGiaoHang_Excel_MaSIP" xml:space="preserve">
+    <value>Mã SIP</value>
+  </data>
+  <data name="DonGiaoHang_Excel_NgayDat" xml:space="preserve">
+    <value>Ngày Đặt</value>
+  </data>
+  <data name="DonGiaoHang_Excel_NgayGiao" xml:space="preserve">
+    <value>Ngày Giao</value>
+  </data>
+  <data name="DonGiaoHang_Excel_Title" xml:space="preserve">
+    <value>Đơn Giao Hàng</value>
+  </data>
+  <data name="DonGiaoHang_Excel_TongTien" xml:space="preserve">
+    <value>Tổng Tiền</value>
+  </data>
+  <data name="DonGiaoHang_HuongDan" xml:space="preserve">
+    <value>*** Huong Dan:</value>
+  </data>
+  <data name="DonGiaoHang_HuongDan_B1" xml:space="preserve">
+    <value>1. Download Don Giao Hang dinh kem ve</value>
+  </data>
+  <data name="DonGiaoHang_HuongDan_B2" xml:space="preserve">
+    <value>2. Dien ngay giao hang</value>
+  </data>
+  <data name="DonGiaoHang_HuongDan_B3" xml:space="preserve">
+    <value>3. Reply lai mail nay</value>
+  </data>
+  <data name="DonGiaoHang_HuongDan_B4" xml:space="preserve">
+    <value>4. Dinh kem Don Giao Hang vua dien</value>
+  </data>
+  <data name="DonGiaoHang_HuongDan_B5" xml:space="preserve">
+    <value>5. Gui.</value>
+  </data>
+  <data name="DonGiaoHang_MaDon" xml:space="preserve">
+    <value>Ma Don</value>
+  </data>
+  <data name="DonGiaoHang_MaSieuThi" xml:space="preserve">
+    <value>Ma Sieu Thi</value>
+  </data>
+  <data name="DonGiaoHang_MaSIP" xml:space="preserve">
+    <value>Ma SIP</value>
+  </data>
+  <data name="DonGiaoHang_Msg1" xml:space="preserve">
+    <value>Ma don giao hang khong du 10 ki tu.</value>
+  </data>
+  <data name="DonGiaoHang_Msg2" xml:space="preserve">
+    <value>Ma don giao hang nay khong ton tai.</value>
+  </data>
+  <data name="DonGiaoHang_Msg3" xml:space="preserve">
+    <value>Don giao hang nay da cap nhat ngay giao hang roi.</value>
+  </data>
+  <data name="DonGiaoHang_Msg4" xml:space="preserve">
+    <value>Ngay dat hang trong don da bi thay doi.</value>
+  </data>
+  <data name="DonGiaoHang_Msg5" xml:space="preserve">
+    <value>Ngay giao hang phai dung dinh dang: MM/DD/YYYY.</value>
+  </data>
+  <data name="DonGiaoHang_Msg6" xml:space="preserve">
+    <value>Ngay giao hang khong duoc nho hon ngay dat hang.</value>
+  </data>
+  <data name="DonGiaoHang_Msg7" xml:space="preserve">
+    <value>He thong bi loi.</value>
+  </data>
+  <data name="DonGiaoHang_Msg8" xml:space="preserve">
+    <value>Loi cap nhat ngay giao hang.</value>
+  </data>
+  <data name="DonGiaoHang_Msg9" xml:space="preserve">
+    <value>Thieu file dinh kem hay file dinh kem khong dung.</value>
+  </data>
+  <data name="DonGiaoHang_NgayDat" xml:space="preserve">
+    <value>Ngay Dat</value>
+  </data>
+  <data name="DonGiaoHang_NgayGiao" xml:space="preserve">
+    <value>Ngay Giao</value>
+  </data>
+  <data name="DonGiaoHang_Title" xml:space="preserve">
+    <value>Don Giao Hang</value>
+  </data>
+  <data name="DonGiaoHang_TongTien" xml:space="preserve">
+    <value>Tong Tien</value>
+  </data>
+  <data name="InputReason_lblDonHangSo" xml:space="preserve">
+    <value>Đơn Hàng Số</value>
+  </data>
+  <data name="MainForm_lblConfirmOrder" xml:space="preserve">
+    <value>Đơn Giao Hàng</value>
+  </data>
+  <data name="MainForm_lblcustomer" xml:space="preserve">
+    <value>NVBH-KH</value>
+  </data>
+  <data name="MainForm_lblExit" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="MainForm_lblFooter" xml:space="preserve">
+    <value>CCFOT phiên bản 1.0 (Cập nhật ngày 20/9/2009)  Bản quyền 2009 của Cty Unilever Việt Nam</value>
+  </data>
+  <data name="MainForm_lblReport" xml:space="preserve">
+    <value>Báo Cáo</value>
+  </data>
+  <data name="MainForm_lblSalesOrder" xml:space="preserve">
+    <value>Nhập  Đơn Hàng</value>
+  </data>
+  <data name="MainForm_lblSolomon" xml:space="preserve">
+    <value>Nhập Solomon</value>
+  </data>
+  <data name="Processing_lblMessage" xml:space="preserve">
+    <value>Vui lòng chờ. Hệ thống đang thực hiện yêu cầu của bạn...</value>
+  </data>
+  <data name="Processing_Title" xml:space="preserve">
+    <value>Th«ng b¸o</value>
+  </data>
+  <data name="Report_descrColumn" xml:space="preserve">
+    <value>Tên SP</value>
+  </data>
+  <data name="Report_invtIdColumn" xml:space="preserve">
+    <value>Mã SP</value>
+  </data>
+  <data name="Report_lblBaoCao" xml:space="preserve">
+    <value>Báo Cáo</value>
+  </data>
+  <data name="Report_lblFromDate" xml:space="preserve">
+    <value>Từ Ngày</value>
+  </data>
+  <data name="Report_lblToDate" xml:space="preserve">
+    <value>Đến Ngày</value>
+  </data>
+  <data name="Report_reportColumn" xml:space="preserve">
+    <value>CCFOT(%)</value>
+  </data>
+  <data name="Report_sttColumn" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="SalesOrder_btnDelete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="SalesOrder_btnExit" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="SalesOrder_btnImport" xml:space="preserve">
+    <value>Nhập</value>
+  </data>
+  <data name="SalesOrder_CustIdColumn" xml:space="preserve">
+    <value>Mã KH</value>
+  </data>
+  <data name="SalesOrder_CustNameColumn" xml:space="preserve">
+    <value>Tên KH</value>
+  </data>
+  <data name="SalesOrder_DeleteColumn" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="SalesOrder_DescrColumn" xml:space="preserve">
+    <value>Tên Sản Phẩm</value>
+  </data>
+  <data name="SalesOrder_grbOrderDate" xml:space="preserve">
+    <value>Đơn Đặt Hàng</value>
+  </data>
+  <data name="SalesOrder_grpOrderDetail" xml:space="preserve">
+    <value>Chi Tiết Đơn Hàng</value>
+  </data>
+  <data name="SalesOrder_InvtIdColumn" xml:space="preserve">
+    <value>Mã Sản Phẩm</value>
+  </data>
+  <data name="SalesOrder_lblHeader" xml:space="preserve">
+    <value>Nhập Đơn Hàng</value>
+  </data>
+  <data name="SalesOrder_lblNVBH" xml:space="preserve">
+    <value>NVBH</value>
+  </data>
+  <data name="SalesOrder_lblOrderDate" xml:space="preserve">
+    <value>Ngày Đặt Hàng</value>
+  </data>
+  <data name="SalesOrder_lblStatus" xml:space="preserve">
+    <value>Trạng Thái</value>
+  </data>
+  <data name="SalesOrder_MoneyColumn" xml:space="preserve">
+    <value>Thành Tiền</value>
+  </data>
+  <data name="SalesOrder_OrderCodeColumn" xml:space="preserve">
+    <value>Mã Đơn Hàng</value>
+  </data>
+  <data name="SalesOrder_priceColumn" xml:space="preserve">
+    <value>Đơn giá</value>
+  </data>
+  <data name="SalesOrder_SLDATColumn" xml:space="preserve">
+    <value>SL Đặt</value>
+  </data>
+  <data name="SalesOrder_SlsPerIdColumn" xml:space="preserve">
+    <value>Mã NVBH</value>
+  </data>
+  <data name="SalesOrder_StatusColumn" xml:space="preserve">
+    <value>Trạng Thái</value>
+  </data>
+  <data name="SalesOrder_sttcol" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="SalesOrder_STTColumn" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="SalesOrder_TotalSKUColumn" xml:space="preserve">
+    <value>Tổng SKU</value>
+  </data>
+</root>

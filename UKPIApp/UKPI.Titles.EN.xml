@@ -1,0 +1,3904 @@
+<HUFS>
+	<!--Tooltip message -->
+	<Titles>
+		<Name>Tooltip.ShipToCode</Name>
+		<Value>Code: {0}</Value>
+	</Titles>
+	<Titles>
+		<Name>Tooltip.ShipToName</Name>
+		<Value>Name: {0}</Value>
+	</Titles>
+	<Titles>
+		<Name>Tooltip.ShipToAddress</Name>
+		<Value>Address: {0}</Value>
+	</Titles>
+	<Titles>
+		<Name>Tooltip.ShipToPhone</Name>
+		<Value>Phone: {0}</Value>
+	</Titles>
+	<Titles>
+		<Name>Tooltip.ShipToContactPerson</Name>
+		<Value>Contact person: {0}</Value>
+	</Titles>
+	<Titles>
+		<Name>Tooltip.ShipToPromotionPercent</Name>
+		<Value>Promotion percent: {0}%</Value>
+	</Titles>
+	<Titles>
+		<Name>Tooltip.ShipToMainSite</Name>
+		<Value>Main site: {0}</Value>
+	</Titles>
+	<Titles>
+		<Name>Tooltip.ShipToRural</Name>
+		<Value>Rural: {0}</Value>
+	</Titles>
+	<Titles>
+		<Name>Tooltip.ShipToStatus</Name>
+		<Value>Status: {0}</Value>
+	</Titles>
+
+	<!-- frmAutPolicy -->
+	<Titles>
+		<Name>frmAutPolicy.Title</Name>
+		<Value>Policy</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAutPolicy.grd.FPT_ENV_AUT_POLICY.FORM_ID</Name>
+		<Value>Form ID</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAutPolicy.grd.FPT_ENV_AUT_POLICY.FORM_NAME</Name>
+		<Value>Form name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAutPolicy.grd.FPT_ENV_AUT_POLICY.MENU_NAME</Name>
+		<Value>Menu name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAutPolicy.grd.FPT_ENV_AUT_POLICY.DESCRIPTION</Name>
+		<Value>Description</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAutPolicy.grd.FPT_ENV_AUT_POLICY.Selected</Name>
+		<Value>Select</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAutPolicy.chkSelected</Name>
+		<Value>Check</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAutPolicy.btnSave</Name>
+		<Value>  Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAutPolicy.btnCancel</Name>
+		<Value>  Cancel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAutPolicy.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAutPolicy.lblFormName</Name>
+		<Value>Form Name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAutPolicy.lblMenuName</Name>
+		<Value>Menu Name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAutPolicy.lblDesc</Name>
+		<Value>Description</Value>
+	</Titles>
+	<!-- End of frmAutPolicy -->
+
+	<!-- frmChangePWD -->
+	<Titles>
+		<Name>frmChangePWD.Title</Name>
+		<Value>Change password</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChangePWD.lblOldPassword</Name>
+		<Value>Old password</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChangePWD.lblNewPassword</Name>
+		<Value>New password</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChangePWD.lblConfirmPassword</Name>
+		<Value>Confirm new password</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChangePWD.btnOK</Name>
+		<Value>OK</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChangePWD.btnCancel</Name>
+		<Value>Cancel</Value>
+	</Titles>
+	<!-- End of frmChangePWD -->
+	<!-- frmAddUser -->
+	<Titles>
+		<Name>frmAddUser.Title</Name>
+		<Value>User Information</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAddUser.lblUserName</Name>
+		<Value>User name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAddUser.lblPassword</Name>
+		<Value>Password</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAddUser.lblConfirmPassword</Name>
+		<Value>Confirm password</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAddUser.lblFirstName</Name>
+		<Value>First name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAddUser.lblLastName</Name>
+		<Value>Last name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAddUser.lblAddress</Name>
+		<Value>Address</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAddUser.lblEmail</Name>
+		<Value>Email</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAddUser.lblPhone</Name>
+		<Value>Phone</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAddUser.lblStartDate</Name>
+		<Value>From date</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAddUser.lblEndDate</Name>
+		<Value>To date</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAddUser.lblURoleID</Name>
+		<Value>Role</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAddUser.lblStatus</Name>
+		<Value>Status</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAddUser.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAddUser.btnSave</Name>
+		<Value>   Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAddUser.btnCancel</Name>
+		<Value>   Cancel</Value>
+	</Titles>
+	<!-- End of frmAddUser -->
+	<!-- frmLogin -->
+	<Titles>
+		<Name>frmLogin.Title</Name>
+		<Value>Login</Value>
+	</Titles>
+	<Titles>
+		<Name>frmLogin.lblUserName</Name>
+		<Value>User name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmLogin.lblPassword</Name>
+		<Value>Password</Value>
+	</Titles>
+	<Titles>
+		<Name>frmLogin.btnLogin</Name>
+		<Value>Log in</Value>
+	</Titles>
+	<Titles>
+		<Name>frmLogin.btnCancel</Name>
+		<Value>Cancel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmLogin.lblOK</Name>
+		<Value>Login</Value>
+	</Titles>
+	<Titles>
+		<Name>frmLogin.lblCancel</Name>
+		<Value>Cancel</Value>
+	</Titles>
+	<!-- End of frmLogin -->
+
+	<!-- frmMaintainUsers -->
+	<Titles>
+		<Name>frmMain.mnuRptCSARevisedPPODetail</Name>
+		<Value>CSA Revised PPO Detail Report</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.Title</Name>
+		<Value>User Management</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.lblUserName</Name>
+		<Value>User name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.lblFirstName</Name>
+		<Value>First name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.lblLastName</Name>
+		<Value>Last name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.lblAddress</Name>
+		<Value>Address</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.lblEmail</Name>
+		<Value>Email</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.lblURoleID</Name>
+		<Value>Role</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.lblStatus</Name>
+		<Value>Status</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.btnSearch</Name>
+		<Value>   Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.grd.FPT_ENV_AUT_USER.USERNAME</Name>
+		<Value>User name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.grd.FPT_ENV_AUT_USER.FIRSTNAME</Name>
+		<Value>First name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.grd.FPT_ENV_AUT_USER.LASTNAME</Name>
+		<Value>Last name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.grd.FPT_ENV_AUT_USER.ADDRESS</Name>
+		<Value>Address</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.grd.FPT_ENV_AUT_USER.EMAIL</Name>
+		<Value>Email</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.grd.FPT_ENV_AUT_USER.UROLE_ID</Name>
+		<Value>Role</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.grd.FPT_ENV_AUT_USER.STATUS</Name>
+		<Value>Status</Value>
+	</Titles>
+	<!--DuyLNK 2009-06-17 add them column Phone-->
+	<Titles>
+		<Name>frmMaintainUsers.grd.FPT_ENV_AUT_USER.PHONE</Name>
+		<Value>Phone</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.grpButton</Name>
+		<Value></Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.btnAdd</Name>
+		<Value>   Add</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.btnEdit</Name>
+		<Value>   Edit</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.btnDelete</Name>
+		<Value>   Delete</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.btnRights</Name>
+		<Value>   Rights</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMaintainUsers.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+	<!-- End of frmMaintainUsers -->
+	<!-- frmUserRole -->
+	<Titles>
+		<Name>frmUserRole.Title</Name>
+		<Value>Role Management</Value>
+	</Titles>
+	<Titles>
+		<Name>frmUserRole.lblURoleID</Name>
+		<Value>Role ID</Value>
+	</Titles>
+	<Titles>
+		<Name>frmUserRole.btnSearch</Name>
+		<Value>   Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmUserRole.grd.FPT_ENV_AUT_USERROLE.UROLE_ID</Name>
+		<Value>Role ID</Value>
+	</Titles>
+	<Titles>
+		<Name>frmUserRole.grd.FPT_ENV_AUT_USERROLE.ROLE_NAME</Name>
+		<Value>Role name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmUserRole.btnPolicy</Name>
+		<Value>   Policy</Value>
+	</Titles>
+	<Titles>
+		<Name>frmUserRole.btnAdd</Name>
+		<Value>  Add</Value>
+	</Titles>
+	<Titles>
+		<Name>frmUserRole.btnDelete</Name>
+		<Value>  Delete</Value>
+	</Titles>
+	<Titles>
+		<Name>frmUserRole.btnSave</Name>
+		<Value>  Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmUserRole.btnCancel</Name>
+		<Value>   Cancel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmUserRole.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+	<!-- End of frmUserRole -->
+
+	<!-- frmAbout -->
+	<Titles>
+		<Name>frmAbout.Title</Name>
+		<Value>About</Value>
+	</Titles>
+	<Titles>
+		<Name>frmAbout.lblCopyRights</Name>
+		<Value>
+			Copyrights by Unilever Vietnam.
+			All uses and changes must be at permission dddof Unilever Vietnam.
+		</Value>
+	</Titles>
+
+	<!--DongTC frmBrandy-->
+	<Titles>
+		<Name>frmBrandy.Title</Name>
+		<Value>Select Brandy</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBrandy.lblCategory</Name>
+		<Value>Category</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBrandy.lblSubCategory</Name>
+		<Value>Sub Category</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBrandy.lblDivision</Name>
+		<Value>Division</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBrandy.lblSubDivision</Name>
+		<Value>Sub Division</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBrandy.btnSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBrandy.btnSelect</Name>
+		<Value>Select</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBrandy.btnClose</Name>
+		<Value>Close</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBrandy.lblBrand</Name>
+		<Value>Brand ID</Value>
+	</Titles>
+	<!--End DongTC frmBrandy-->
+
+	<!--DongTC frmCategory-->
+	<Titles>
+		<Name>frmCategory.lblCatCode</Name>
+		<Value>Sub Cat</Value>
+	</Titles>
+	<Titles>
+		<Name>frmCategory.btnSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmCategory.btnSelect</Name>
+		<Value>Select</Value>
+	</Titles>
+	<Titles>
+		<Name>frmCategory.btnClose</Name>
+		<Value>Close</Value>
+	</Titles>
+	<Titles>
+		<Name>frmCategory.Title</Name>
+		<Value>Select Category</Value>
+		<Titles>
+			<Name>frmCategory.lblBrand</Name>
+			<Value>Brand ID</Value>
+		</Titles>
+	</Titles>
+	<!--End frmCategory-->
+	<!--DongTC frmSALES_FORCE-->
+	<Titles>
+		<Name>frmSALES_FORCE.lblEmployee</Name>
+		<Value>Sales Sup ID</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSALES_FORCE.lblName</Name>
+		<Value>Sales Sup Name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSALES_FORCE.btnSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSALES_FORCE.btnSelect</Name>
+		<Value>Select</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSALES_FORCE.btnClose</Name>
+		<Value>Close</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSALES_FORCE.Title</Name>
+		<Value>Select Sales Sup</Value>
+	</Titles>
+	<!--End-->
+	<!--DongTC  frmDefineStoreAndChecklist-->
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.Title</Name>
+		<Value>Define and Export Checklists</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.ChkExport_Checklist</Name>
+		<Value>Only checklist template</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.tabEnvisionchecklist</Name>
+		<Value>Envision checklist</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.tabStore</Name>
+		<Value>Stores</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.grpStore</Name>
+		<Value>Stores filter</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lbl_Region</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblChannel</Name>
+		<Value>Channel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblTown</Name>
+		<Value>Town</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblProvince</Name>
+		<Value>Province</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblUrban</Name>
+		<Value>Urban</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblStarclub</Name>
+		<Value>Perfect store</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblPSType</Name>
+		<Value>PS Type</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblTurnover</Name>
+		<Value>Turnover</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblTop</Name>
+		<Value>% Top Turnover</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblLastExportdatebefore</Name>
+		<Value>Last Export date before</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblEChannel</Name>
+		<Value>Channel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblTimeperiod</Name>
+		<Value>Time Period</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblDesc</Name>
+		<Value>Description</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.tabOSA</Name>
+		<Value>OSA</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.tabNPD</Name>
+		<Value>NPD</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.tabShelfStandard</Name>
+		<Value>Shelf standard</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.tabPromotionCompliance</Name>
+		<Value>Promotion compliance</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.tabSOS</Name>
+		<Value>SOS</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.tabStandardPrice</Name>
+		<Value>Standard price</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.tabSOF</Name>
+		<Value>SOF</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnAdd</Name>
+		<Value>Add</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnOsaSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btOsaDelete</Name>
+		<Value>Delete</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btNpdDelete</Name>
+		<Value>Delete</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btProductDetailDelete</Name>
+		<Value>Delete</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btPromotionDelete</Name>
+		<Value>Delete</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btSofDelete</Name>
+		<Value>Delete</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btStandardPriceDelete</Name>
+		<Value>Delete</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.grpPSType</Name>
+		<Value>PS Type</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.grpStarClub</Name>
+		<Value>Star Club</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.ckbIconic</Name>
+		<Value>Iconic</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.ckbPerfectUrban</Name>
+		<Value>Perfect Store Urban</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.ckbPerfectRulal</Name>
+		<Value>Perfect Store Rural</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnNDPAdd</Name>
+		<Value>Add</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnNDPSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnEVExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnOExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnStoreExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnSearchDf</Name>
+		<Value>Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblOLanguage</Name>
+		<Value>Language of Exported files</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblDMS</Name>
+		<Value>DMS</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblNLang</Name>
+		<Value>Language of Exported files</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnNSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnNExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnSSSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnShExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblShLang</Name>
+		<Value>Language of Exported files</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnPSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnPromotionSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnPExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblPLang</Name>
+		<Value>Language of Exported files</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnSOExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblSOLang</Name>
+		<Value>Language of Exported files</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnStSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnStExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblStLang</Name>
+		<Value>Language of Exported files</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnSFSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnSFExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblSFLang</Name>
+		<Value>Language of Exported files</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnNpdSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnSOFSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnSosSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.chkActive_SOS</Name>
+		<Value>Active SOS checklist</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnCopy</Name>
+		<Value>Copy</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblchannelcopy</Name>
+		<Value>Channel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblcopyRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblcopyTimeperiod</Name>
+		<Value>Timeperiod</Value>
+	</Titles>
+	<!--Copy checklist OSA DongTC-->
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnOsaCopy</Name>
+		<Value>Copy</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblOsaChannelcopy</Name>
+		<Value>Channel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblOsaRegionCopy</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblOsaTimeperiodcopy</Name>
+		<Value>Timeperiod</Value>
+	</Titles>
+	<!--Copy checklist NPD DongTC-->
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.bntNpdCopy</Name>
+		<Value>Copy</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblNpdChannelCopy</Name>
+		<Value>Channel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblNpdRegionCopy</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblNpdTimeperiod</Name>
+		<Value>Timeperiod</Value>
+	</Titles>
+	<!--Copy checklist PROMOTION DongTC-->
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnProCopy</Name>
+		<Value>Copy</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblProChannelCopy</Name>
+		<Value>Channel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblProRegionCopy</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblProTimeperiodCopy</Name>
+		<Value>Timeperiod</Value>
+	</Titles>
+	<!--Copy checklist SOS DongTC-->
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnSosCopy</Name>
+		<Value>Copy</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblSosChannelCopy</Name>
+		<Value>Channel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblSosRegionCopy</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblSosTimeperiodCopy</Name>
+		<Value>Timeperiod</Value>
+	</Titles>
+	<!--Copy checklist STANDARD PRICE DongTC-->
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.btnSPCopy</Name>
+		<Value>Copy</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblSpChannelCopy</Name>
+		<Value>Channel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblSPRegionCopy</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblSPTimeperiodCopy</Name>
+		<Value>Timeperiod</Value>
+	</Titles>
+	<!--Copy checklist SOF DongTC-->
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.bntSofCopy</Name>
+		<Value>Copy</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblSofChannel</Name>
+		<Value>Channel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblSofRegionCopy</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoreAndChecklist.lblSofTimeperiodCopy</Name>
+		<Value>Timeperiod</Value>
+	</Titles>
+
+	<!--End-->
+
+	<Titles>
+		<Name>frmDefineStores.Title</Name>
+		<Value>Define Stores List</Value>
+	</Titles>
+	<!-- frmDefineStores-->
+	<Titles>
+		<Name>frmDefineStores.lbl_Region</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStores.lblChannel</Name>
+		<Value>Channel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStores.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStores.lblTown</Name>
+		<Value>Town</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStores.lblProvince</Name>
+		<Value>Province</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStores.lblUrban</Name>
+		<Value>Area</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStores.lblStarclub</Name>
+		<Value>Perfect store</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStores.lblPSType</Name>
+		<Value>PS Type</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStores.lblTurnover</Name>
+		<Value>Turnover</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStores.lblTop</Name>
+		<Value>% Top Turnover by Distributor</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStores.lblLastExportdatebefore</Name>
+		<Value>Last Export date before</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStores.lblTimePeriod</Name>
+		<Value>Time period</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStores.btnSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStores.btnStoreExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStores.lblDistributor</Name>
+		<Value>Distributor</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStores.btnGoto</Name>
+		<Value>Go to</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStores.chkVNeseUnsigned</Name>
+		<Value>Vietnamese unsigned</Value>
+	</Titles>
+	<!-- end frmDefineStores-->
+
+	<!--DongTC fmEditStore-->
+	<Titles>
+		<Name>frmEditStore.grpStore</Name>
+		<Value>Store filter</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.lblDistributor</Name>
+		<Value>Distributor</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.lblStoreID</Name>
+		<Value>Store</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.lblChannel</Name>
+		<Value>Channel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.lblTown</Name>
+		<Value>Town</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.lblProvince</Name>
+		<Value>Province</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.lblUrban</Name>
+		<Value>Area</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.lblTimePeriod</Name>
+		<Value>Time period</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.lblStarclub</Name>
+		<Value>PS Store</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.lblPSType</Name>
+		<Value>PS Type</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.lblDMS</Name>
+		<Value>DMS</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.btnSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.btnReplace</Name>
+		<Value>Replace</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.btnImport</Name>
+		<Value>Import...</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.btnExport</Name>
+		<Value>Export...</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.btnSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.Title</Name>
+		<Value>Edit Stores</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.btDelete</Name>
+		<Value>Delete</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.chkAdd</Name>
+		<Value>Add New Store</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.ChkAudit</Name>
+		<Value>Update Storelist after audit</Value>
+	</Titles>
+	<!--End-->
+
+	<!--ThoaiDc FrmCreateTimesheet-->
+	<Titles>
+		<Name>FrmCreateTimesheet.lblL3MaSo</Name>
+		<Value>L3 Mã Số</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmCreateTimesheet.lblL2Ten</Name>
+		<Value>L2 Xác Nhận</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmCreateTimesheet.lblL2MaSo</Name>
+		<Value>L2 Mã Số</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmCreateTimesheet.lblL1MaSo</Name>
+		<Value>L1 Mã Số</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmCreateTimesheet.lblOutsource</Name>
+		<Value>Outsource</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmCreateTimesheet.lblL3Ten</Name>
+		<Value>L3 Xác Nhận</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmCreateTimesheet.btnTaoLich</Name>
+		<Value>Tạo Lịch</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmCreateTimesheet.lblTruongNhom</Name>
+		<Value>Trưởng Nhóm</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmCreateTimesheet.lblL0Ten</Name>
+		<Value>L0 Xác Nhận</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmCreateTimesheet.lblNhom</Name>
+		<Value>Nhóm </Value>
+	</Titles>
+	<Titles>
+		<Name>FrmCreateTimesheet.lblMaTruongNhom</Name>
+		<Value>Mã Số Trưởng Nhóm</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmCreateTimesheet.lblL1Ten</Name>
+		<Value>L1 Xác Nhận</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmCreateTimesheet.lblL0MaSo</Name>
+		<Value>L0 Mã Số</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmCreateTimesheet.lblLichLamViecTuan</Name>
+		<Value>Lịch Làm Việc Tuần</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmCreateTimesheet.btnXemLich</Name>
+		<Value>Xem Lịch</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmCreateTimesheet.lblL4Ten</Name>
+		<Value>L4 Xác Nhận</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmCreateTimesheet.lblL4MaSo</Name>
+		<Value>L4 Mã Số</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmCreateTimesheet.lblCurrentWeek</Name>
+		<Value>Tuần Hiện Tại</Value>
+	</Titles>
+
+
+	<!--End-->
+
+	<!--ThoaiDc FrmApproveTimesheetL0-->
+	<Titles>
+		<Name>FrmApproveTimesheetL0.lblToDate</Name>
+		<Value>Đến ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL0.lblFromDate</Name>
+		<Value>Từ ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL0.lblWeek</Name>
+		<Value>Kết quả chấm công tuần </Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL0.lblOnOff</Name>
+		<Value>On/Off</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL0.lblGroup</Name>
+		<Value>Nhóm</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL0.lblStatus</Name>
+		<Value>Tình trạng xác nhận </Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL0.lblTeamLead</Name>
+		<Value>Trưởng nhóm </Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL0.lblMonth</Name>
+		<Value>Kết quả chấm công tháng</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL0.lblShift</Name>
+		<Value>Ca</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL0.btnSave</Name>
+		<Value>Cập Nhật và Lưu</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL0.btnExport</Name>
+		<Value>Xuất Excel ...</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL0.btnSearch</Name>
+		<Value>Tìm Kiếm</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL0.btnDelete</Name>
+		<Value>Xóa</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL0.btnApproveSave</Name>
+		<Value>Xác nhận và Lưu</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL0.btnSearchTimesheet</Name>
+		<Value>Lấy kết quả chấm công và Lưu</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL0.lblYear</Name>
+		<Value>Kết quả chấm công năm</Value>
+	</Titles>
+
+
+	<!--End-->
+
+
+	<!--ThoaiDc FrmApproveTimesheetL1-->
+	<Titles>
+		<Name>FrmApproveTimesheetL1.lblToDate</Name>
+		<Value>Đến ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL1.lblFromDate</Name>
+		<Value>Từ ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL1.lblWeek</Name>
+		<Value>Kết quả chấm công tuần </Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL1.lblOnOff</Name>
+		<Value>On/Off</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL1.lblGroup</Name>
+		<Value>Nhóm</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL1.lblStatus</Name>
+		<Value>Tình trạng xác nhận </Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL1.lblTeamLead</Name>
+		<Value>Trưởng nhóm </Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL1.lblMonth</Name>
+		<Value>Kết quả chấm công tháng</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL1.lblShift</Name>
+		<Value>Ca</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL1.btnSave</Name>
+		<Value>Cập Nhật và Lưu</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL1.btnExport</Name>
+		<Value>Xuất Excel ...</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL1.btnSearch</Name>
+		<Value>Tìm Kiếm</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL1.btnDelete</Name>
+		<Value>Xóa</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL1.btnApproveSave</Name>
+		<Value>Xác nhận và Lưu</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL1.btnSearchTimesheet</Name>
+		<Value>Lấy kết quả chấm công và Lưu</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL1.lblYear</Name>
+		<Value>Kết quả chấm công năm</Value>
+	</Titles>
+
+
+	<!--End-->
+
+
+	<!--ThoaiDc FrmApproveTimesheetL2-->
+	<Titles>
+		<Name>FrmApproveTimesheetL2.lblToDate</Name>
+		<Value>Đến ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL2.lblFromDate</Name>
+		<Value>Từ ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL2.lblWeek</Name>
+		<Value>Kết quả chấm công tuần </Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL2.lblOnOff</Name>
+		<Value>On/Off</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL2.lblGroup</Name>
+		<Value>Nhóm</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL2.lblStatus</Name>
+		<Value>Tình trạng xác nhận </Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL2.lblTeamLead</Name>
+		<Value>Trưởng nhóm </Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL2.lblMonth</Name>
+		<Value>Kết quả chấm công tháng</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL2.lblShift</Name>
+		<Value>Ca</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL2.btnSave</Name>
+		<Value>Cập Nhật và Lưu</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL2.btnExport</Name>
+		<Value>Xuất Excel ...</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL2.btnSearch</Name>
+		<Value>Tìm Kiếm</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL2.btnDelete</Name>
+		<Value>Xóa</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL2.btnApprove</Name>
+		<Value>Xác nhận</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL2.btnReject</Name>
+		<Value>Reject</Value>
+	</Titles>
+
+	<Titles>
+		<Name>FrmApproveTimesheetL2.lblYear</Name>
+		<Value>Kết quả chấm công năm</Value>
+	</Titles>
+
+	<!--End-->
+
+	<!--ThoaiDc FrmApproveTimesheetL3-->
+	<Titles>
+		<Name>FrmApproveTimesheetL3.lblToDate</Name>
+		<Value>Đến ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL3.lblFromDate</Name>
+		<Value>Từ ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL3.lblWeek</Name>
+		<Value>Kết quả chấm công tuần </Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL3.lblOnOff</Name>
+		<Value>On/Off</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL3.lblGroup</Name>
+		<Value>Nhóm</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL3.lblStatus</Name>
+		<Value>Tình trạng xác nhận </Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL3.lblTeamLead</Name>
+		<Value>Trưởng nhóm </Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL3.lblMonth</Name>
+		<Value>Kết quả chấm công tháng</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL3.lblShift</Name>
+		<Value>Ca</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL3.btnSave</Name>
+		<Value>Cập Nhật và Lưu</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL3.btnExport</Name>
+		<Value>Xuất Excel ...</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL3.btnSearch</Name>
+		<Value>Tìm Kiếm</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL3.btnDelete</Name>
+		<Value>Xóa</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL3.btnApprove</Name>
+		<Value>Xác nhận</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL3.btnReject</Name>
+		<Value>Reject</Value>
+	</Titles>
+
+	<Titles>
+		<Name>FrmApproveTimesheetL3.lblYear</Name>
+		<Value>Kết quả chấm công năm</Value>
+	</Titles>
+
+	<!--End-->
+
+
+	<!--ThoaiDc FrmApproveTimesheetL4-->
+	<Titles>
+		<Name>FrmApproveTimesheetL4.lblToDate</Name>
+		<Value>Đến ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL4.lblFromDate</Name>
+		<Value>Từ ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL4.lblWeek</Name>
+		<Value>Kết quả chấm công tuần </Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL4.lblOnOff</Name>
+		<Value>On/Off</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL4.lblGroup</Name>
+		<Value>Nhóm</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL4.lblStatus</Name>
+		<Value>Tình trạng xác nhận </Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL4.lblTeamLead</Name>
+		<Value>Trưởng nhóm </Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL4.lblMonth</Name>
+		<Value>Kết quả chấm công tháng</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL4.lblShift</Name>
+		<Value>Ca</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL4.btnSave</Name>
+		<Value>Cập Nhật và Lưu</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL4.btnExport</Name>
+		<Value>Xuất Excel ...</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL4.btnSearch</Name>
+		<Value>Tìm Kiếm</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL4.btnDelete</Name>
+		<Value>Xóa</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL4.btnApprove</Name>
+		<Value>Xác nhận</Value>
+	</Titles>
+	<Titles>
+		<Name>FrmApproveTimesheetL4.btnReject</Name>
+		<Value>Reject</Value>
+	</Titles>
+
+	<Titles>
+		<Name>FrmApproveTimesheetL4.lblYear</Name>
+		<Value>Kết quả chấm công năm</Value>
+	</Titles>
+
+	<!--End-->
+
+	<!-- PhongNTT added - 2010-01-22 -->
+	<!-- frmExportUpdatedStoresAddress -->
+	<Titles>
+		<Name>frmExportUpdatedStoresAddress.Title</Name>
+		<Value>Export Updated Address of Stores</Value>
+	</Titles>
+	<Titles>
+		<Name>frmExportUpdatedStoresAddress.grpSelectDistributor</Name>
+		<Value>Select Distributor</Value>
+	</Titles>
+	<Titles>
+		<Name>frmExportUpdatedStoresAddress.optSelectDist_All</Name>
+		<Value>All Distributor</Value>
+	</Titles>
+	<Titles>
+		<Name>frmExportUpdatedStoresAddress.optSelectDist_DistId</Name>
+		<Value>Distributor ID</Value>
+	</Titles>
+	<Titles>
+		<Name>frmExportUpdatedStoresAddress.lblSelectDist_DistName</Name>
+		<Value>Distributor name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmExportUpdatedStoresAddress.btnSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmExportUpdatedStoresAddress.btnExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<!-- END frmExportUpdatedStoresAddress -->
+
+	<!--DongTC-->
+	<!--frmImportKPIData-->
+	<Titles>
+		<Name>frmImportKPIData.Title</Name>
+		<Value>Import- Export KPI data</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.lblDistributorCode</Name>
+		<Value>Distributor Code</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnImport</Name>
+		<Value>Import</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnExport</Name>
+		<Value>Export KPI Result</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnExportFail</Name>
+		<Value>Export Fail KPI For Edit</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnBrowse</Name>
+		<Value>...</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.lblFileName</Name>
+		<Value>File name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.lblChannel</Name>
+		<Value>Channel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.lblTown</Name>
+		<Value>Town</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.lblProvince</Name>
+		<Value>Province</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.lblUrban</Name>
+		<Value>Urban</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.lblStarClub</Name>
+		<Value>Perfect store</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.lblPSType</Name>
+		<Value>PS Type</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.optMonthly</Name>
+		<Value>Monthly</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.lblTimePeriod</Name>
+		<Value>Timeperiod</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.optDaily</Name>
+		<Value>Daily</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.lblFromDate</Name>
+		<Value>From </Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.lblToDate</Name>
+		<Value>To</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.ChkRe_export</Name>
+		<Value>Re-export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.optExportExternal</Name>
+		<Value>Export external</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.optExportInternal</Name>
+		<Value>Export internal</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.grpFileName</Name>
+		<Value>Import file</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.grpKPIFilter</Name>
+		<Value>KPI filter</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabKPIOSA</Name>
+		<Value>OSA</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabKPINPD</Name>
+		<Value>NPD</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabKPIShilfStandard</Name>
+		<Value>Shelf Standard</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabKIPPromotionCompliance</Name>
+		<Value>Promotion Compliance</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabKPISOS</Name>
+		<Value>SOS</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabKPIStandardPrice</Name>
+		<Value>Standard Price</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabKPISOF</Name>
+		<Value>SOF</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabOSACorrectData</Name>
+		<Value>Correct Data</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabOSAFailData</Name>
+		<Value>Fail Data</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabNPDCorrectData</Name>
+		<Value>Correct Data</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabNPDFailData</Name>
+		<Value>Fail Data</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabShilfStandardCorrectData</Name>
+		<Value>Correct Data</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabShilfStandardFailData</Name>
+		<Value>Fail Data</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabPromotionComplianceCorrectData</Name>
+		<Value>Correct Data</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabPromotionComplianceFailData</Name>
+		<Value>Fail Data</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabSOSCorrectData</Name>
+		<Value>Correct Data</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabSOSFailData</Name>
+		<Value>Fail Data</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabStandardPriceCorrectData</Name>
+		<Value>Correct Data</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabStandardPriceFailData</Name>
+		<Value>Fail Data</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabSOFCorrectData</Name>
+		<Value>Correct Data</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.tabSOFFailData</Name>
+		<Value>Fail Data</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnOSAApproved</Name>
+		<Value>Approved</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnOSAReject</Name>
+		<Value>Reject</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnOSAImportFail</Name>
+		<Value>Import</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnOSAExportFail</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnOSASaveFail</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnNPDApproved</Name>
+		<Value>Approved</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnNPDReject</Name>
+		<Value>Reject</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnNPDImport</Name>
+		<Value>Import</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnNPDExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnNPDSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnShilfStandardApproved</Name>
+		<Value>Approved</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnShilfStandardReject</Name>
+		<Value>Reject</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnShilfStandardImport</Name>
+		<Value>Import</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnShilfStandardExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnShilfStandardSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnPComplianceApproved</Name>
+		<Value>Approved</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnPComplianceReject</Name>
+		<Value>Reject</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnPComplianceImport</Name>
+		<Value>Import</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnPComplianceExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnPComplianceSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnSOSApproved</Name>
+		<Value>Approved</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnSOSReject</Name>
+		<Value>Reject</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnSOSImport</Name>
+		<Value>Import</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnSOSExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnSOSSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnStandardPriceApproved</Name>
+		<Value>Approved</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnStandardPriceReject</Name>
+		<Value>Reject</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnStandardPriceImport</Name>
+		<Value>Import</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnStandardPriceExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnStandardPriceSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnSOFApproved</Name>
+		<Value>Approved</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnSOFReject</Name>
+		<Value>Reject</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnSOFImport</Name>
+		<Value>Import</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnSOFExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.btnSOFSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.grpExportopt</Name>
+		<Value>Export option</Value>
+	</Titles>
+	<!-- Sonlv Add - 2010-03-22-->
+	<Titles>
+		<Name>frmImportKPIData.lbKpiExported</Name>
+		<Value>KPI Exported</Value>
+	</Titles>
+	<Titles>
+		<Name>frmImportKPIData.chkOverWrite</Name>
+		<Value>Over-write duplicate row (s)</Value>
+	</Titles>
+	<!--End-->
+
+	<!-- frmMain -->
+	<Titles>
+		<Name>frmMain.mnuPPOInfomation</Name>
+		<Value>Distributor Information</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuDailyShippingCalendar</Name>
+		<Value>Define Daily Shipping Calendar</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPanoShippingCalendar</Name>
+		<Value>Define Pano Shipping Calendar</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPanoShippingPercentage</Name>
+		<Value>Pano Shipping Percentage</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuDailyPPOAllocationPercentage</Name>
+		<Value>Allocate Daily Percentage</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuDefineSimilarSKU</Name>
+		<Value>Define Similar SKU</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSPDefineByShipTo</Name>
+		<Value>Define By ShipTo</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuExportDailyParam</Name>
+		<Value>Export Daily Parameters</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuDefineLeadTime</Name>
+		<Value>Define Lead Time</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuDefineCalendarMaster</Name>
+		<Value>Define Holiday</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuDefineInActiveSKU</Name>
+		<Value>Define Inactive STDSKU</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuImportPPO</Name>
+		<Value>Import PPO</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSPFrequencyReport</Name>
+		<Value>SP Frequency Report</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuGenerateAdditionalxOrder</Name>
+		<Value>Generate Additional xOrder</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuDefineParameter</Name>
+		<Value>Define Parameter</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuGeneral</Name>
+		<Value>General</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuMasterData</Name>
+		<Value>Mater Data</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuImportProduct</Name>
+		<Value>Product</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuImportDistributor</Name>
+		<Value>Distributor</Value>
+	</Titles>
+	<!--DongTC-->
+	<Titles>
+		<Name>frmMain.mnuKhamBenh</Name>
+		<Value>Khám Bệnh</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuKhambenhBH</Name>
+		<Value>Khám Bệnh</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuKhambenhKhongBH</Name>
+		<Value>Khám Bệnh</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuXuatKho</Name>
+		<Value>Xuất Kho lẻ</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuDistributor</Name>
+		<Value>Distributor</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuEditDistributor</Name>
+		<Value>Edit Distributor</Value>
+	</Titles>
+	<!--End-->
+	<Titles>
+		<Name>frmMain.mnukho</Name>
+		<Value>Kho</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnunhapkho</Name>
+		<Value>Nhập Kho</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuReport</Name>
+		<Value>Báo Cáo</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuThuoc</Name>
+		<Value>Thuốc</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuApprovedTimesheet</Name>
+		<Value>Kết Quả Chấm Công</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuApprovedTimesheetL1</Name>
+		<Value>Duyệt kết quả chấm công L1 </Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuApprovedTimesheetL2</Name>
+		<Value>Duyệt kết quả chấm công L2</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuApprovedTimesheetL3</Name>
+		<Value>Duyệt kết quả chấm công L3</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuApprovedTimesheetL4</Name>
+		<Value>Duyệt kết quả chấm công HR</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuApprovedTimesheetL0</Name>
+		<Value>Duyệt kết quả chấm công L1 outsource</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuListTimesheet</Name>
+		<Value>Lịch Làm Việc</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuCreatedTimesheet</Name>
+		<Value>Tạo Lịch Làm Việc</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmMain.mnubaocaolichsubenhnhan</Name>
+		<Value>Báo Cáo Lịch Sữ Bệnh Nhận</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuImportStoreFromDms</Name>
+		<Value>Import Store by data from DMS</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnubaocaotonkho</Name>
+		<Value>Báo Cáo Tồn Kho</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnHUFSData</Name>
+		<Value>KPI</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuExportKPI</Name>
+		<Value>Export KPI Template</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnudanhmucthuoc</Name>
+		<Value>Danh Mục Thuốc</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmMain.mnuBaoCaoDanhMucThuocTTBH</Name>
+		<Value>Báo Cáo Thuốc Tân Dược TT BHYT</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmMain.mnuBaoCaoDMThuocYHCTTTBH</Name>
+		<Value>Báo Cáo Chế Phẩm YHCT TTBHYT</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmMain.mnuBaoCaoBNBHYTTTBH</Name>
+		<Value>Báo Cáo Bệnh Nhân Ngoại Trú TTBHYT</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuBaoCaoLichSuKhamChuaBenhVaPhatThuoc</Name>
+		<Value>Báo Cáo Lịch Sử Khám Bệnh Và Phát Thuốc</Value>
+	</Titles>
+
+<Titles>
+		<Name>frmMain.mnuNhanVien</Name>
+		<Value>Quản lý nhân viên</Value>
+	</Titles>
+
+
+	<Titles>
+		<Name>frmMain.mnuBaoCaoXuatNhapTon</Name>
+		<Value>Báo cáo nhập xuất tồn</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmMain.mnuBaoCaoKhamBenhBHYT_Thang</Name>
+		<Value>Báo Cáo Khám Bệnh</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmMain.mnuBaoCaoGhiChuKhac</Name>
+		<Value>Báo Cáo Ghi Chú Khác</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmMain.mnuBaoCaoBenhNhanNamNu</Name>
+		<Value>Báo Cáo Bệnh Nhân Nam Nữ</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmMain.mnuBaoCaoTongTienBHYT</Name>
+		<Value>Báo Cáo Tổng Tiền Bảo Hiểm</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmMain.mnuBaoCaoTheoDoiNghiOm</Name>
+		<Value>Báo Cáo Theo Dõi Nghĩ Ốm</Value>
+	</Titles>
+		<Titles>
+		<Name>frmMain.mnuNghiPhep</Name>
+		<Value>Đăng ký nghĩ phép</Value>
+	</Titles>
+	
+	<!--<Titles>
+    <Name>frmMain.mnuBranchPersonelData</Name>
+    <Value>Branch Personnel</Value>
+  </Titles>-->
+	<!--<Titles>
+    <Name>frmMain.mnuImportBP</Name>
+    <Value>Import BP</Value>
+  </Titles>-->
+	<!-- PhongNTT added - 2010-01-22 -->
+	<Titles>
+		<Name>frmMain.mnuExportUpdatedStoresAddress</Name>
+		<Value>Export Updated Stores' Address</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuDefinePanoShipTo</Name>
+		<Value>Define Pano Ship To</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSMSReport</Name>
+		<Value>SMS Report</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuDMSManagement</Name>
+		<Value>Distributors Management</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSKU_Warehouse_Stock</Name>
+		<Value>Define Warehouse Stock</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuBaselineRunningRate</Name>
+		<Value>Define Baselined Running Rate</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuDefinePanoSKU</Name>
+		<Value>Define Pano SKU</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSMSConfiguration</Name>
+		<Value>SMS Configuration</Value>
+	</Titles>
+	<Titles>
+		<Name>Week</Name>
+		<Value>Week</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.Title</Name>
+		<Value>HUF System</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPromotion_View</Name>
+		<Value>View promotion</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPromotion_Define</Name>
+		<Value>Define Promotion</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuFile</Name>
+		<Value>File</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPPO</Name>
+		<Value>PPO</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPPOGeneration</Name>
+		<Value>Generate PPO</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSeparate</Name>
+		<Value>-</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuCO</Name>
+		<Value>CO</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSKU</Name>
+		<Value>SKU</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPromotion</Name>
+		<Value>Promotion</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuCloseAllWindow</Name>
+		<Value>Close All Windows</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSC</Name>
+		<Value>Shipping Calendar</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuAddSC</Name>
+		<Value>Define Shipping Calendar</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSP</Name>
+		<Value>Stock Policy</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSKU_Lack_MainProduct</Name>
+		<Value>View Lack Main Items</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPPOManually</Name>
+		<Value>Create PPO Manually</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuCheckLackSP</Name>
+		<Value>View Missed List</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuRegionSKUPriority</Name>
+		<Value>Define Priority Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSysAdmin</Name>
+		<Value>Admin</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPayment</Name>
+		<Value>Payment</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuWindow</Name>
+		<Value>Window</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuHelp</Name>
+		<Value>Help</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuCOSearch</Name>
+		<Value>Search CO</Value>
+	</Titles>mnuLackPPO
+	<Titles>
+		<Name>frmMain.mnuPPOSearch</Name>
+		<Value>View PPO</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPPOApprove</Name>
+		<Value>Approve PPO</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuLackPPO</Name>
+		<Value>View Pending PPO</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuMaintenanceSC</Name>
+		<Value>Maintain Shipping Calendar</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuAddSC</Name>
+		<Value>Define Shipping Calendar</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSPDefault</Name>
+		<Value>Define Standard</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSPSpecial</Name>
+		<Value>Define Special</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSPExportImport</Name>
+		<Value>Export/Import Stock Policy</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuAddUser</Name>
+		<Value>Add User</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuTrackingUser</Name>
+		<Value>History Tracking User</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuLogin</Name>
+		<Value>Log in</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuLogout</Name>
+		<Value>Log out</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSKU_Priority</Name>
+		<Value>Define Priority</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuWindowCascade</Name>
+		<Value>Cascade windows</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuHelpTopic</Name>
+		<Value>Help topic</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSKU_Stock</Name>
+		<Value>Maintain Region Stock</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuMaintainUsers</Name>
+		<Value>Manage User</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuUserRole</Name>
+		<Value>Manage Role</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPromotion_Maintain</Name>
+		<Value>Maintain Promotion</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSKU_Exclude</Name>
+		<Value>Maintain Exclusive List</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPromotion_Swap</Name>
+		<Value>Swap For Customer</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPromotion_Allocate</Name>
+		<Value>Allocate Quantity</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPromotion_Approve</Name>
+		<Value>Approve Swap</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSKU_MinimumQTY</Name>
+		<Value>Maintain Min Order Quantity</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSKU_ExportExclude</Name>
+		<Value>Export Exclusive Stock List</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSKU_ExcludeRR</Name>
+		<Value>Export Exclusive Running Rate List</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuChangePWD</Name>
+		<Value>Change password</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuWindowTileHorizontal</Name>
+		<Value>Tile windows horizontally</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuWindowTileVertical</Name>
+		<Value>Tile windows vertically</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSeperate</Name>
+		<Value>Help Seperate</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuHelpAbout</Name>
+		<Value>About</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSeperate</Name>
+		<Value>-</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSPExportSP</Name>
+		<Value>Export Stock Policy</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuExit</Name>
+		<Value>Exit</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPromotion_QTY</Name>
+		<Value>View Allocation</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuEN</Name>
+		<Value>English</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuVN</Name>
+		<Value>Việt Nam</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuMaximized</Name>
+		<Value>Maximize form when appears</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSystemStyle</Name>
+		<Value>System style</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuColorFocusControl</Name>
+		<Value>Color focus control</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuParameter</Name>
+		<Value>Configure Parameter</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuExportParam</Name>
+		<Value>Export Stock Paramters</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPromotion_SwapReg</Name>
+		<Value>Swap For Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuDeliveryWeight</Name>
+		<Value>Maintain Delivery weight</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuShipTo</Name>
+		<Value>Ship To</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuShipToMaintain</Name>
+		<Value>Maintain Ship To</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuCCFOT</Name>
+		<Value>CCFOT</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuExportEXPPPOTMP</Name>
+		<Value>Export PPO Template</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuCCFOTMaintain</Name>
+		<Value>Maintain CCFOT Target</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuCustomerSMS</Name>
+		<Value>Maintain Customer SMS Info</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSKUViewMainItem</Name>
+		<Value>View Main Items</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuRuralSKUMaintain</Name>
+		<Value>Maintain Rural STDSKU</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPPOAdjustmentManagement</Name>
+		<Value>Maintain STDSKU Parameters</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuSKU_DefineCase_Pallet</Name>
+		<Value>Case/Pallet Definition</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuMinFullParameters</Name>
+		<Value>Min Full Parameters</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuReports</Name>
+		<Value>Reports</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuRptPPODetail</Name>
+		<Value>PPO Detail</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuRptDefineParameters</Name>
+		<Value>Define Parameters</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuRptRevisedPPODetail</Name>
+		<Value>Revised PPO Detail</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuRptPromotionForwarding</Name>
+		<Value>Promotion Forwarding</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuRptPromotionAllocated</Name>
+		<Value>Promotion Allocated</Value>
+	</Titles>
+	<!-- End of frmMain -->
+	<!--DongTC frmStoreList-->
+	<Titles>
+		<Name>frmStoreList.btnSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmStoreList.btnSelect</Name>
+		<Value>Select</Value>
+	</Titles>
+	<Titles>
+		<Name>frmStoreList.btnClose</Name>
+		<Value>Close</Value>
+	</Titles>
+	<Titles>
+		<Name>frmStoreList.lblChannel</Name>
+		<Value>Channel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmStoreList.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmStoreList.lblTown</Name>
+		<Value>Town</Value>
+	</Titles>
+	<Titles>
+		<Name>frmStoreList.lblProvince</Name>
+		<Value>Province</Value>
+	</Titles>
+	<Titles>
+		<Name>frmStoreList.lblPSType</Name>
+		<Value>PS Type</Value>
+	</Titles>
+	<Titles>
+		<Name>frmStoreList.lblUrban</Name>
+		<Value>Area</Value>
+	</Titles>
+	<Titles>
+		<Name>frmStoreList.lblStarclub</Name>
+		<Value>Perfect store</Value>
+	</Titles>
+	<Titles>
+		<Name>frmStoreList.Title</Name>
+		<Value>Select Store</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineCategory.btnSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineCategory.btnCancel</Name>
+		<Value>Cancel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineCategory.Title</Name>
+		<Value>Define Categories</Value>
+	</Titles>
+
+	<!--End DongTC frmBrandy-->
+	<!--DongTC frmEditDistributor-->
+	<Titles>
+		<Name>frmEditDistributor.lblChannel</Name>
+		<Value>Channel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditDistributor.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditDistributor.lblProvince</Name>
+		<Value>Province</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditDistributor.lblTown</Name>
+		<Value>Town</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditDistributor.lblKeyAccount</Name>
+		<Value>Key Account</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditDistributor.lblDistributorCode</Name>
+		<Value>Distributor code</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditDistributor.lblDistributorName</Name>
+		<Value>Distributor name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditDistributor.btnSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditDistributor.btnReplace</Name>
+		<Value>Replace</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditDistributor.btnImport</Name>
+		<Value>Import</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditDistributor.btnExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditDistributor.btnSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditDistributor.Title</Name>
+		<Value>Edit Distributor Additional Information</Value>
+	</Titles>
+	<!--End DongTC-->
+	<!--frmParameter DongTC-->
+	<Titles>
+		<Name>frmParameter.Title</Name>
+		<Value>HUFS - Parameter Management</Value>
+	</Titles>
+	<Titles>
+		<Name>frmParameter.lblParameterGroup</Name>
+		<Value>Parameter Group</Value>
+	</Titles>
+	<Titles>
+		<Name>frmParameter.lblParameter</Name>
+		<Value>Param</Value>
+	</Titles>
+	<Titles>
+		<Name>frmParameter.btnView</Name>
+		<Value>Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmParameter.lblPPO</Name>
+		<Value>PPO: Parameters relate to Proposal purchase Order</Value>
+	</Titles>
+	<Titles>
+		<Name>frmParameter.lblSP</Name>
+		<Value>SP: Parameters relate to Stock Policy</Value>
+	</Titles>
+	<Titles>
+		<Name>frmParameter.lblWS</Name>
+		<Value>WS: Parameters relate to Windows Service</Value>
+	</Titles>
+	<Titles>
+		<Name>frmParameter.lblParameterName</Name>
+		<Value>Parameter Name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmParameter.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+	<Titles>
+		<Name>frmParameter.lblParameterValue</Name>
+		<Value>ParameterValue</Value>
+	</Titles>
+	<Titles>
+		<Name>frmParameter.btnUpdate</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmParameter.btnSend</Name>
+		<Value>Send</Value>
+	</Titles>
+	<Titles>
+		<Name>frmParameter.btnClose</Name>
+		<Value>Close</Value>
+	</Titles>
+	<!--End-->
+	<!--frmChooseProduct DongTC-->
+	<Titles>
+		<Name>frmChooseProduct.lblBrandy</Name>
+		<Value>Brand</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChooseProduct.lblVariant</Name>
+		<Value>Variant</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChooseProduct.lblPacksize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChooseProduct.lblCategory</Name>
+		<Value>Sub Cat</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChooseProduct.lblItemCode</Name>
+		<Value>Item Code</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChooseProduct.lblDescription</Name>
+		<Value>Item Description</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChooseProduct.btnSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChooseProduct.btnSelect</Name>
+		<Value>Select</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChooseProduct.btnClose</Name>
+		<Value>Close</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChooseProduct.Title</Name>
+		<Value>Choose Product</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChooseProduct.btAdd</Name>
+		<Value>Add</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChooseProduct.btRemove</Name>
+		<Value>Remove</Value>
+	</Titles>
+	<!--End-->
+	<!--frmChooseCustomer DongTC-->
+	<Titles>
+		<Name>frmChooseCustomer.lblCustName</Name>
+		<Value>Distributor Name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChooseCustomer.lblCustCode</Name>
+		<Value>Distributor Code</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChooseCustomer.btnSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChooseCustomer.btnSelect</Name>
+		<Value>Select</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChooseCustomer.btnClose</Name>
+		<Value>Close</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChooseCustomer.Title</Name>
+		<Value>Select Distributor</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuBlendedReport</Name>
+		<Value>Blended Report</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuImportBlendedData</Name>
+		<Value>Import Blended</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuBlended</Name>
+		<Value>Blended</Value>
+	</Titles>
+	<Titles>
+		<Name>frmEditStore.btnDelete</Name>
+		<Value>Delete</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuDisplayRegistrationRules</Name>
+		<Value>Display Registration Rules</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuDisplaySet</Name>
+		<Value>Define Display Set</Value>
+	</Titles>
+	<Titles>
+		<Name>ImportAuditResultInfo.FileMask</Name>
+		<Value>^ENV_TPC_AuditResultInformation_[a-zA-Z0-9+_(?&lt;dp&gt;[0-9{6})_[0-9{14}\.csv$</Value>
+	</Titles>
+	<Titles>
+		<Name>ImportAuditResultInfo.FileMaskInformation</Name>
+		<Value>Invalid filename. Filename convention: ENV_TPC_AuditResultInformation_[Channel(DT/MT)_[yyyyMM_[yyyyMMddHHmmss.csv</Value>
+	</Titles>
+	<Titles>
+		<Name>ImportAuditResultDetail.FileMask</Name>
+		<Value>^ENV_TPC_AuditResultDetail_[a-zA-Z0-9+_(?&lt;dp&gt;[0-9{6})_[0-9{14}\.csv$</Value>
+	</Titles>
+	<Titles>
+		<Name>ImportAuditResultDetail.FileMaskInformation</Name>
+		<Value>Invalid filename. Filename convention: ENV_TPC_AuditResultDetail_[Channel(DT/MT)_[yyyyMM_[yyyyMMddHHmmss.csv</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuChinhSachGia</Name>
+		<Value>Chính Sách Giá</Value>
+	</Titles>
+
+	<!--Begin frmDefineStoresListForAudit ThaoNX-->
+	<Titles>
+		<Name>frmMain.mnuDefineStoresListForAudit</Name>
+		<Value>Define Store For Auditing</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoresListForAudit.lblChannel</Name>
+		<Value>Channel</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoresListForAudit.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoresListForAudit.lblTown</Name>
+		<Value>Town</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoresListForAudit.lblProvince</Name>
+		<Value>Province</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoresListForAudit.lblUrban</Name>
+		<Value>Area</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoresListForAudit.lblStarclub</Name>
+		<Value>Perfect Store</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoresListForAudit.lblPSType</Name>
+		<Value>PS Type</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoresListForAudit.btnSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoresListForAudit.btnRemove</Name>
+		<Value>Remove</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoresListForAudit.btnExport</Name>
+		<Value>Export...</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoresListForAudit.btnAdd</Name>
+		<Value>Add</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoresListForAudit.btnSave</Name>
+		<Value>Save</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoresListForAudit.Title</Name>
+		<Value>Define Store for Auditing</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoresListForAudit.lblDistributor</Name>
+		<Value>Distributor</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoresListForAudit.lblStoreID</Name>
+		<Value>Store</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoresListForAudit.chkVNeseUnsigned</Name>
+		<Value>Vietnamese unsigned</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDefineStoresListForAudit.lblTimeperiod</Name>
+		<Value>Timeperiod</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmMain.mnuortDataToTPC</Name>
+		<Value>Export Data To TPC</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuineRelationProductHierarchyDisplaySet</Name>
+		<Value>Define Relation Product Hierarchy DisplaySet</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuortKPIForm</Name>
+		<Value>Import KPI</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuEditStoreCoordinate</Name>
+		<Value>Edit Store Coordinate</Value>
+	</Titles>
+
+
+	<Titles>
+		<Name>ExportKPIData.SheetName.OSA</Name>
+		<Value>OSA</Value>
+	</Titles>
+
+	<Titles>
+		<Name>ExportKPIData.SheetName.NPD</Name>
+		<Value>NPD</Value>
+	</Titles>
+
+	<Titles>
+		<Name>ExportKPIData.SheetName.PromoC</Name>
+		<Value>Promotion Compliance</Value>
+	</Titles>
+
+	<Titles>
+		<Name>ExportKPIData.SheetName.CTA</Name>
+		<Value>CTA</Value>
+	</Titles>
+
+	<Titles>
+		<Name>ExportKPIData.SheetName.SSGT</Name>
+		<Value>SSGT</Value>
+	</Titles>
+
+	<Titles>
+		<Name>ExportKPIData.SheetName.SSMT</Name>
+		<Value>SSMT</Value>
+	</Titles>
+
+	<Titles>
+		<Name>ExportKPIData.SheetName.StdPrc</Name>
+		<Value>Standard Price</Value>
+	</Titles>
+
+	<Titles>
+		<Name>ExportKPIData.SheetName.SOF</Name>
+		<Value>SOF</Value>
+	</Titles>
+
+	<Titles>
+		<Name>ExportKPIData.SheetName.SOG</Name>
+		<Value>Share of Gondola</Value>
+	</Titles>
+
+	<Titles>
+		<Name>ExportKPIData.SheetName.SOS</Name>
+		<Value>SOS</Value>
+	</Titles>
+
+	<Titles>
+		<Name>ExportKPIData.SheetName.SSD</Name>
+		<Value>Share of Secondary Stand</Value>
+	</Titles>
+
+	<Titles>
+		<Name>ExportKPIData.SheetName.POSM</Name>
+		<Value>POSM</Value>
+	</Titles>
+	<!--End-->
+
+	<!--Begin: Export KPI CheckList-->
+	<Titles>
+		<Name>ExportCheckList.KA</Name>
+		<Value>KA</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Category</Name>
+		<Value>Category</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Market</Name>
+		<Value>Market</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Sector</Name>
+		<Value>Sector</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.ProductCode</Name>
+		<Value>Product Code</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.ProductName</Name>
+		<Value>Product Name</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.POSMItem</Name>
+		<Value>POSM Item</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.PromotionMechanism</Name>
+		<Value>Promotion Mechanism</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Quantity</Name>
+		<Value>Quantity</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.ProductCount</Name>
+		<Value>No. Of SKU</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Urban</Name>
+		<Value>Urban</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Rural</Name>
+		<Value>Rural</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Scope</Name>
+		<Value>Scope</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Timing</Name>
+		<Value>Timing </Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.LaunchDate</Name>
+		<Value>Launch Date</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.DateToCheck</Name>
+		<Value>Date To Check</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.PromotionCheckTime</Name>
+		<Value>Promotion check time</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.FromDate</Name>
+		<Value>From Date</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.ToDate</Name>
+		<Value>To Date</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Metro</Name>
+		<Value>Metro</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.MTExcludeMetro</Name>
+		<Value>MT exclude Metro</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.ShareOfMail</Name>
+		<Value>(*) Apply for Foods and HPC Product only</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.SOS.Meter</Name>
+		<Value>SOS (meter)</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.SOS.Percent</Name>
+		<Value>SOS (%)</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.SOS.TotalSpace</Name>
+		<Value>Total space (m)</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.SOS.UVN</Name>
+		<Value>UVN</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.SOS.Competitor</Name>
+		<Value>Competitor</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.SOS.Total</Name>
+		<Value>TOTAL</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.NPD.Total</Name>
+		<Value>TOTAL</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.CTA.Total</Name>
+		<Value>TOTAL</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.SOG.Total</Name>
+		<Value>TOTAL</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.SSD.Total</Name>
+		<Value>TOTAL</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.AuditDate</Name>
+		<Value>Audit Date</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.StandardAuditDate</Name>
+		<Value>Standard Audit Date</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.PromotionEffectiveDate</Name>
+		<Value>Promotion Effective Date</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.PromotionMT1</Name>
+		<Value>*AUDIT SCHEDULE FOR PROMOTION BY KA / CUSTOMER</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.PromotionMT</Name>
+		<Value>*TARGET: Promotion Compliance: Promotion product is available on shelf at least 1 unit: Compliance</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.No</Name>
+		<Value>No.</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Brand</Name>
+		<Value>Brand</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.POSMItem</Name>
+		<Value>POSM Item</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.CheckTime</Name>
+		<Value>Check Time</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Theme</Name>
+		<Value>THEME</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.ThemeDetail</Name>
+		<Value>(Launch /Promotion /Activation)</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.North</Name>
+		<Value>North</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Central</Name>
+		<Value>Central</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.HE</Name>
+		<Value>HE</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.MKD</Name>
+		<Value>MKD</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Region</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.InstallationDate</Name>
+		<Value>Installation Date</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.ActivationDate</Name>
+		<Value>Activation Date</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.CTATitle</Name>
+		<Value>* TARGET: POSM Items / Activation both are available at store: Compliance</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.CTATitle1</Name>
+		<Value>* POSM INSTALLATION SCHEDULE</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.CTATitle2</Name>
+		<Value>*ACTIVATION SCHEDULE:</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.ProductDisplay</Name>
+		<Value>PRODUCT DISPLAY</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.RightLocation</Name>
+		<Value>Right Location (1)</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.RightColourBlock</Name>
+		<Value>Right Colour Block (2)</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.FinalResult</Name>
+		<Value>Final Result (3)</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Note</Name>
+		<Value>Note</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.YN</Name>
+		<Value>(Y=1 / N=0)</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Principles</Name>
+		<Value>Principles:</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.SOG.Principles</Name>
+		<Value>Principles:</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.SOG.PrinciplesTitle</Name>
+		<Value>Based on Measurement guideline for each Key Account</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.OSA.TemplateNote1</Name>
+		<Value>*Source: SAP code as of mapping E-Order of DP w22, 2011</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.SOS.TemplateNote1</Name>
+		<Value>Principles: Based on Measurement guideline for each Key Account</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.PrinciplesTitle</Name>
+		<Value>Based on Plan-o-gram provided by Unilever</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.PrinciplesTitle1</Name>
+		<Value>*Separate results is required.</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.PrinciplesTitle2</Name>
+		<Value>'+ Display result by Criteria: Achieve = 1, Not Achieve = 0</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.PrinciplesTitle3</Name>
+		<Value>'+ Product ACHIEVE BOTH criteria (1) and (2), => Final result (3): Achieve=1</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.PrinciplesTitle4</Name>
+		<Value>'+ Product ACHIEVE either criteria (1) OR (2), => Final result (3): Not Achieve=0</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.DisplayCriteria</Name>
+		<Value>DISPLAY CRITERIA</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.DisplayCriteria</Name>
+		<Value>DISPLAY CRITERIA</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.DisplayResult</Name>
+		<Value>DISPLAY RESULT</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Criteria</Name>
+		<Value>Criteria</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.DisplaySetMarket</Name>
+		<Value>Display set / Market</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.DisplayOrder</Name>
+		<Value>A. Display Order</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.10NA</Name>
+		<Value>(1/0/NA)</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.DisplayQuantity</Name>
+		<Value>B. Display Quantity</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.DisplayZone</Name>
+		<Value>C. Display Zone (*)</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.DisplayPOSM</Name>
+		<Value>D. Display POSM (*)</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.%Achieve</Name>
+		<Value>% achieve</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.FinalResult</Name>
+		<Value>FINAL RESULT</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.BasicDisplay</Name>
+		<Value>BASIC DISPLAY</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.BasicDisplayResult</Name>
+		<Value>BASIC DISPLAY RESULT (A-B-C)</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.OptionalDisplay</Name>
+		<Value>OPTIONAL DISPLAY</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.OptionalDisplayResult</Name>
+		<Value>OPTIONAL DISPLAY RESULT (A-B)</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Achieve</Name>
+		<Value>ACHIEVE</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.UnAchieve</Name>
+		<Value>NOT ACHIEVE</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.SSTitle1</Name>
+		<Value>- Result for each criteria (A,B,C,D): Achieve: 1; Not Achieve: 0; Not Apply : N/A / cross the cell</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.SSTitle2</Name>
+		<Value>- Display result - BASIC DISPLAY:</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.SSTitle3</Name>
+		<Value>   + Store achieve all criteria A, B, C* for all display products => Final result: ACHIEVE: 1</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.SSTitle4</Name>
+		<Value>   + Store Not Achieve 1 of those criteria A, B, C* OR any display products => Final result: NOT ACHIEVE: 0</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.SSTitle5</Name>
+		<Value>(*) Only check and reflect to display result when Store apply window frame and or display tool (POSM) for displaying product</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.SSTitle6</Name>
+		<Value>- Display result - OPTIONAL DISPLAY: Store MUST achieve both A and B => ACHIEVE: 1, if Not => NOT ACHIEVE: 0</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Application</Name>
+		<Value>Application (Y/N)</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.CTA.StdAudit.Description1</Name>
+		<Value>Effective on installation date</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.CTA.StdAudit.Description2</Name>
+		<Value>{0} day(s) from installation date</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.CTA.StdAudit.Description3</Name>
+		<Value>Effective from Operation Date</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Promotion.Description</Name>
+		<Value>Effective on promotion date</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.Promotion.Description1</Name>
+		<Value>{0} day(s) from promotion date</Value>
+	</Titles>
+	<Titles>
+		<Name>ExportCheckList.OSA.ProductCount</Name>
+		<Value> / #Products</Value>
+	</Titles>
+	<!--End: Export KPI CheckList-->
+
+	<Titles>
+		<Name>frmMain.mnuProductMappingVN</Name>
+		<Value>Product Mapping VN</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuplayStructureForm</Name>
+		<Value>Define Display Structure</Value>
+	</Titles>
+
+	<!--Add by KienTNT-->
+	<Titles>
+		<Name>frmMain.mnuToDoList</Name>
+		<Value>ToDo List</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuualPaymentForm</Name>
+		<Value>Actual Inventive</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnulifiedStoresForm</Name>
+		<Value>Approve Qualified Stores</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnueptionStoresForm</Name>
+		<Value>Define exception stores</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuineExceptionList</Name>
+		<Value>Define exception stores</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuisteredStoreForm</Name>
+		<Value>Import Registration Log</Value>
+	</Titles>
+
+	<Titles>
+		<Name>AudiConfig.TotalCategoryText</Name>
+		<Value>TOTAL CATEGORIES</Value>
+	</Titles>
+
+	<!-- Start frmKhambenh-->
+	<Titles>
+		<Name>frmKhambenh.lblPhongKham</Name>
+		<Value>Phòng Khám</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.Title</Name>
+		<Value>Khám Bệnh</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmKhambenh.btnIn</Name>
+		<Value>In</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmKhambenh.lblNgayKham</Name>
+		<Value>Ngày Khám</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmKhambenh.lblBenhNhan</Name>
+		<Value>Bệnh Nhân</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmKhambenh.lblMaNhanVien</Name>
+		<Value>Mã Nhân Viên</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.lblMaBHYT</Name>
+		<Value>Mã BHXH</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.lblGioiTinh</Name>
+		<Value>Giới tính</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.lblNamSinh</Name>
+		<Value>Năm sinh</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.lblBoPhan</Name>
+		<Value>Bộ Phận</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.lblCongTy</Name>
+		<Value>Nơi làm việc</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.lblKhuVuc</Name>
+		<Value>Khu vực</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmKhambenh.lblNhomBenh</Name>
+		<Value>Nhóm bệnh</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.lblChanDoan</Name>
+		<Value>Chẩn đoán</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.lblQdnp</Name>
+		<Value>Quyết định nghỉ phép</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.lblTuNgay</Name>
+		<Value>Từ ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.lblDenNgay</Name>
+		<Value>Đến ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.lblSndn</Name>
+		<Value>Số ngày được nghỉ</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.btnQuyetDinh</Name>
+		<Value>QĐ</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.lblLyDo</Name>
+		<Value>Lý do</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.lblDienGiai</Name>
+		<Value>Diễn giải</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.lblMaICD</Name>
+		<Value>Mã ICD</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.lblDienGiaICD</Name>
+		<Value>Diễn giải ICD</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.btnXoaThuoc</Name>
+		<Value>Xóa Thuốc</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.btnXacNhan</Name>
+		<Value>Xác Nhận</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.btnLuuIn</Name>
+		<Value>Lưu/In</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.btnDong</Name>
+		<Value>Đóng</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.btnTiepTucKham</Name>
+		<Value>Tiếp Tục Khám</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.lblTongThanhTien</Name>
+		<Value>Tổng thành tiền</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmKhambenh.grdToanThuoc.ColTenThuoc</Name>
+		<Value>Tên thuốc</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.grdToanThuoc.ColMaThuoc</Name>
+		<Value>Mã thuốc</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.grdToanThuoc.ColThuocBH</Name>
+		<Value>Thuốc BH</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.grdToanThuoc.colDonViTinh</Name>
+		<Value>Đơn vị tính</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.grdToanThuoc.ColHamLuong</Name>
+		<Value>Hàm lượng</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.grdToanThuoc.ColSoLuong</Name>
+		<Value>Số lượng</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.grdToanThuoc.colGia</Name>
+		<Value>Giá ST</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.grdToanThuoc.colCachUong</Name>
+		<Value>Cách uống</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.grdToanThuoc.colThanhTien</Name>
+		<Value>Thành tiền</Value>
+	</Titles>
+	<Titles>
+		<Name>frmKhambenh.btnSearch</Name>
+		<Value>...</Value>
+	</Titles>
+
+
+	<Titles>
+		<Name>frmKhambenh.lblTienKham</Name>
+		<Value>Tiền khám bệnh/1 lượt</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmKhambenh.lblDonvi</Name>
+		<Value>(đồng)</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmKhambenh.lblTongTienBangChu</Name>
+		<Value>Tổng Tiền Bằng Chử</Value>
+	</Titles>
+
+
+	<!-- End frmKhambenh-->
+
+	<!-- Start frmNghiPhep-->
+	<Titles>
+		<Name>frmNghiPhep.lblBenhNhan</Name>
+		<Value>Bệnh nhân</Value>
+	</Titles>
+	<Titles>
+		<Name>frmNghiPhep.lblTuLuc</Name>
+		<Value>Từ lúc</Value>
+	</Titles>
+	<Titles>
+		<Name>frmNghiPhep.lblDenLuc</Name>
+		<Value>Đến Lúc</Value>
+	</Titles>
+	<Titles>
+		<Name>frmNghiPhep.lblSndn</Name>
+		<Value>Số ngày được nghỉ</Value>
+	</Titles>
+	<Titles>
+		<Name>frmNghiPhep.lblLyDo</Name>
+		<Value>Lý do</Value>
+	</Titles>
+	<Titles>
+		<Name>frmNghiPhep.lblLyDoChiTiet</Name>
+		<Value>Lý do chi tiet</Value>
+	</Titles>
+	<Titles>
+		<Name>frmNghiPhep.lblDienGiai</Name>
+		<Value>Diễn giải</Value>
+	</Titles>
+	<Titles>
+		<Name>frmNghiPhep.lblChuThich</Name>
+		<Value>Chú thích</Value>
+	</Titles>
+	<Titles>
+		<Name>frmNghiPhep.btnXacNhan</Name>
+		<Value>Xác nhận</Value>
+	</Titles>
+	<!-- End frmNghiPhep-->
+
+	<!-- Start frmnhapkhothuoc-->
+	<Titles>
+		<Name>frmnhapkhothuoc.lblNhanVienNhap</Name>
+		<Value>Nhân viên nhập</Value>
+	</Titles>
+	<Titles>
+		<Name>frmnhapkhothuoc.lblMaNhanVienNhap</Name>
+		<Value>Mã nhân viên nhập</Value>
+	</Titles>
+	<Titles>
+		<Name>frmnhapkhothuoc.lblPhongKhamKho</Name>
+		<Value>Phòng khám/Kho</Value>
+	</Titles>
+	<Titles>
+		<Name>frmnhapkhothuoc.lblMaHopDong</Name>
+		<Value>Mã số HĐĐ*</Value>
+	</Titles>
+	<Titles>
+		<Name>frmnhapkhothuoc.lblNgayNhapKho</Name>
+		<Value>Ngày nhập kho</Value>
+	</Titles>
+	<Titles>
+		<Name>frmnhapkhothuoc.lblDonViCungCap</Name>
+		<Value>Đơn vị cung cấp *</Value>
+	</Titles>
+	<Titles>
+		<Name>frmnhapkhothuoc.lblMaDonViCungCap</Name>
+		<Value>Mã đơn vị cung cấp *</Value>
+	</Titles>
+	<Titles>
+		<Name>frmnhapkhothuoc.btnXoaThuoc</Name>
+		<Value>Xóa Thuốc</Value>
+	</Titles>
+	<Titles>
+		<Name>frmnhapkhothuoc.btnLuuIn</Name>
+		<Value>Nhập kho</Value>
+	</Titles>
+	<Titles>
+		<Name>frmnhapkhothuoc.btnDong</Name>
+		<Value>Đóng</Value>
+	</Titles>
+	<Titles>
+		<Name>frmnhapkhothuoc.lblTongThanhTien</Name>
+		<Value>Tổng thành tiền</Value>
+	</Titles>
+	<!-- End frmnhapkhothuoc-->
+
+	<!-- Start frmXuatKho-->
+	<Titles>
+		<Name>frmXuatKho.btnLuuIn</Name>
+		<Value>Xuất kho</Value>
+	</Titles>
+	<Titles>
+		<Name>frmXuatKho.btnExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmXuatKho.lblPhongKhamKho</Name>
+		<Value>Phòng khám/Kho</Value>
+	</Titles>
+	<Titles>
+		<Name>frmdanhmucthuoc.btnLuuIn</Name>
+		<Value>Lưu/Cập nhật</Value>
+
+	</Titles>
+	<Titles>
+		<Name>frmdanhmucthuoc.lblSTTMHTKQDT</Name>
+		<Value>STT mã hóa theo KQĐT (số QĐ.STT)</Value>
+
+	</Titles>
+
+	<Titles>
+		<Name>frmdanhmucthuoc.lblTenDV</Name>
+		<Value>Tên đơn vị (SYT/BV)</Value>
+
+	</Titles>
+
+	<Titles>
+		<Name>frmdanhmucthuoc.lblNgayHieuLuc</Name>
+		<Value>Ngày hiệu lực</Value>
+
+	</Titles>
+
+	<Titles>
+		<Name>frmdanhmucthuoc.lblPhanNhom</Name>
+		<Value>Phân nhóm theo TCKT và TCCN</Value>
+
+	</Titles>
+
+
+	<!-- Start frmChinhSachGia-->
+	<Titles>
+		<Name>frmChinhSachGia.lblMaChinhSachGia</Name>
+		<Value>Mã chính sách giá</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmChinhSachGia.lblTenChinhSachGia</Name>
+		<Value>Tên chính sách giá*</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChinhSachGia.lblHoatDong</Name>
+		<Value>Hoạt động</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChinhSachGia.lblThoiGianBatDau</Name>
+		<Value>Thời gian bắt đầu</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChinhSachGia.lblThoiGianKetThuc</Name>
+		<Value>Thời gian kết thúc</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChinhSachGia.lblNgayNgungHoatDong</Name>
+		<Value>Ngày ngưng hoạt động</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChinhSachGia.btnThemMoi</Name>
+		<Value>Thêm mới</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChinhSachGia.btnLuu</Name>
+		<Value>Lưu</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChinhSachGia.btnCapNhat</Name>
+		<Value>Cập nhật</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChinhSachGia.btnChiTietChinhSachGia</Name>
+		<Value>Chi tiết chính sách giá</Value>
+	</Titles>
+	<!-- End frmChinhSachGia-->
+	<!-- Start frmChinhSachGiaChiTiet-->
+	<Titles>
+		<Name>frmChinhSachGiaChiTiet.btnXoaThuoc</Name>
+		<Value>Xóa thuốc</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChinhSachGiaChiTiet.btnLuuIn</Name>
+		<Value>Lưu</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChinhSachGiaChiTiet.btnDong</Name>
+		<Value>Đóng</Value>
+	</Titles>
+	<Titles>
+		<Name>frmChinhSachGiaChiTiet.lblMaChinhSachGia</Name>
+		<Value>Mã chính sách giá</Value>
+	</Titles>
+	<!-- End frmChinhSachGiaChiTiet-->
+	<!-- Start frmbaocaolichsubenhnhan-->
+	<Titles>
+		<Name>frmbaocaolichsubenhnhan.lblTenBenhNhan</Name>
+		<Value>Tên bệnh nhân</Value>
+	</Titles>
+	<Titles>
+		<Name>frmbaocaolichsubenhnhan.lblMaBenhNhan</Name>
+		<Value>Mã bệnh nhân</Value>
+	</Titles>
+	<Titles>
+		<Name>frmbaocaolichsubenhnhan.lblMaBHYT</Name>
+		<Value>Mã BHYT</Value>
+	</Titles>
+	<Titles>
+		<Name>frmbaocaolichsubenhnhan.btnSearch</Name>
+		<Value>Tìm kiếm</Value>
+	</Titles>
+	<Titles>
+		<Name>frmbaocaolichsubenhnhan.btnExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<!-- End frmbaocaolichsubenhnhan-->
+	<!-- Start frmbaocaotonkho-->
+	<Titles>
+		<Name>frmbaocaotonkho.lblKho</Name>
+		<Value>Kho</Value>
+	</Titles>
+	<Titles>
+		<Name>frmbaocaotonkho.lblLoaiThuoc</Name>
+		<Value>Loại thuốc</Value>
+	</Titles>
+	<Titles>
+		<Name>frmbaocaotonkho.btnSearch</Name>
+		<Value>Tìm kiếm</Value>
+	</Titles>
+	<Titles>
+		<Name>frmbaocaotonkho.btnExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<!-- Start frmbaocaotonkho-->
+
+	<!-- Start frmSearchNhanVien-->
+	<Titles>
+		<Name>frmSearchNhanVien.lblMaBenhNhan</Name>
+		<Value>Mã nhân viên</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSearchNhanVien.lblTenBenhNhan</Name>
+		<Value>Tên nhân viên</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSearchNhanVien.btnSearch</Name>
+		<Value>Tìm</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSearchNhanVien.btnChon</Name>
+		<Value>Chọn</Value>
+	</Titles>
+	<!-- End frmSearchNhanVien-->
+
+	<Titles>
+		<Name>frmMain.mnuChotTonKho</Name>
+		<Value>Chốt Tồn Kho</Value>
+	</Titles>
+	
+	
+	<Titles>
+		<Name>frmMain.mnuListDanhSachBenhNhan</Name>
+		<Value>Danh sách bệnh nhần khám bệnh</Value>
+	</Titles>
+	
+
+	<!--frmBaoCaoDanhMucThuocTTBH-->
+	<Titles>
+		<Name>frmBaoCaoDanhMucThuocTTBH.Title</Name>
+		<Value>Báo Cáo Thuốc TD TT BHYT</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmBaoCaoDanhMucThuocTTBH.btnRunReport</Name>
+		<Value>Chạy Báo Cáo</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoDanhMucThuocTTBH.ckbBaoCaoTheoNgay</Name>
+		<Value>Báo Cáo Theo Ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoDanhMucThuocTTBH.ckbBaoCaoTheoQuyNam</Name>
+		<Value>Báo Cáo Theo Quý/Năm</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoDanhMucThuocTTBH.lblPhongKham</Name>
+		<Value>Phòng Khám</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoDanhMucThuocTTBH.lblQuy</Name>
+		<Value>Quý</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoDanhMucThuocTTBH.lblNam</Name>
+		<Value>Năm</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoDanhMucThuocTTBH.lblTuNgay</Name>
+		<Value>Từ Ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoDanhMucThuocTTBH.lblDenNgay</Name>
+		<Value>Đến Ngày</Value>
+	</Titles>
+
+	<!-- End frmBaoCaoDanhMucThuocTTBH-->
+
+
+	<!--frmBaoCaoDMThuocYHCTTTBH-->
+	<Titles>
+		<Name>frmBaoCaoDMThuocYHCTTTBH.Title</Name>
+		<Value>Báo Cáo Thuốc YHCT TT BHYT</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmBaoCaoDMThuocYHCTTTBH.btnRunReport</Name>
+		<Value>Chạy Báo Cáo</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoDMThuocYHCTTTBH.ckbBaoCaoTheoNgay</Name>
+		<Value>Báo Cáo Theo Ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoDMThuocYHCTTTBH.ckbBaoCaoTheoQuyNam</Name>
+		<Value>Báo Cáo Theo Quý/Năm</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoDMThuocYHCTTTBH.lblPhongKham</Name>
+		<Value>Phòng Khám</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoDMThuocYHCTTTBH.lblQuy</Name>
+		<Value>Quý</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoDMThuocYHCTTTBH.lblNam</Name>
+		<Value>Năm</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoDMThuocYHCTTTBH.lblTuNgay</Name>
+		<Value>Từ Ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoDMThuocYHCTTTBH.lblDenNgay</Name>
+		<Value>Đến Ngày</Value>
+	</Titles>
+
+	<!-- End frmBaoCaoDMThuocYHCTTTBH-->
+	<!--frmBaoCaoBNBHYTTTBH-->
+	<Titles>
+		<Name>frmBaoCaoBNBHYTTTBH.Title</Name>
+		<Value>Báo Cáo Thuốc YHCT TT BHYT</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmBaoCaoBNBHYTTTBH.btnRunReport</Name>
+		<Value>Chạy Báo Cáo</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoBNBHYTTTBH.ckbBaoCaoTheoNgay</Name>
+		<Value>Báo Cáo Theo Ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoBNBHYTTTBH.ckbBaoCaoTheoQuyNam</Name>
+		<Value>Báo Cáo Theo Quý/Năm</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoBNBHYTTTBH.lblPhongKham</Name>
+		<Value>Phòng Khám</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoBNBHYTTTBH.lblQuy</Name>
+		<Value>Quý</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoBNBHYTTTBH.lblNam</Name>
+		<Value>Năm</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoBNBHYTTTBH.lblTuNgay</Name>
+		<Value>Từ Ngày</Value>
+	</Titles>
+	<Titles>
+		<Name>frmBaoCaoBNBHYTTTBH.lblDenNgay</Name>
+		<Value>Đến Ngày</Value>
+	</Titles>
+
+	<!-- End frmBaoCaoBNBHYTTTBH-->
+
+
+</HUFS>

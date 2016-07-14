@@ -1,0 +1,9 @@
+﻿2015-12-28 11:16:11,642 [4] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-12-28 11:26:14,309 [1] ERROR UKPI.frmMain - Value cannot be null.
+Parameter name: type
+System.ArgumentNullException: Value cannot be null.
+Parameter name: type
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at UKPI.frmMain.MenuItem_OnClick(Object sender, EventArgs e)
+2015-12-28 11:26:17,965 [4] DEBUG UKPI.frmMain - Thread was being aborted.

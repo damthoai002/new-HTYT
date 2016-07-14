@@ -1,0 +1,15 @@
+D:\new HTYT\FPT.Componet.Excel\bin\Release\Library\EPPlusXmlDocumentationFile.xml
+D:\new HTYT\FPT.Componet.Excel\bin\Release\Library\EPPlus_License.txt
+D:\new HTYT\FPT.Componet.Excel\bin\Release\Library\Ionic_Utils_Zip_license.txt
+D:\new HTYT\FPT.Componet.Excel\bin\Release\Library\NPOI_License.txt
+D:\new HTYT\FPT.Componet.Excel\bin\Release\FPT.Component.ExcelPlus.dll.config
+D:\new HTYT\FPT.Componet.Excel\bin\Release\FPT.Component.ExcelPlus.dll
+D:\new HTYT\FPT.Componet.Excel\bin\Release\FPT.Component.ExcelPlus.pdb
+D:\new HTYT\FPT.Componet.Excel\bin\Release\EPPlus.dll
+D:\new HTYT\FPT.Componet.Excel\bin\Release\Interop.Excel.dll
+D:\new HTYT\FPT.Componet.Excel\bin\Release\NPOI.dll
+D:\new HTYT\FPT.Componet.Excel\bin\Release\Ionic.Zip.dll
+D:\new HTYT\FPT.Componet.Excel\bin\Release\EPPlus.xml
+D:\new HTYT\FPT.Componet.Excel\obj\Release\FPT.Component.ExcelPlus.dll
+D:\new HTYT\FPT.Componet.Excel\obj\Release\FPT.Component.ExcelPlus.pdb
+D:\new HTYT\FPT.Componet.Excel\obj\Release\FPT.Component.ExcelPlus.csprojResolveAssemblyReference.cache

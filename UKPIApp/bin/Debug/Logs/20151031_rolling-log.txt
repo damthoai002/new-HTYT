@@ -1,0 +1,436 @@
+﻿2015-10-31 09:53:03,920 [10] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 09:56:36,100 [10] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-10-31 10:08:54,783 [12] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 10:09:03,922 [12] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-10-31 10:11:50,941 [11] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 10:12:04,964 [11] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-10-31 10:18:39,194 [10] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 10:20:58,994 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 10:21:11,988 [9] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-10-31 10:37:33,572 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 10:41:29,339 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 10:42:22,641 [9] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-10-31 11:16:36,435 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 11:17:50,123 [7] ERROR UKPI.DataAccessObject.clsBaseDAO - System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.WriteBulkCopyValue(Object value, SqlMetaDataPriv metadata, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternal()
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServer(Int32 columnCount)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table, DataRowState rowState)
+   at UKPI.DataAccessObject.clsBaseDAO.BulkInsert(DataTable table, String tableName) in D:\new HTYT\UKPIApp\DataAccessObject\clsBaseDAO.cs:line 1459
+2015-10-31 11:18:26,724 [7] ERROR UKPI.DataAccessObject.clsBaseDAO - System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.WriteBulkCopyValue(Object value, SqlMetaDataPriv metadata, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternal()
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServer(Int32 columnCount)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table, DataRowState rowState)
+   at UKPI.DataAccessObject.clsBaseDAO.BulkInsert(DataTable table, String tableName) in D:\new HTYT\UKPIApp\DataAccessObject\clsBaseDAO.cs:line 1459
+2015-10-31 11:20:10,488 [7] ERROR UKPI.DataAccessObject.clsBaseDAO - System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.WriteBulkCopyValue(Object value, SqlMetaDataPriv metadata, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternal()
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServer(Int32 columnCount)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table, DataRowState rowState)
+   at UKPI.DataAccessObject.clsBaseDAO.BulkInsert(DataTable table, String tableName) in D:\new HTYT\UKPIApp\DataAccessObject\clsBaseDAO.cs:line 1459
+2015-10-31 11:21:29,164 [7] ERROR UKPI.DataAccessObject.clsBaseDAO - System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.WriteBulkCopyValue(Object value, SqlMetaDataPriv metadata, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternal()
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServer(Int32 columnCount)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table, DataRowState rowState)
+   at UKPI.DataAccessObject.clsBaseDAO.BulkInsert(DataTable table, String tableName) in D:\new HTYT\UKPIApp\DataAccessObject\clsBaseDAO.cs:line 1459
+2015-10-31 12:10:24,165 [12] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 12:12:24,569 [10] ERROR UKPI.DataAccessObject.NhanVienDao - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at UKPI.Utils.SqlHelper.ExecuteNonQuery(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 281
+   at UKPI.Utils.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 204
+   at UKPI.Utils.DataServices.ExecuteNonQuery(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 48
+   at UKPI.DataAccessObject.NhanVienDao.InsertNhanVien(Employees emp) in D:\new HTYT\UKPIApp\DataAccessObject\NhanVienDao.cs:line 672
+2015-10-31 12:17:28,618 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 12:20:43,897 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 12:25:05,542 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 12:26:39,438 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 12:26:45,497 [7] ERROR UKPI.DataAccessObject.NhanVienDao - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at UKPI.Utils.SqlHelper.AttachParameters(SqlCommand command, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 60
+   at UKPI.Utils.SqlHelper.PrepareCommand(SqlCommand command, SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 132
+   at UKPI.Utils.SqlHelper.ExecuteNonQuery(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 278
+   at UKPI.Utils.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 204
+   at UKPI.Utils.DataServices.ExecuteNonQuery(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 48
+   at UKPI.DataAccessObject.NhanVienDao.LuuCapNhatThongNhanVien(Employees emp) in D:\new HTYT\UKPIApp\DataAccessObject\NhanVienDao.cs:line 710
+2015-10-31 12:27:25,050 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 12:27:38,142 [9] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-10-31 12:30:27,075 [4] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 12:30:31,146 [1] ERROR UKPI.DataAccessObject.ReportDao - @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+System.Data.SqlClient.SqlException: @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ReportDao.baoCaoTheoDoiNghiOm(String kho, String quy, String nam, String tuNgay, String denNgay) in D:\new HTYT\UKPIApp\DataAccessObject\ReportDao.cs:line 220
+2015-10-31 12:33:43,711 [1] ERROR UKPI.DataAccessObject.ReportDao - @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+System.Data.SqlClient.SqlException: @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ReportDao.baoCaoTheoDoiNghiOm(String kho, String quy, String nam, String tuNgay, String denNgay) in D:\new HTYT\UKPIApp\DataAccessObject\ReportDao.cs:line 220
+2015-10-31 12:33:54,940 [1] ERROR UKPI.DataAccessObject.ReportDao - @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+System.Data.SqlClient.SqlException: @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ReportDao.baoCaoTheoDoiNghiOm(String kho, String quy, String nam, String tuNgay, String denNgay) in D:\new HTYT\UKPIApp\DataAccessObject\ReportDao.cs:line 220
+2015-10-31 12:33:57,756 [1] ERROR UKPI.DataAccessObject.ReportDao - @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+System.Data.SqlClient.SqlException: @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ReportDao.baoCaoTheoDoiNghiOm(String kho, String quy, String nam, String tuNgay, String denNgay) in D:\new HTYT\UKPIApp\DataAccessObject\ReportDao.cs:line 220
+2015-10-31 12:34:13,760 [1] ERROR UKPI.DataAccessObject.ReportDao - @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+System.Data.SqlClient.SqlException: @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ReportDao.baoCaoTheoDoiNghiOm(String kho, String quy, String nam, String tuNgay, String denNgay) in D:\new HTYT\UKPIApp\DataAccessObject\ReportDao.cs:line 220
+2015-10-31 12:34:17,252 [1] ERROR UKPI.DataAccessObject.ReportDao - @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+System.Data.SqlClient.SqlException: @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ReportDao.baoCaoTheoDoiNghiOm(String kho, String quy, String nam, String tuNgay, String denNgay) in D:\new HTYT\UKPIApp\DataAccessObject\ReportDao.cs:line 220
+2015-10-31 12:34:22,617 [4] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-10-31 12:35:49,615 [10] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 12:35:49,615 [8] ERROR UKPI.DataAccessObject.ReportDao - @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+System.Data.SqlClient.SqlException: @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ReportDao.baoCaoTheoDoiNghiOm(String kho, String quy, String nam, String tuNgay, String denNgay) in D:\new HTYT\UKPIApp\DataAccessObject\ReportDao.cs:line 220
+2015-10-31 12:36:42,429 [8] ERROR UKPI.DataAccessObject.ReportDao - @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+System.Data.SqlClient.SqlException: @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ReportDao.baoCaoTheoDoiNghiOm(String kho, String quy, String nam, String tuNgay, String denNgay) in D:\new HTYT\UKPIApp\DataAccessObject\ReportDao.cs:line 220
+2015-10-31 12:38:06,659 [11] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 12:38:07,904 [9] ERROR UKPI.DataAccessObject.ReportDao - @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+System.Data.SqlClient.SqlException: @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ReportDao.baoCaoTheoDoiNghiOm(String kho, String quy, String nam, String tuNgay, String denNgay) in D:\new HTYT\UKPIApp\DataAccessObject\ReportDao.cs:line 220
+2015-10-31 12:39:12,026 [10] ERROR UKPI.DataAccessObject.ReportDao - @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+System.Data.SqlClient.SqlException: @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ReportDao.baoCaoTheoDoiNghiOm(String kho, String quy, String nam, String tuNgay, String denNgay) in D:\new HTYT\UKPIApp\DataAccessObject\ReportDao.cs:line 220
+2015-10-31 12:39:13,603 [12] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 12:41:16,834 [8] ERROR UKPI.DataAccessObject.ReportDao - @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+System.Data.SqlClient.SqlException: @Quy is not a parameter for procedure BaoCaoTheoDoiNghiOm.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ReportDao.baoCaoTheoDoiNghiOm(String kho, String quy, String nam, String tuNgay, String denNgay) in D:\new HTYT\UKPIApp\DataAccessObject\ReportDao.cs:line 220
+2015-10-31 12:41:25,239 [10] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 12:42:58,126 [10] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 12:45:32,466 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 12:46:16,054 [7] ERROR UKPI.DataAccessObject.ReportDao - @Quy is not a parameter for procedure BaoCaoTongTienBHYT.
+System.Data.SqlClient.SqlException: @Quy is not a parameter for procedure BaoCaoTongTienBHYT.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ReportDao.baoCaoTongTienBHYT(String kho, String quy, String nam, String tuNgay, String denNgay) in D:\new HTYT\UKPIApp\DataAccessObject\ReportDao.cs:line 172
+2015-10-31 12:49:16,903 [7] ERROR UKPI.DataAccessObject.ReportDao - @Quy is not a parameter for procedure BaoCaoTongTienBHYT.
+System.Data.SqlClient.SqlException: @Quy is not a parameter for procedure BaoCaoTongTienBHYT.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ReportDao.baoCaoTongTienBHYT(String kho, String quy, String nam, String tuNgay, String denNgay) in D:\new HTYT\UKPIApp\DataAccessObject\ReportDao.cs:line 172
+2015-10-31 12:49:26,258 [9] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-10-31 12:50:23,495 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 12:50:36,257 [9] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-10-31 12:51:36,182 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 12:52:05,323 [7] ERROR UKPI.DataAccessObject.ReportDao - @Quy is not a parameter for procedure BaoCaoBenhNhanNamNu.
+System.Data.SqlClient.SqlException: @Quy is not a parameter for procedure BaoCaoBenhNhanNamNu.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ReportDao.baoCaoBenhNhanNamNu(String kho, String quy, String nam, String tuNgay, String denNgay) in D:\new HTYT\UKPIApp\DataAccessObject\ReportDao.cs:line 148
+2015-10-31 12:52:10,406 [9] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-10-31 12:53:49,796 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 12:54:20,012 [7] ERROR UKPI.DataAccessObject.ReportDao - @Quy is not a parameter for procedure BaoCaoGhiChuKhac.
+System.Data.SqlClient.SqlException: @Quy is not a parameter for procedure BaoCaoGhiChuKhac.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ReportDao.baoCaoGhiChuKhac(String kho, String quy, String nam, String tuNgay, String denNgay) in D:\new HTYT\UKPIApp\DataAccessObject\ReportDao.cs:line 196
+2015-10-31 12:54:31,075 [9] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-10-31 14:48:11,735 [4] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-31 14:52:14,783 [1] ERROR UKPI.DataAccessObject.ReportDao - @Quy is not a parameter for procedure BaoCaoGhiChuKhac.
+System.Data.SqlClient.SqlException: @Quy is not a parameter for procedure BaoCaoGhiChuKhac.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\new HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ReportDao.baoCaoGhiChuKhac(String kho, String quy, String nam, String tuNgay, String denNgay) in D:\new HTYT\UKPIApp\DataAccessObject\ReportDao.cs:line 196
+2015-10-31 14:53:21,857 [4] DEBUG UKPI.frmMain - Thread was being aborted.

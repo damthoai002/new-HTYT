@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8F68EE94-F371-4722-9B26-3113F1FC80AF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FPT.Component.ExcelPlus</RootNamespace>
+    <AssemblyName>FPT.Component.ExcelPlus</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EPPlus, Version=2.8.0.2, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Excel, Version=1.5.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=1.2.3.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ColorPalette.cs" />
+    <Compile Include="CsvMapping.cs" />
+    <Compile Include="CSVReader.cs" />
+    <Compile Include="CsvUtility.cs" />
+    <Compile Include="EpplusWriter.cs" />
+    <Compile Include="ExcelValidator.cs" />
+    <Compile Include="Exporter.cs" />
+    <Compile Include="ExporterBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FCell.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="DataArray.cs" />
+    <Compile Include="EppCells.cs" />
+    <Compile Include="EpplusReader.cs" />
+    <Compile Include="EventHandlers.cs" />
+    <Compile Include="ExcelCOMReader.cs" />
+    <Compile Include="ExcelFactory.cs" />
+    <Compile Include="ExcelVersion.cs" />
+    <Compile Include="FCellAddress.cs" />
+    <Compile Include="FormatStyle.cs" />
+    <Compile Include="Importer.cs" />
+    <Compile Include="ImportTemplate.cs" />
+    <Compile Include="ImportLoader.cs" />
+    <Compile Include="Interfaces\ICellFormater.cs" />
+    <Compile Include="Interfaces\IErrorLogger.cs" />
+    <Compile Include="Interfaces\IResult.cs" />
+    <Compile Include="Interfaces\IRange.cs" />
+    <Compile Include="Interfaces\IErrorResult.cs" />
+    <Compile Include="Interfaces\IExcelReader.cs" />
+    <Compile Include="Interfaces\IExcelWriter.cs" />
+    <Compile Include="Interfaces\ISheet.cs" />
+    <Compile Include="Interfaces\IWorkbook.cs" />
+    <Compile Include="Interfaces\IWorkSheets.cs" />
+    <Compile Include="KeyComparer.cs" />
+    <Compile Include="KeyHierarchy.cs" />
+    <Compile Include="NpoiReader.cs" />
+    <Compile Include="NpoiWriter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Result.cs" />
+    <Compile Include="SheetView.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="WorkBook.cs" />
+    <Compile Include="WorkSheets.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CsvTableTemplate.xml" />
+    <Content Include="ImportTemplate.xml" />
+    <Content Include="Library\EPPlusXmlDocumentationFile.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Library\EPPlus_License.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Library\Ionic_Utils_Zip_license.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Library\NPOI_License.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

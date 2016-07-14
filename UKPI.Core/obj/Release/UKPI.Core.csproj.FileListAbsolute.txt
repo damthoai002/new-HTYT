@@ -1,0 +1,40 @@
+D:\test\UKPI.Core\bin\Release\UKPI.Core.dll
+D:\test\UKPI.Core\bin\Release\UKPI.Core.pdb
+D:\test\UKPI.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\test\UKPI.Core\bin\Release\log4net.dll
+D:\test\UKPI.Core\obj\Release\UKPI.Core.csprojResolveAssemblyReference.cache
+D:\test\UKPI.Core\obj\Release\UKPI.Core.dll
+D:\test\UKPI.Core\obj\Release\UKPI.Core.pdb
+D:\Disc D\HTCC\UKPI.Core\bin\Release\UKPI.Core.dll
+D:\Disc D\HTCC\UKPI.Core\bin\Release\UKPI.Core.pdb
+D:\Disc D\HTCC\UKPI.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\Disc D\HTCC\UKPI.Core\bin\Release\log4net.dll
+D:\Disc D\HTCC\UKPI.Core\obj\Release\UKPI.Core.dll
+D:\Disc D\HTCC\UKPI.Core\obj\Release\UKPI.Core.pdb
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\Code\UKPI.Core\bin\Release\UKPI.Core.dll
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\Code\UKPI.Core\bin\Release\UKPI.Core.pdb
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\Code\UKPI.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\Code\UKPI.Core\bin\Release\log4net.dll
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\Code\UKPI.Core\obj\Release\UKPI.Core.dll
+E:\Working\Projects\UngDungQuanLyYTe\Application\HUFS\Code\UKPI.Core\obj\Release\UKPI.Core.pdb
+D:\Disk E\HTYT\CodeWithNewDB\UKPI.Core\bin\Release\UKPI.Core.dll
+D:\Disk E\HTYT\CodeWithNewDB\UKPI.Core\bin\Release\UKPI.Core.pdb
+D:\Disk E\HTYT\CodeWithNewDB\UKPI.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\Disk E\HTYT\CodeWithNewDB\UKPI.Core\bin\Release\log4net.dll
+D:\Disk E\HTYT\CodeWithNewDB\UKPI.Core\obj\Release\UKPI.Core.csprojResolveAssemblyReference.cache
+D:\Disk E\HTYT\CodeWithNewDB\UKPI.Core\obj\Release\UKPI.Core.dll
+D:\Disk E\HTYT\CodeWithNewDB\UKPI.Core\obj\Release\UKPI.Core.pdb
+D:\HTYT Homebase\CodeWithNewDB\UKPI.Core\bin\Release\UKPI.Core.dll
+D:\HTYT Homebase\CodeWithNewDB\UKPI.Core\bin\Release\UKPI.Core.pdb
+D:\HTYT Homebase\CodeWithNewDB\UKPI.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\HTYT Homebase\CodeWithNewDB\UKPI.Core\bin\Release\log4net.dll
+D:\HTYT Homebase\CodeWithNewDB\UKPI.Core\obj\Release\UKPI.Core.csprojResolveAssemblyReference.cache
+D:\HTYT Homebase\CodeWithNewDB\UKPI.Core\obj\Release\UKPI.Core.dll
+D:\HTYT Homebase\CodeWithNewDB\UKPI.Core\obj\Release\UKPI.Core.pdb
+D:\new HTYT\UKPI.Core\bin\Release\UKPI.Core.dll
+D:\new HTYT\UKPI.Core\bin\Release\UKPI.Core.pdb
+D:\new HTYT\UKPI.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\new HTYT\UKPI.Core\bin\Release\log4net.dll
+D:\new HTYT\UKPI.Core\obj\Release\UKPI.Core.csprojResolveAssemblyReference.cache
+D:\new HTYT\UKPI.Core\obj\Release\UKPI.Core.dll
+D:\new HTYT\UKPI.Core\obj\Release\UKPI.Core.pdb

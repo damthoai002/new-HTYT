@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CsvTable>
+  <!-- Header index for CSV file. Data lines following header is data rows-->
+  <HeaderIndex>0</HeaderIndex>
+  <ColumnCollection>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>0</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>Column0</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">string</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index></Index>
+      <!-- Column name in CSV file -->
+      <CsvName>Sample Column 1</CsvName>
+      <!-- Column name for data table-->
+      <Name>Column1</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">int</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index></Index>
+      <!-- Column name in CSV file -->
+      <CsvName>Sample Column 2</CsvName>
+      <!-- Column name for data table-->
+      <Name>Column2</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="MMddyyyy">DateTime</DataType>
+    </Column>
+  </ColumnCollection>
+</CsvTable>

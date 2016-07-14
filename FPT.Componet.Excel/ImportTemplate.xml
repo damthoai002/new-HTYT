@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Import Template</Name>
+  <SheetCollection>
+    <Sheet>
+      <Name>Sheet 0</Name>
+      <Index>0</Index>
+      <HeaderTemplate>
+        <Property>
+          <Name>Install date</Name>
+          <TypeName>System.DateTime</TypeName>
+          <DataFormat>ddMMyyyy</DataFormat>
+          <Column>2</Column>
+          <Row>0</Row>
+        </Property>
+        <Property>
+          <Name>Update date</Name>
+          <TypeName>System.DateTime</TypeName>
+          <DataFormat>ddMMyyyy</DataFormat>
+          <Column>4</Column>
+          <Row>0</Row>
+        </Property>
+      </HeaderTemplate>
+      <LabelCollection>
+        <Label>
+          <Name>Update date</Name>
+          <Column>5</Column>
+          <Row>0</Row>
+          <Value>Update date</Value>
+        </Label>
+      </LabelCollection>
+      <Table>
+        <Name>Sample Table</Name>
+        <StartRow>2</StartRow>
+        <StartColumn>4</StartColumn>
+        <HeaderIndex>1</HeaderIndex>
+        <ColumnCollection>
+          <Column>
+            <Name>COLUMN 2</Name>
+            <TypeName>System.Int32</TypeName>
+            <DataFormat />
+            <Index>1</Index>
+            <DBName>COLUMN_DB_02</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>COLUMN 1</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>0</Index>
+            <DBName>COLUMN_DB_01</DBName>
+            <IsKey>false</IsKey>
+          </Column>
+        </ColumnCollection>
+      </Table>
+    </Sheet>
+  </SheetCollection>
+</ImportTemplate>

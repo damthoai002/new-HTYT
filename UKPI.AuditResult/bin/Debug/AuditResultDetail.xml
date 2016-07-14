@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CsvTable>
+  <!-- Header index for CSV file. Data lines following header is data rows-->
+  <HeaderIndex>0</HeaderIndex>
+  <ColumnCollection>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>0</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>AUDIT_DATE</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>1</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>STORE_ID</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>2</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>STORE_NAME</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>3</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>DISPLAY_SET</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>4</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>CATEGORY_ID</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>5</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>CATEGORY_NAME</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>6</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>RESULT</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+  </ColumnCollection>
+</CsvTable>

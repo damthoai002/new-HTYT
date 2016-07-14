@@ -1,0 +1,1623 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<HUFS>
+  <Messages>
+    <Name>frmChangeCustCode.CustomerExist</Name>
+    <Value>Khách hàng cũ không tồn tại vui lòng nhập mới</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChangeCustCode.NewCustomer</Name>
+    <Value>Chiều dài của mã khách hàng mới phải là 5</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChangeCustCode.NewCustomerExist</Name>
+    <Value>Khách hàng mới đã tồn tại {0} trong dữ liệu.Vui lòng chọn tên khác</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChangeCustCode.NewCustomer_1</Name>
+    <Value>Mã khách hàng mới phải chứa mã region</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChangeCustCode.NewCustomer_2</Name>
+    <Value>Mã khách hàng mới phải có mã region giống như khách hàng cũ</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChangeCustCode.NewCustomer_3</Name>
+    <Value>Mã khách hàng không thể đổi. Dữ liệu sẽ phục hồi lại như ban đầu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChangeCustCode.NewCustomer_4</Name>
+    <Value>Mã khách hàng phải là số không được để trống</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChangeCustCode.ChangedCustomer</Name>
+    <Value>Thay đổi mã khách hàng thành công</Value>
+  </Messages>
+  <Messages>
+    <Name>frmMain.stopImportProcess</Name>
+    <Value>Đang Import.. Quá trình import sẽ dừng khi hoàn tất</Value>
+  </Messages>
+  <Messages>
+    <Name>frmMain.Information</Name>
+    <Value>Thông tin</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.SearchDate</Name>
+    <Value>'Từ ngày' phải trước 'đến ngày'</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.Error</Name>
+    <Value>Lỗi</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.SearchKpiPromotionCompliance</Name>
+    <Value>Lỗi trong quá trình tìm Kpi Promotion Compliance</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.SearchKpiStandardPrice</Name>
+    <Value>Lỗi trong quá trình tìm Kpi standard price </Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.SearchKpiSOF</Name>
+    <Value>Lỗi trong quá trình tìm Kpi SOF </Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.SearchKpiSos</Name>
+    <Value>Lỗi trong quá trình tìm Kpi SOS</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.SearchKpiNpd</Name>
+    <Value>Lỗi trong quá trình tìm Kpi NPD </Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.RowsApproved</Name>
+    <Value> dòng đúng</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.RowsError</Name>
+    <Value> dòng sai</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.Information</Name>
+    <Value>Thông tin</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.SaveKPIFail</Name>
+    <Value>Lỗi khi lưu {0} </Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.Define_Store_And_Checklist</Name>
+    <Value>Đóng Form: Định nghĩa checklist</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmImportKPIData.WrongSheetName</Name>
+    <Value>Sai tên sheet.     </Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.NofoundChecklist</Name>
+    <Value>Không tìm thấy checklist.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.Fail</Name>
+    <Value> Sai </Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.Correct</Name>
+    <Value> Đúng </Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.Message</Name>
+    <Value> Thông Báo </Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.InputNumberOnly</Name>
+    <Value>Vui lòng nhập kiểu số</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.Error</Name>
+    <Value>Lỗi</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.Information</Name>
+    <Value>Thông Tin</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.Messages.F3Seach</Name>
+    <Value>Nhấn F3 để tìm</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.Messages.replacements</Name>
+    <Value>Thay thế </Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.Error</Name>
+    <Value>Lỗi</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.ImportFile</Name>
+    <Value>Vui lòng chọn file để import</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.ExportFail</Name>
+    <Value>Lỗi khi xuất dữ liệu KPI</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.ErrorImportKpi</Name>
+    <Value>Lỗi trong quá trình import dữ liệu KPI.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.Approve.SelectToApprove</Name>
+    <Value>Vui lòng chọn một hoặc nhiều dòng để approve.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.Reject.SelectToReject</Name>
+    <Value>Vui lòng chọn một hoặc nhiều dòng để Reject.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.Import.KpiFormatFail</Name>
+    <Value>Format của KPI {0} không đúng.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditDistributor.Import.LackColulmn</Name>
+    <Value>Thiếu Cột !</Value>
+  </Messages>
+  <!-- PhongNTT - Giong nhau tren moi ngon ngu -->
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.WrongValueVoidMT</Name>
+    <Value>Wrong {0} value. {0} must be 0 or 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.WrongValueStoreIsMTOrGT</Name>
+    <Value>Wrong {0} value. {0} must be 0 or 1 or blank.</Value>
+  </Messages>
+  <!--DongTC ShelfStandardGT-->
+  <Messages>
+    <Name>frmshelfstandardGT.CheckvailDisplay</Name>
+    <Value>{0} must be 0 or 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmshelfstandardGT.CheckvailDisplayZone</Name>
+    <Value>{0} must be 0 or 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmshelfstandardGT.CheckvailPOSM</Name>
+    <Value>{0} must be 0 or 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmshelfstandardMT.CheckvailDisplay</Name>
+    <Value>{0} must be 0 or 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmshelfstandardMT.CheckvailDisplayZone</Name>
+    <Value>{0} must be 0 or 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmshelfstandardMT.CheckvailPOSM</Name>
+    <Value>{0} must be 0 or 1.</Value>
+  </Messages>
+  <!--End-->
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.WrongValueVoidGT</Name>
+    <Value>Wrong {0} value. {0} must be blank.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.WrongValue.Store</Name>
+    <Value>Can not find {0} in the master data.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.WrongValue</Name>
+    <Value>Wrong {0} value.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.WrongValue.SubCat</Name>
+    <Value>Can not find {0} in define checklist.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.WrongValue.Product</Name>
+    <Value>Can not find {0} in define checklist.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.DuplicateRow</Name>
+    <Value>Data on row is duplication</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.NotCompatible_Store_Product</Name>
+    <Value>Product's Division is not compatible with Store Classification</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.NotCompatible_Store_Category_GT</Name>
+    <Value>Category's Division is not compatible with Store Classification.{0} must be N/A.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.NotCompatible_Store_Category_MT</Name>
+    <Value>Category's Division is not compatible with Store Classification.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.NotCompatible_Store_Category</Name>
+    <Value>Category's Division is not compatible with Store Classification.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.NotCompatible_Brand_Category</Name>
+    <Value>Brand is not compatible with Category</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.GreaterEqualZeroNumber</Name>
+    <Value>{0} must be a numeric that greater than or equal to 0</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.MustBeEqual</Name>
+    <Value>{0} must be equal to {1}</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.SubcatNotRequire</Name>
+    <Value>Sub category {0} is not required to audit on any hotspot</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.GreaterEqualTwoValue</Name>
+    <Value>{1} must be a numeric and {1} must be less than or equal to {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.GreaterEqualZeroNumberIntegers</Name>
+    <Value>{0} must be a integers that greater than or equal to 0</Value>
+  </Messages>
+  <Messages>
+    <Name>frmImportKPIData.CheckApproveData.GreaterEqualTwoValueIntegers</Name>
+    <Value>{1} must be a integers and {1} must be less than or equal to {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.StoreNotAppearOnOthersKpi</Name>
+    <Value>STORE_CODE does not appear on others KPIs of it's checklist.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.OutOfPromotionPeriod</Name>
+    <Value>Audit time is out of Promotion, {0} must be N/A.</Value>
+  </Messages>
+  <!-- END - PhongNTT - Giong nhau tren moi ngon ngu -->
+
+  <Messages>
+    <Name>frmExportUpdatedStoresAddress.Messages.Distributor</Name>
+    <Value>Vui lòng nhập 'Mã nhà phân phối' để tìm </Value>
+  </Messages>
+  <Messages>
+    <Name>frmExportKpiOption.Messages.Export</Name>
+    <Value>Xuất KPI</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.Replacing</Name>
+    <Value>Quá trình thay thế hoàn tất. Có </Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.ReplacingSameData</Name>
+    <Value> Dữ liệu tìm và thay thế giống nhau. Không có từ nào được thay thế.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.Warning.replace</Name>
+    <Value>Không thể nhập dữ liệu thay thế quá 250 ký tự</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.NotDataToExport</Name>
+    <Value>Không có dữ liệu xuất</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.SaveStoreslist</Name>
+    <Value>Vui lòng lưu danh sách stores trước khi xuất</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.TurnOver</Name>
+    <Value>Turnover phải là số.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.DefineStore</Name>
+    <Value>Đóng form:  Định nghĩa danh sách store và checklist</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.Edit_Store</Name>
+    <Value>Đóng form: Chỉnh sửa thông tin cửa hàng</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.ConfirmDeletePromotion</Name>
+    <Value>Sẽ xóa promotion tương ứng</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Inputdataforchannel</Name>
+    <Value>Bảng FPT_ENV_CHANNEL không có dữ liệu, vui lòng nhập dữ liệu cho bảng.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.ConfrimDelete</Name>
+    <Value>Xác nhận xóa</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.ConfrimOverWrite</Name>
+    <Value>Xác nhận ghi đè.</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.OverWrite</Name>
+    <Value>Bạn có chắc muốn ghi đè các dòng trùng lặp không?   </Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.PromotionEmpty</Name>
+    <Value>Không có dữ liệu promotion. Không thể lưu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.ProductOfPromotionEmpty</Name>
+    <Value>Product của Promotion: {0} không có dữ liệu. Không thể lưu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.CanNotSave</Name>
+    <Value>Không thể lưu. Vui lòng nhập dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Description</Name>
+    <Value>Mô tả không được để trống</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.DuplicationPromotion</Name>
+    <Value>Trùng Promtion: </Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.DuplicationProductOfPromotion</Name>
+    <Value>Trùng sản phẩm của promotion: </Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.ChecklistScope</Name>
+    <Value>Lưu Checklist_Scope: Không tồn tại Checklist_id cho việc lưu Checklist_scope</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.Description</Name>
+    <Value>Vui lòng nhập mô tả</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.ErrorSave</Name>
+    <Value>Lỗi: Lưu {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.StoreslistExport</Name>
+    <Value>Vui lòng chọn danh sách store cho việc xuất</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.SearchStore</Name>
+    <Value>Lỗi trong quá trình tìm kiếm store!</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.ExportChecklistSuccess</Name>
+    <Value>Hoàn thành xuất các checklist!</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.ExportChecklistError</Name>
+    <Value>Không có dữ liệu trong quá trình xuất các checklist.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.InactiveKpi</Name>
+    <Value>Checklist hiện tại đang có '{0}'. Bạn có thực sự muốn xóa '{0}'?</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStoreAndChecklist.Messages.Confirm</Name>
+    <Value>Xác nhận xóa</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDefineStores.Messages.ExportChecklistSuccess</Name>
+    <Value>Hoàn thành xuất stores!</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.general</Name>
+    <Value> Lỗi </Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.general</Name>
+    <Value>Cảnh Báo</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.general</Name>
+    <Value>Thông Báo</Value>
+  </Messages>
+  <Messages>
+    <Name>confirms.general</Name>
+    <Value>Xác Nhận</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.export.nothing</Name>
+    <Value>Khách Hàng '{0}'Đã được xuất. Vui Lòng Cập Nhật Lại Trạng Thái Nếu Bạn Muốn Xuất.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.login.ACCOUNT_NOT_EXIST</Name>
+    <Value>Tài khoảng không tồn tại</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.login.PasswordExpired</Name>
+    <Value>Mật khẩu đã hết hạn</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.login.AccoutnExpired</Name>
+    <Value>Tải khoản đã hết hạn</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.login.InvalidLogin</Name>
+    <Value>Không thể login</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.login.AcountNotActive</Name>
+    <Value>Tài khoản chưa kích hoạt</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.login.PASSWORD_WRONG</Name>
+    <Value>Sai mật khẩu</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.required</Name>
+    <Value>{0} Phải được nhập</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.Isnumeric</Name>
+    <Value>must be integer.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericIconicHPCStreet</Name>
+    <Value>Iconic Street HPC Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericIconicHPCMarket</Name>
+    <Value>Iconic Market HPC Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericIconicFoods</Name>
+    <Value>Iconic Foods Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericIconicFoodsSet</Name>
+    <Value>Iconic Foods Set must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericUrbanHPCStreet</Name>
+    <Value>Urban Street HPC Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericUrbanHPCMarket</Name>
+    <Value>Urban Market HPC Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericUrbanPC</Name>
+    <Value>Urban PC Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericUrbanFoods</Name>
+    <Value>Urban Foods Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericUrbanFoodsSet</Name>
+    <Value>Urban Foods Set must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericRuralHPCStreet</Name>
+    <Value>Rural Street HPC Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericRuralHPCMarket</Name>
+    <Value>Rural Market HPC Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericRuralHPCFoods</Name>
+    <Value>Rural Foods Shop must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.IsnumericRuralHPCFoodsSet</Name>
+    <Value>Rural Foods Set must be 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.Nodatatocopy</Name>
+    <Value>Không có dữ liệu để sao chép.     </Value>
+  </Messages>
+  <Messages>
+    <Name>copy.successful</Name>
+    <Value>Sao chép thành công.     </Value>
+  </Messages>
+  <!--DongTC frmDefineStoreAndChecklist-->
+  <Messages>
+    <Name>errors.fromdate</Name>
+    <Value>{0} phải nhỏ hơn 'Đến ngày' </Value>
+  </Messages>
+  <!--End DongTC-->
+  <Messages>
+    <Name>errors.compare.equal</Name>
+    <Value>{0} phải giống {1}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.compare.datetime</Name>
+    <Value>{0} phải trước {1}</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.Douplicate</Name>
+    <Value>  bị trùng  </Value>
+  </Messages>
+  <Messages>
+    <Name>errors.number</Name>
+    <Value>{0} phải là số.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.date</Name>
+    <Value>{0} phải là ngày.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.string</Name>
+    <Value>{0} phải là chuỗi ký tự.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.char</Name>
+    <Value>{0} phải là ký tự.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.email</Name>
+    <Value>Địa chỉ Email {0} không đúng</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.userName.exist</Name>
+    <Value>Tên người dùng đã tồn tại. Vui lòng chọn tên khác</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.string.specialChar</Name>
+    <Value>{0} không chứa các ký tự như(@, #, $, %, * ...)</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.policy.update</Name>
+    <Value>Lỗi. Có thể dữ liệu đã được đổi, vui lòng refresh lại dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.delete</Name>
+    <Value>Bạn có muốn xóa {0}?</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.closeform</Name>
+    <Value>Bạn có muốn đóng màn hình này không {0}?</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChooseProduct.ConfirmCloseform</Name>
+    <Value>Xác nhận đóng</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.Duplicateproduct</Name>
+    <Value>Sản phẩm đã tồn tại.</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.deletedatabeforecopy</Name>
+    <Value>Bạn phải xoá dữ liệu cũ trước khi sao chép dữ liệu mới.    </Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.Reject</Name>
+    <Value>Bạn có muốn bỏ {0}?</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.policy</Name>
+    <Value>Bạn phải lưu role trước khi set policy cho role</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.save</Name>
+    <Value>Bạn có muốn lưu?</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.save.success</Name>
+    <Value>Lưu thành công</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.save.importSuccess</Name>
+    <Value>Import thành công.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.save.fail</Name>
+    <Value>Không thể lưu dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.form.create</Name>
+    <Value>Tên Form không đúng. Không thể tạo form với kiểu {0} </Value>
+  </Messages>
+  <Messages>
+    <Name>messages.changepassword.success</Name>
+    <Value>Đã thay đổi mật khẩu thành công</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.changepassword.fail</Name>
+    <Value>Không thể đổi mật khẩu</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.logout</Name>
+    <Value>Bạn có muốn thoát</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.username.title</Name>
+    <Value>Tên: {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.exit</Name>
+    <Value>Bạn muốn thoát ?</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.export</Name>
+    <Value>Bạn có muốn xuất file?</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.form.alreadyopen</Name>
+    <Value>{0} đã được mở. Bạn phải đóng form con này trước khi mở {0}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.date</Name>
+    <Value>Ngày không đúng, vui lòng thử lại</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.bool</Name>
+    <Value>Vui lòng chọn Y hoặc N!</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.success</Name>
+    <Value>Lưu thành công</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.delete</Name>
+    <Value>Xóa thành công</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.noresult</Name>
+    <Value>Không tìm thấy dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.fill</Name>
+    <Value>Vui lòng điền tất cả các trường dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.available</Name>
+    <Value>Không tồn tại group nào</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.exist</Name>
+    <Value>{0} không tồn tại</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.general</Name>
+    <Value>Lỗi.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.numeric</Name>
+    <Value>{0} must be interger and > 0 </Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.select</Name>
+    <Value>Bạn phải chọn 1 dòng</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.delete.success</Name>
+    <Value>Xóa thành công</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.createfolderParam.confirm</Name>
+    <Value>Thư mục xuất các tham số không tồn tại. Bạn có muốn xuất ra ở thư mục mặc định là {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.importStore.noData</Name>
+    <Value>Không có dữ liệu để import</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.importStore.success</Name>
+    <Value>Đã Import dữ liệu của store thành công</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.exportStore.EditStore</Name>
+    <Value>Xuất dữ liệu thành công.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.importStore.ColumnError</Name>
+    <Value>Thiếu tên cột!</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.System.SystemRunning</Name>
+    <Value>KPI đang được chạy!</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.System.Noted</Name>
+    <Value>Noted</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.Wrong</Name>
+    <Value> Sai </Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.WrongValue</Name>
+    <Value> Dữ Liệu {0} không hợp lệ </Value>
+  </Messages>
+  <Messages>
+    <Name>messages.importStore.NoRow</Name>
+    <Value>Không có dòng để import.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.importStore.finishWithRowsError</Name>
+    <Value>Import dữ liệu store đã hoàn tất. Những dòng bên dưới không thể import do gặp lỗi</Value>
+  </Messages>
+  <Messages>
+    <Name>error.DefineChecklists.SomeRowLackInfo</Name>
+    <Value>Thiếu thông tin trên 1 hoặc nhiều dòng: </Value>
+  </Messages>
+  <Messages>
+    <Name>error.DefineChecklists.SaveChecklistsBeforeExport</Name>
+    <Value>Không có thông tin checklist để xuất file.</Value>
+  </Messages>
+  <Messages>
+    <Name>error.DefineChecklists.ListCheckListMustBeSave</Name>
+    <Value>Những checklist bên dưới phải lưu trước khi xuất:</Value>
+  </Messages>
+  <Messages>
+    <Name>error.DefineChecklists.SaveAllDataError</Name>
+    <Value>Lỗi khi lưu checklists </Value>
+  </Messages>
+  <Messages>
+    <Name>frmExportUpdatedStoresAddress.Search.NoResult</Name>
+    <Value>Không tìm thấy dữ liệu </Value>
+  </Messages>
+  <Messages>
+    <Name>frmExportUpdatedStoresAddress.Search.ErrorInSearching</Name>
+    <Value>Lỗi trong quá trình tìm kiếm. Vui lòng xem file log.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmExportUpdatedStoresAddress.Export.Finish</Name>
+    <Value>Hoàn tất quá trình export.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmEditStore.Nofound</Name>
+    <Value>Không tìm thấy dữ liệu phù hợp.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmEditStore.Nodata</Name>
+    <Value>Không tìm thấy dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmEditStore.StoreslistExport</Name>
+    <Value>Vui lòng chọn danh sách store cho việc xuất</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmEditStore.Checkdata</Name>
+    <Value>Turnover phải lớn hơn 0</Value>
+  </Messages>
+
+
+  <Messages>
+
+    <Name>message.FrmApproveTimesheet.Nodata</Name>
+
+    <Value>Không có dữ liệu.</Value>
+
+  </Messages>
+
+  <Messages>
+    <Name>message.FrmApproveTimesheet.LineInvalidTime</Name>
+    <Value>Lỗi nhập thời gian (giờ vào L1 {0}, giờ ra L1 {1})!</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.Messages.Approve</Name>
+    <Value>Form: Xác Nhận Chấm Công!</Value>
+  </Messages>
+
+  <Messages>
+
+    <Name>message.FrmApproveTimesheet.NoTimesheetFound</Name>
+
+    <Value>Không có dữ liệu cần lấy kết quả chấm công!</Value>
+
+  </Messages>
+  <Messages>
+    <Name>message.FrmApproveTimesheet.FromDateInvalid</Name>
+    <Value>
+      Từ ngày không phù hợp!
+    </Value>
+  </Messages>
+  <Messages>
+    <Name>message.FrmApproveTimesheet.ToDateInvalid</Name>
+    <Value>
+      Đến ngày không phù hợp!
+    </Value>
+  </Messages>
+  <Messages>
+    <Name>message.FrmApproveTimesheet.ToDateOutOfRange</Name>
+    <Value>
+      Đến ngày phải nhỏ hơn ngày {0}!
+    </Value>
+  </Messages>
+
+
+  <Messages>
+    <Name>message.FrmApproveTimesheet.MonthInvalid</Name>
+    <Value>
+      Tháng không phù hợp!
+    </Value>
+  </Messages>
+  <Messages>
+    <Name>message.FrmApproveTimesheet.NoDataFoundToRejected</Name>
+    <Value>
+      Không có dữ liệu đễ reject!
+    </Value>
+  </Messages>
+  <Messages>
+    <Name>message.FrmApproveTimesheet.ConfirmToRejected</Name>
+    <Value>
+      Bạn có chắt chắn Reject dữ liệu được chọn!
+    </Value>
+  </Messages>
+  <Messages>
+    <Name>message.FrmApproveTimesheet.WantToRejectedTS</Name>
+    <Value>
+      Bạn có chắt chắn Reject dữ liệu được chọn!
+    </Value>
+  </Messages>
+
+  <Messages>
+    <Name>message.FrmApproveTimesheet.WantToRejectedTS</Name>
+    <Value>
+      Bạn có chắc chắn Reject dữ liệu được chọn!
+    </Value>
+  </Messages>
+  <Messages>
+    <Name>Messages.frmApproveTimesheet.ApproveTS</Name>
+    <Value>Form closing: Xác Nhận Chấm Công</Value>
+  </Messages>
+  <Messages>
+    <Name>Messages.frmApproveTimesheet.Approve</Name>
+    <Value>
+      Bạn có chắc chắn xác nhận chấm công!
+    </Value>
+  </Messages>
+
+
+  <Messages>
+    <Name>message.frmImportKPIData.CheckDataTotalhotspot</Name>
+    <Value>Total targetted hotspot phải lớn hơn 0 </Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.CheckDataTotalhotspothit</Name>
+    <Value>Total hotspot hit phải lớn hơn không</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.SearchBeforeExport</Name>
+    <Value>Vui lòng Tìm KPIs trước khi xuất</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.ExportFinish</Name>
+    <Value>Hoàn tất xuất file!</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.ExportFinishWantContinueExport</Name>
+    <Value>Bạn có muốn xuất tiếp?</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.SaveAllFailKpi.Error</Name>
+    <Value>Lỗi khi lưu các KPI</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.importKPI.success</Name>
+    <Value>Đã Import dữ liệu của KPI thành công</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.ExportFailKpi.Error</Name>
+    <Value>Lỗi khi xuất dữ liệu các KPI lỗi.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.StoreDuplicate</Name>
+    <Value>STORE_CODE is duplicate row..</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.Correctdata</Name>
+    <Value>Wrong in others KPI data.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmImportKPIData.LackOfdata</Name>
+    <Value>Lack of data.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Kpi.ApplyForChecklist</Name>
+    <Value>Thời gian áp dụng checklist: </Value>
+  </Messages>
+
+  <Messages>
+    <Name>message.System.NoResult</Name>
+    <Value>Không tìm thấy dữ liệu!</Value>
+  </Messages>
+
+  <Messages>
+    <Name>message.Others.Row</Name>
+    <Value> Dòng </Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.UnsavedDataOnForm</Name>
+    <Value>Có checklist chưa được lưu. Dữ liệu sẽ bị mất khi bạn đóng form.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.SureWantToCloseTheForm</Name>
+    <Value>Bạn muốn đóng form ?</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.DataHasChanged</Name>
+    <Value>The stores's data has changed.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.WantToSaveTheChanges</Name>
+    <Value>Do you want to save the changes?</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.FileNotExists</Name>
+    <Value>File '{0}' không tồn tại.</Value>
+  </Messages>
+  <!--DongTCfrmEditStore-->
+  <Messages>
+    <Name>message.frmEditStore.FindReplace</Name>
+    <Value>Vui lòng nhập dữ liệu cần tìm.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.TestCharacter</Name>
+    <Value>Đừng nhập ký tự này! Vui lòng nhập lại.</Value>
+  </Messages>
+  <!--Import Edit Store after edit data-->
+  <Messages>
+    <Name>frmEditStore.ImportDataNullStoreID</Name>
+    <Value>Store ID  không có dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullStoreName</Name>
+    <Value>Store Name không có dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullStoreAddress</Name>
+    <Value>Store Address không có dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullDistributorCode</Name>
+    <Value>Distributor code không có dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullDistributorName</Name>
+    <Value>Distributor name không có dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullTown</Name>
+    <Value>Town không có dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullProvince</Name>
+    <Value>Province không có dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullRegion</Name>
+    <Value>Region không có dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullUrban</Name>
+    <Value>Urban không có dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullTypeofOutlet</Name>
+    <Value>Type of Outlet không có dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullLocation</Name>
+    <Value>Location không có dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullLocation</Name>
+    <Value>Location không có dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullStarclub</Name>
+    <Value>Star club không có dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullPSType</Name>
+    <Value>PS Type không có dữ liệu</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportStoreIDNotExists</Name>
+    <Value>Store ID không tồn tại</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.SaveOnGridStoreIDNotExists</Name>
+    <Value>StoreID: </Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportStoreIDExists</Name>
+    <Value>Store ID đã tồn tại</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.SaveOnGridStoreIDExists</Name>
+    <Value>StoreID: </Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportStoreIDNotExists</Name>
+    <Value>Store ID không tồn tại</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportPSTypeNotExists</Name>
+    <Value>PS Type không tồn tại</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportTurnOverFail</Name>
+    <Value>Turnover phải là số lớn hơn hoặc bằng 0.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportSaleSupIDNotExists</Name>
+    <Value>Sales Sup ID không tồn tại.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullSaleSupID</Name>
+    <Value>Sales Sup ID không có dữ liệu.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.ImportDataNullTurnover</Name>
+    <Value>Turnover không có dữ liệu.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.StoreCodeRegisterDisplay</Name>
+    <Value>Bộ trưng bày đăng ký không phù hợp với loại cửa hàng.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.StoreCodeWrongRegisterExtraDisplaySet</Name>
+    <Value>Đăng ký sai bộ trưng thêm.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.StoreCodeRegisterTwoDisplaySet</Name>
+    <Value>Không cho phép đăng ký nhiều hơn hai bộ cơ bản cho một cửa hàng.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.StoreCodeWrongUrbanOrShopFormatOrLocation</Name>
+    <Value>Store wrong value urban or classification or location.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.StoreCodeWrongValueRegisterShopType</Name>
+    <Value>Giá trị đăng ký loại cửa hàng không đúng, giá trị phải là số 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.WrongTypeOfOutlets</Name>
+    <Value>Dữ liệu của trường Urban hoặc Outlet Classification hoặc Location của StoreID</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.WrongTypeOfOutlets.Invalid</Name>
+    <Value> không hợp lệ.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.StoreNonExistMasterdata</Name>
+    <Value>Thông tin cửa hàng không tồn tại trong master data.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditStore.WrongTypeOfOutletsOnGrid</Name>
+    <Value> Urban or Outlet Classification or Location for StoreID: </Value>
+  </Messages>
+  <!--End-->
+
+  <!-- clsStore-->
+  <Messages>
+    <Name>message.clsStore.NullDistributorId</Name>
+    <Value>Không có [DISTRIBUTOR ID]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullDistributorName</Name>
+    <Value>Null [DISTRIBUTOR NAME]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullPerfectStoreID</Name>
+    <Value>Null [PERFECT STORE ID]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullPerfectStoreName</Name>
+    <Value>Null [PERFECT STORE NAME]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullSalesSupID</Name>
+    <Value>Null [SALES SUP ID]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullSalesSupName</Name>
+    <Value>Null [SALES SUP NAME]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullLocation</Name>
+    <Value>Null [LOCATION]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.ShopTypeRegister</Name>
+    <Value>Bộ trưng bày đăng ký không phù hợp với loại cửa hàng.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.IsnumericShopType</Name>
+    <Value>Giá trị đăng ký bộ trưng bày không đúng, giá trị phải là số 1.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.WrongValue</Name>
+    <Value>Wrong value.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.LacksColumn</Name>
+    <Value>Thiếu tên cột.     </Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullStoreName</Name>
+    <Value>Không có [STORE NAME]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullStoreAddress</Name>
+    <Value>Không có [STORE ADDRESS]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullTown</Name>
+    <Value>Không có [TOWN]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullProvince</Name>
+    <Value>Không có [PROVINCE]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullRegion</Name>
+    <Value>Không có [REGION]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullUrban</Name>
+    <Value>Không có [URBAN]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullTypeOfOutlet</Name>
+    <Value>Không có [TYPE OF OUTLET]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullChannel</Name>
+    <Value>Không có [CHANNEL]</Value>
+  </Messages>
+  <Messages>
+    <Name>message.clsStore.NullTurnover</Name>
+    <Value>Không có [TURNOVER]</Value>
+  </Messages>
+  <!-- End - clsStore-->
+  <!--DongTC frmDefinechecklist-->
+  <Messages>
+    <Name>message.shelfstandard.checklist.Nosave</Name>
+    <Value>Không có dữ liệu để lưu.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.shelfstandard.checklist.Delete</Name>
+    <Value>Dữ liệu checklist shelf standard đã được xóa hết.</Value>
+  </Messages>
+  <!--DongTCfrmDefineCategory-->
+  <Messages>
+    <Name>message.Others.UnsavedDataOnFormCategory</Name>
+    <Value>Có category chưa được lưu. Dữ liệu sẽ bị mất khi bạn đóng form.</Value>
+  </Messages>
+  <Messages>
+    <Name>message.Others.SureWantToCloseTheFormCategory</Name>
+    <Value>Bạn muốn đóng form ?</Value>
+  </Messages>
+  <Messages>
+    <Name>frmEditUser.CheckPhone.GreaterEqualZeroNumber</Name>
+    <Value>Số điện thoại phải là số</Value>
+  </Messages>
+  <!--End-->
+
+  <!--About Form-->
+  <Messages>
+    <Name>frmAbout.txtAboutInfo.Content</Name>
+    <Value>This software copyrighted by Unilever Viet Nam. Vendor Managed Inventory and Unilever Logos are trademarks  of the Unilever Vietnam. All rights reserved.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmAbout.txtAboutInfo.Content_seperate</Name>
+    <Value>_</Value>
+  </Messages>
+  <Messages>
+    <Name>frmAbout.lblVersion.Content</Name>
+    <Value>{0}v.{1}. Build 24-Oct-2011 1130</Value>
+  </Messages>
+  <!--End - About Form-->
+  <!-- Import Blend -->
+  <Messages>
+    <Name>ImportError.Blank</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Cell value cannot be blank.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.HeaderName</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Invalid header name in import data.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.HeaderIndex</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Invalid header column position.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.Numeric</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Cell value must be numeric.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.OutOfRange</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Numeric cell value is out of range.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.Duplicate</Name>
+    <Value>Invalid rows: Sheet[{0}] Rows [{1}]. Data is dupplicate.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.MonthFormat</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Invalid month format.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.OLNotExisted</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Outlet(store) did not exist in database.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.DTNotExisted</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Distributor did not exist in database.</Value>
+  </Messages>
+  <Messages>
+    <Name>ImportError.Unknown</Name>
+    <Value>Invalid cell at Sheet[{0}] Row [{1}] Column [{2}]. Unknown error has occurred. Please check application configuration.</Value>
+  </Messages>
+  <!-- End Import Blend -->
+  <Messages>
+    <Name>errors.required.FileName</Name>
+    <Value>Filename is required. Please select a file.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.validate.Failed</Name>
+    <Value>Data validation failed. Please view import report/log file for more details.</Value>
+  </Messages>
+  <Messages>
+    <Name>warning.export.LackChannel</Name>
+    <Value>Please choose Channel.</Value>
+  </Messages>warning
+  <Messages>
+    <Name>warning.export.LackRegion</Name>
+    <Value>Please choose Region.</Value>
+  </Messages>warning
+  <Messages>
+    <Name>warning.export.LackProvince</Name>
+    <Value>Please choose Province.</Value>
+  </Messages>warning
+  <Messages>
+    <Name>warning.export.LackDistributor</Name>
+    <Value>Please choose Store ID.</Value>
+  </Messages>warning
+  <Messages>
+    <Name>errors.file.inused</Name>
+    <Value>Cannot open file "{0}". This file is opened by another application.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.unknown</Name>
+    <Value>An unknown error has occurred in the application. Please see log file for more details.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.validate.success</Name>
+    <Value>File has been validated and loaded successfully.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.export.success</Name>
+    <Value>Data has been exported successfully.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.export.file</Name>
+    <Value>Cannot save data to file "{0}".</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmDefineStoresListForAudit.Nodata</Name>
+    <Value>Vui lòng chọn danh sách cửa hàng trước khi lưu</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmDefineStoresListForAudit.NodataToExport</Name>
+    <Value>Vui lòng chọn danh sách cửa hàng trước khi xuất</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.numericoverflow</Name>
+    <Value>Số quá lớn</Value>
+  </Messages>
+  <Messages>
+    <Name>message.frmDefineStoresListForAudit.NoStore</Name>
+    <Value>Không tìm thấy store</Value>
+  </Messages>
+  <Messages>
+    <Name>message.DefineCheckListFrm.ExportComplete</Name>
+    <Value>Xuất dữ liệu hoàn tất</Value>
+  </Messages>
+  <Messages>
+    <Name>Validate.KPI.DataExisted</Name>
+    <Value>Dữ liệu trong tập tin này đã tồn tại trong cơ sở dữ liệu.</Value>
+  </Messages>
+  <!--Add By KienTNT-->
+  <Messages>
+    <Name>ConfigException.WasSent</Name>
+    <Value>"The {0} were sent"</Value>
+  </Messages>
+  <Messages>
+    <Name>ConfigException.AddDuplicateStore</Name>
+    <Value>StoreCode đã tồn tại.StoreCode: {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>ConfigException.SaveExceptionFail</Name>
+    <Value>Không thể cập nhật những Exception mới.Vui Lòng xem log file để biết thêm chi tiết</Value>
+  </Messages>
+  <Messages>
+    <Name>ConfigException.SaveExceptionSuccess</Name>
+    <Value>Cập nhật những Exception mới đã thành công</Value>
+  </Messages>
+  <Messages>
+    <Name>ConfigException.SendExceptionFail</Name>
+    <Value>Việc gửi Turn-Over Exception thật bại.Vui Lòng xem log file để biết thêm chi tiết</Value>
+  </Messages>
+  <Messages>
+    <Name>ConfigException.SendExceptionSuccess</Name>
+    <Value>Gửi Exception đã thành công.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChooseStore.DuplicateSelectedStore</Name>
+    <Value>StoreCode đã tồn tại</Value>
+  </Messages>
+  <Messages>
+    <Name>frmChooseStore.EmptySelectedOK</Name>
+    <Value>Vui lòng chọn store để thêm Exception</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.FrmCreateTimesheet.WantToContinue</Name>
+    <Value>Lịch Làm Việc Đã Tồn Tại.  Bạn Có Muốn Tạo Lại không?</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.Waring</Name>
+    <Value>Bạn có muốn xác nhận không ?</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.Title</Name>
+    <Value>Cảnh báo</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmNghiPhep.Waring</Name>
+    <Value>Từ ngày > Đến ngày .Hãy nhập lại</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmNghiPhep.Waring1</Name>
+    <Value> Đến ngày nhỏ hơn Từ ngày .Hãy nhập lại</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.frmNghiPhep.Title</Name>
+    <Value>Cảnh báo</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.Success</Name>
+    <Value> Dữ liệu đã được cập nhật thành công</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.SuccessTitle</Name>
+    <Value>Thông tin</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.Error</Name>
+    <Value> Có lỗi trong quá trình cập nhật dữ liệu</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.ErrorTitle</Name>
+    <Value>Lỗi</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.CheckValidSoLuong</Name>
+    <Value>Số lượng thuốc không hợp lệ .Vui lòng nhập lại</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmKhamBenh.CheckValidGia</Name>
+    <Value>Giá thuốc không hợp lệ .Vui lòng nhập lại</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.frmKhamBenh.CheckValidDonThuoc</Name>
+    <Value>Đơn thuốc không hợp lệ. Không thể xác nhận đơn thuốc</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.frmKhamBenh.CheckValidThongTinNhanVien</Name>
+    <Value>Thông tin nhân viên không hợp lệ</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.frmKhamBenh.CheckSoLuongTrongKho</Name>
+    <Value> không còn trong kho</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.frmKhamBenh.CheckTrungLapThuoc</Name>
+    <Value>Thông tin thuốc bị trùng lặp.Vui lòng kiểm tra lại</Value>
+  </Messages>
+
+
+
+
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.Title</Name>
+    <Value>Cảnh báo</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.Success</Name>
+    <Value> Dữ liệu đã được cập nhật thành công</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.SuccessTitle</Name>
+    <Value>Thông tin</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.Error</Name>
+    <Value> Có lỗi trong quá trình cập nhật dữ liệu</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.ErrorTitle</Name>
+    <Value>Lỗi</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.CheckValidSoLuong</Name>
+    <Value>Số lượng thuốc không hợp lệ .Vui lòng nhập lại</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.CheckTrungLapThuoc</Name>
+    <Value>Thông tin thuốc bị trùng lặp.Vui lòng kiểm tra lại</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.CheckTrungLapThuoc1</Name>
+    <Value>Thuốc đã được chọn. Bạn vui lòng chọn thuốc khác</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.CheckHanSuDungThuoc</Name>
+    <Value>Bạn vui lòng nhập hạn sử dụng thuốc</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.ValidateThongSoNhapKho</Name>
+    <Value>Bạn vui lòng nhập thông tin bắt buộc</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.CheckValidGiaSauThue</Name>
+    <Value>Thông tin giá sau thuế không hợp lệ</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.CheckValidGiaTruocThue</Name>
+    <Value>Thông tin giá trước thuế không hợp lệ</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.CheckValidGiaMua</Name>
+    <Value>Thông tin giá thời điểm nhập không hợp lệ</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.frmnhapkhothuoc.WarningMessage</Name>
+    <Value>Bạn có chắt chắn muốn nhập kho?</Value>
+  </Messages>
+  
+  
+  <Messages>
+    <Name>messages.frmKhamBenh.CheckTrungLapThuoc1</Name>
+    <Value>Thuốc đã được chọn. Bạn vui lòng chọn thuốc khác</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmXuatKho.CheckTrungLapThuoc1</Name>
+    <Value>Thuốc đã được chọn. Bạn vui lòng chọn thuốc khác</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmXuatKho.CheckTrungLapThuoc1</Name>
+    <Value>Thuốc đã được chọn. Bạn vui lòng chọn thuốc khác</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmdanhmucthuoc.Success</Name>
+    <Value> Dữ liệu đã được cập nhật thành công</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmdanhmucthuoc.SuccessTitle</Name>
+    <Value>Thông tin</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmdanhmucthuoc.Error</Name>
+    <Value> Có lỗi trong quá trình cập nhật dữ liệu</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmdanhmucthuoc.ErrorTitle</Name>
+    <Value>Lỗi</Value>
+  </Messages>
+
+
+  <Messages>
+    <Name>messages.frmChinhSachGia.Success</Name>
+    <Value> Dữ liệu đã được cập nhật thành công</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGia.SuccessTitle</Name>
+    <Value>Thông tin</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGia.Error</Name>
+    <Value> Có lỗi trong quá trình cập nhật dữ liệu</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGia.ErrorTitle</Name>
+    <Value>Lỗi</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGia.NgayBatDau</Name>
+    <Value> Ngày bắt đầu lớn hơn ngày kết thúc</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGia.NgayKetThuc</Name>
+    <Value> Ngày kết thúc lớn hơn ngày bắt đầu</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGia.NgayHetHan</Name>
+    <Value> Ngày hết hạn không hợp lệ</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGia.TenChinhSachGia</Name>
+    <Value> Hãy nhập tên chính sách giá</Value>
+  </Messages>
+
+
+
+
+  <Messages>
+    <Name>messages.frmChinhSachGiaChiTiet.CheckTrungLapThuoc1</Name>
+    <Value>Thuốc đã được chọn. Bạn vui lòng chọn thuốc khác</Value>
+  </Messages>
+
+
+  <Messages>
+    <Name>messages.frmChinhSachGiaChiTiet.Success</Name>
+    <Value> Dữ liệu đã được cập nhật thành công</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGiaChiTiet.SuccessTitle</Name>
+    <Value>Thông tin</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGiaChiTiet.Error</Name>
+    <Value> Có lỗi trong quá trình cập nhật dữ liệu</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGiaChiTiet.ErrorTitle</Name>
+    <Value>Lỗi</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmChinhSachGiaChiTiet.CheckTrungLapThuoc</Name>
+    <Value>Thông tin thuốc bị trùng lặp.Vui lòng kiểm tra lại</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.frmKhambenh.frmKhambenh</Name>
+    <Value>KHÁM BỆNH CÓ BẢO HIỂM</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmSearchNhanVien.ErrorTitle</Name>
+    <Value>Lỗi</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.frmSearchNhanVien.SelectNhanVien</Name>
+    <Value>Bạn chưa chọn nhân viên</Value>
+  </Messages>
+</HUFS>

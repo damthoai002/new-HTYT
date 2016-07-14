@@ -1,0 +1,17 @@
+D:\new HTYT\UKPI.BlendedReport\bin\Release\Library\EPPlusXmlDocumentationFile.xml
+D:\new HTYT\UKPI.BlendedReport\bin\Release\Library\EPPlus_License.txt
+D:\new HTYT\UKPI.BlendedReport\bin\Release\Library\Ionic_Utils_Zip_license.txt
+D:\new HTYT\UKPI.BlendedReport\bin\Release\Library\NPOI_License.txt
+D:\new HTYT\UKPI.BlendedReport\bin\Release\BlendConfig.xml
+D:\new HTYT\UKPI.BlendedReport\bin\Release\UKPI.BlendedReport.dll
+D:\new HTYT\UKPI.BlendedReport\bin\Release\UKPI.BlendedReport.pdb
+D:\new HTYT\UKPI.BlendedReport\bin\Release\FPT.Component.ExcelPlus.dll
+D:\new HTYT\UKPI.BlendedReport\bin\Release\NPOI.dll
+D:\new HTYT\UKPI.BlendedReport\bin\Release\EPPlus.dll
+D:\new HTYT\UKPI.BlendedReport\bin\Release\Interop.Excel.dll
+D:\new HTYT\UKPI.BlendedReport\bin\Release\Ionic.Zip.dll
+D:\new HTYT\UKPI.BlendedReport\bin\Release\FPT.Component.ExcelPlus.pdb
+D:\new HTYT\UKPI.BlendedReport\bin\Release\EPPlus.xml
+D:\new HTYT\UKPI.BlendedReport\obj\Release\UKPI.BlendedReport.csprojResolveAssemblyReference.cache
+D:\new HTYT\UKPI.BlendedReport\obj\Release\UKPI.BlendedReport.dll
+D:\new HTYT\UKPI.BlendedReport\obj\Release\UKPI.BlendedReport.pdb

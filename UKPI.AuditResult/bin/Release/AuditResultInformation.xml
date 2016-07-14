@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CsvTable>
+  <!-- Header index for CSV file. Data lines following header is data rows-->
+  <HeaderIndex>0</HeaderIndex>
+  <ColumnCollection>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>0</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>AUDIT_DATE</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>1</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>STORE_ID</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>2</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>STORE_NAME</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>3</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>PS_COMPL</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>4</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>OSA_COMPL</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>5</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>NPD_COMPL</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>6</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>SOS_COMPL</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>7</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>SHELF_STD_COMPL</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>8</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>SOF_COMPL</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>9</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>PRO_COMPL</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>10</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>CTA_COMPL</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>11</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>SHOP_NO</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>12</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>MARKET</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>13</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>STREET_NO</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>14</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>STREET_NAME</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>15</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>WARD</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>16</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>TOWN</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>17</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>CITY</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>18</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>PROVINCE</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>19</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>LATITUDE</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>20</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>LONGITUDE</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+    <Column>
+      <!-- Index in CSV file -->
+      <Index>21</Index>
+      <!-- Column name in CSV file -->
+      <CsvName></CsvName>
+      <!-- Column name for data table-->
+      <Name>AUDIT_STATUS</Name>
+      <!-- Column data type in CSV file -->
+      <DataType format="">System.String</DataType>
+    </Column>
+  </ColumnCollection>
+</CsvTable>

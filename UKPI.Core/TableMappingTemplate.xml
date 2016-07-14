@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tables>
+  <Mapping>
+    <SourceColumn></SourceColumn>
+    <DestinationColumn></DestinationColumn>
+    <DataType></DataType>
+  </Mapping>
+  <Mapping>
+    <SourceColumn></SourceColumn>
+    <DestinationColumn></DestinationColumn>
+    <DataType></DataType>
+  </Mapping>
+</Tables>

@@ -1,0 +1,1644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Import KPI</Name>
+  <UseSheetIndex>false</UseSheetIndex>
+  <SheetCollection>
+    <Sheet>
+      <Name>OSA</Name>
+      <Index>0</Index>
+      <HeaderTemplate>
+        <Property>
+          <Name>ChecklistPeriod</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat>yyyyMM</DataFormat>
+          <Column>4</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>ChannelCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>2</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>RegionCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>3</Column>
+          <Row>1</Row>
+        </Property>
+      </HeaderTemplate>
+      <LabelCollection>
+        <Label>
+          <Name>Label1</Name>
+          <Column>1</Column>
+          <Row>1</Row>
+          <Value>Apply for checklist period:</Value>
+        </Label>
+      </LabelCollection>
+      <Table>
+        <Name>FPT_ENV_KPI_OSA</Name>
+        <StartRow>4</StartRow>
+        <StartColumn>1</StartColumn>
+        <HeaderIndex>3</HeaderIndex>
+        <ColumnCollection>
+          <Column>
+            <Name>Time period (Date)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat>yyyyMMdd</DataFormat>
+            <Index>1</Index>
+            <DBName>AUDIT_DATE</DBName>
+          </Column>
+          <Column>
+            <Name>Time</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat>H:mm</DataFormat>
+            <Index>2</Index>
+            <DBName>TIME</DBName>
+          </Column>
+          <Column>
+            <Name>Store_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>3</Index>
+            <DBName>STORE_CODE</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Store_name</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>4</Index>
+            <DBName>STORE_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Product_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>5</Index>
+            <DBName>PRODUCT_ID</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Product_name</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>6</Index>
+            <DBName>PRODUCT_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>PROMOTION_ITEM_INDICATOR(1/0)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>7</Index>
+            <DBName>PROMOTION_INDICATOR</DBName>
+          </Column>
+          <Column>
+            <Name>PEAK_OFF_PEAK(1/0)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>8</Index>
+            <DBName>PEAK_OFF_PEAK</DBName>
+          </Column>
+          <Column>
+            <Name>OSA (1/0)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>9</Index>
+            <DBName>OSA</DBName>
+          </Column>
+          <Column>
+            <Name>VOID (1/0/Blank)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>10</Index>
+            <DBName>VOID</DBName>
+          </Column>
+          <Column>
+            <Name>Report of month</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>11</Index>
+            <DBName>REPORT_MONTH</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+        </ColumnCollection>
+      </Table>
+    </Sheet>
+    <Sheet>
+      <Name>NPD</Name>
+      <Index>0</Index>
+      <HeaderTemplate>
+        <Property>
+          <Name>ChecklistPeriod</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat>yyyyMM</DataFormat>
+          <Column>4</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>ChannelCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>2</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>RegionCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>3</Column>
+          <Row>1</Row>
+        </Property>
+      </HeaderTemplate>
+      <LabelCollection>
+        <Label>
+          <Name>Label1</Name>
+          <Column>1</Column>
+          <Row>1</Row>
+          <Value>Apply for checklist period:</Value>
+        </Label>
+      </LabelCollection>
+      <Table>
+        <Name>FPT_ENV_KPI_NPD</Name>
+        <StartRow>4</StartRow>
+        <StartColumn>1</StartColumn>
+        <HeaderIndex>3</HeaderIndex>
+        <ColumnCollection>
+          <Column>
+            <Name>Period</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat>yyyyMMdd</DataFormat>
+            <Index>1</Index>
+            <DBName>AUDIT_DATE</DBName>
+          </Column>
+          <Column>
+            <Name>Store_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>2</Index>
+            <DBName>STORE_CODE</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Store_name</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>3</Index>
+            <DBName>STORE_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Product_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>4</Index>
+            <DBName>PRODUCT_ID</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Product_name</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>5</Index>
+            <DBName>PRODUCT_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>NPD(1/0/NA)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>6</Index>
+            <DBName>NPD</DBName>
+          </Column>
+          <Column>
+            <Name>Month of Report</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>7</Index>
+            <DBName>REPORT_MONTH</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+        </ColumnCollection>
+      </Table>
+    </Sheet>
+    <Sheet>
+      <Name>Promotion Compliance</Name>
+      <Index>0</Index>
+      <HeaderTemplate>
+        <Property>
+          <Name>ChecklistPeriod</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat>yyyyMM</DataFormat>
+          <Column>4</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>ChannelCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>2</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>RegionCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>3</Column>
+          <Row>1</Row>
+        </Property>
+      </HeaderTemplate>
+      <LabelCollection>
+        <Label>
+          <Name>Label1</Name>
+          <Column>1</Column>
+          <Row>1</Row>
+          <Value>Apply for checklist period:</Value>
+        </Label>
+      </LabelCollection>
+      <Table>
+        <Name>FPT_ENV_KPI_PROMOTION_COMPLIANCE</Name>
+        <StartRow>4</StartRow>
+        <StartColumn>1</StartColumn>
+        <HeaderIndex>3</HeaderIndex>
+        <ColumnCollection>
+          <Column>
+            <Name>Period</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat>yyyyMMdd</DataFormat>
+            <Index>1</Index>
+            <DBName>AUDIT_DATE</DBName>
+          </Column>
+          <Column>
+            <Name>Store_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>2</Index>
+            <DBName>STORE_CODE</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Store_name</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>3</Index>
+            <DBName>STORE_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Product_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>4</Index>
+            <DBName>PRODUCT_ID</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Product_name</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>5</Index>
+            <DBName>PRODUCT_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Brand_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>6</Index>
+            <DBName>BRAND_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Brand</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>7</Index>
+            <DBName>BRAND_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Sector_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>8</Index>
+            <DBName>SECTOR_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Sector</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>9</Index>
+            <DBName>SECTOR_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Market_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>10</Index>
+            <DBName>MARKET_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Market</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>11</Index>
+            <DBName>MARKET_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Category_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>12</Index>
+            <DBName>CATEGORY_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Category</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>13</Index>
+            <DBName>CAT_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Promotion compliance (1/0/NA)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>14</Index>
+            <DBName>PROMOTION_COMPLIANCE</DBName>
+          </Column>
+          <Column>
+            <Name>Month of Report</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>15</Index>
+            <DBName>REPORT_MONTH</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+        </ColumnCollection>
+      </Table>
+    </Sheet>
+    <Sheet>
+      <Name>Standard Price</Name>
+      <Index>0</Index>
+      <HeaderTemplate>
+        <Property>
+          <Name>ChecklistPeriod</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat>yyyyMM</DataFormat>
+          <Column>4</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>ChannelCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>2</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>RegionCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>3</Column>
+          <Row>1</Row>
+        </Property>
+      </HeaderTemplate>
+      <LabelCollection>
+        <Label>
+          <Name>Label1</Name>
+          <Column>1</Column>
+          <Row>1</Row>
+          <Value>Apply for checklist period:</Value>
+        </Label>
+      </LabelCollection>
+      <Table>
+        <Name>FPT_ENV_KPI_STD_PRICE</Name>
+        <StartRow>4</StartRow>
+        <StartColumn>1</StartColumn>
+        <HeaderIndex>3</HeaderIndex>
+        <ColumnCollection>
+          <Column>
+            <Name>Period</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat>yyyyMMdd</DataFormat>
+            <Index>1</Index>
+            <DBName>AUDIT_DATE</DBName>
+          </Column>
+          <Column>
+            <Name>Store_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>2</Index>
+            <DBName>STORE_CODE</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Store_name</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>3</Index>
+            <DBName>STORE_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Product_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>4</Index>
+            <DBName>PRODUCT_ID</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Product_name</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>5</Index>
+            <DBName>PRODUCT_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Recommended Resale Price(Numeric)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>6</Index>
+            <DBName>RESALE_PRICE</DBName>
+          </Column>
+          <Column>
+            <Name>Month of Report</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>7</Index>
+            <DBName>REPORT_MONTH</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+        </ColumnCollection>
+      </Table>
+    </Sheet>
+    <Sheet>
+      <Name>SOS</Name>
+      <Index>0</Index>
+      <HeaderTemplate>
+        <Property>
+          <Name>ChecklistPeriod</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat>yyyyMM</DataFormat>
+          <Column>4</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>ChannelCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>2</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>RegionCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>3</Column>
+          <Row>1</Row>
+        </Property>
+      </HeaderTemplate>
+      <LabelCollection>
+        <Label>
+          <Name>Label1</Name>
+          <Column>1</Column>
+          <Row>1</Row>
+          <Value>Apply for checklist period:</Value>
+        </Label>
+      </LabelCollection>
+      <Table>
+        <Name>FPT_ENV_KPI_SOS</Name>
+        <StartRow>4</StartRow>
+        <StartColumn>1</StartColumn>
+        <HeaderIndex>3</HeaderIndex>
+        <ColumnCollection>
+          <Column>
+            <Name>Period</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat>yyyyMMdd</DataFormat>
+            <Index>1</Index>
+            <DBName>AUDIT_DATE</DBName>
+          </Column>
+          <Column>
+            <Name>Store_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>2</Index>
+            <DBName>STORE_CODE</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Store_name</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>3</Index>
+            <DBName>STORE_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Brand_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>4</Index>
+            <DBName>BRAND_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Brand</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>5</Index>
+            <DBName>BRAND_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Sector_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>6</Index>
+            <DBName>SECTOR_ID</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Sector</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>7</Index>
+            <DBName>SECTOR_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Market_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>8</Index>
+            <DBName>MARKET_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Market</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>9</Index>
+            <DBName>MARKET_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Category_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>10</Index>
+            <DBName>CATEGORY_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Category</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>11</Index>
+            <DBName>CAT_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Total Category length (in meters)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>12</Index>
+            <DBName>TOTAL_CAT</DBName>
+          </Column>
+          <Column>
+            <Name>Actual Unilever length (in meters)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>13</Index>
+            <DBName>ACTUAL_ULV</DBName>
+          </Column>
+          <Column>
+            <Name>Month of Report</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>14</Index>
+            <DBName>REPORT_MONTH</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+        </ColumnCollection>
+      </Table>
+    </Sheet>
+    <Sheet>
+      <Name>SOF</Name>
+      <Index>0</Index>
+      <HeaderTemplate>
+        <Property>
+          <Name>ChecklistPeriod</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat>yyyyMM</DataFormat>
+          <Column>4</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>ChannelCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>2</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>RegionCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>3</Column>
+          <Row>1</Row>
+        </Property>
+      </HeaderTemplate>
+      <LabelCollection>
+        <Label>
+          <Name>Label1</Name>
+          <Column>1</Column>
+          <Row>1</Row>
+          <Value>Apply for checklist period:</Value>
+        </Label>
+      </LabelCollection>
+      <Table>
+        <Name>FPT_ENV_KPI_SOF</Name>
+        <StartRow>4</StartRow>
+        <StartColumn>1</StartColumn>
+        <HeaderIndex>3</HeaderIndex>
+        <ColumnCollection>
+          <Column>
+            <Name>Period</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat>yyyyMMdd</DataFormat>
+            <Index>1</Index>
+            <DBName>AUDIT_DATE</DBName>
+          </Column>
+          <Column>
+            <Name>Store_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>2</Index>
+            <DBName>STORE_CODE</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Store_name</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>3</Index>
+            <DBName>STORE_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Brand_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>4</Index>
+            <DBName>BRAND_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Brand</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>5</Index>
+            <DBName>BRAND_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Sector_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>6</Index>
+            <DBName>SECTOR_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Sector</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>7</Index>
+            <DBName>SECTOR_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Market_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>8</Index>
+            <DBName>MARKET_ID</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Market</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>9</Index>
+            <DBName>MARKET_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Category_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>10</Index>
+            <DBName>CATEGORY_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Category</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>11</Index>
+            <DBName>CAT_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Total Category spots(Numeric/NA)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>12</Index>
+            <DBName>TOTAL_CAT_SPOT</DBName>
+          </Column>
+          <Column>
+            <Name>Total Unilever brand spots(Numeric/NA)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>13</Index>
+            <DBName>ULV_BRAND_SPOT</DBName>
+          </Column>
+          <Column>
+            <Name>Month of Report</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>14</Index>
+            <DBName>REPORT_MONTH</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+        </ColumnCollection>
+      </Table>
+    </Sheet>
+    <Sheet>
+      <Name>CTA</Name>
+      <Index>0</Index>
+      <HeaderTemplate>
+        <Property>
+          <Name>ChecklistPeriod</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat>yyyyMM</DataFormat>
+          <Column>4</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>ChannelCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>2</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>RegionCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>3</Column>
+          <Row>1</Row>
+        </Property>
+      </HeaderTemplate>
+      <LabelCollection>
+        <Label>
+          <Name>Label1</Name>
+          <Column>1</Column>
+          <Row>1</Row>
+          <Value>Apply for checklist period:</Value>
+        </Label>
+      </LabelCollection>
+      <Table>
+        <Name>FPT_ENV_KPI_CTA</Name>
+        <StartRow>4</StartRow>
+        <StartColumn>1</StartColumn>
+        <HeaderIndex>3</HeaderIndex>
+        <ColumnCollection>
+          <Column>
+            <Name>Period</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat>yyyyMMdd</DataFormat>
+            <Index>1</Index>
+            <DBName>AUDIT_DATE</DBName>
+          </Column>
+          <Column>
+            <Name>Store_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>2</Index>
+            <DBName>STORE_CODE</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Store_name</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>3</Index>
+            <DBName>STORE_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Brand_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>4</Index>
+            <DBName>BRAND_ID</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Brand</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>5</Index>
+            <DBName>BRAND_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Sector_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>6</Index>
+            <DBName>SECTOR_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Sector</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>7</Index>
+            <DBName>SECTOR_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Market_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>8</Index>
+            <DBName>MARKET_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Market</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>9</Index>
+            <DBName>MARKET_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Category_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>10</Index>
+            <DBName>CATEGORY_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Category</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>11</Index>
+            <DBName>CAT_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Calltoaction(1/0)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>12</Index>
+            <DBName>CTA</DBName>
+          </Column>
+          <Column>
+            <Name>Month of Report</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>13</Index>
+            <DBName>REPORT_MONTH</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+        </ColumnCollection>
+      </Table>
+    </Sheet>
+    <Sheet>
+      <Name>SSMT</Name>
+      <Index>0</Index>
+      <HeaderTemplate>
+        <Property>
+          <Name>ChecklistPeriod</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat>yyyyMM</DataFormat>
+          <Column>4</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>ChannelCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>2</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>RegionCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>3</Column>
+          <Row>1</Row>
+        </Property>
+      </HeaderTemplate>
+      <LabelCollection>
+        <Label>
+          <Name>Label1</Name>
+          <Column>1</Column>
+          <Row>1</Row>
+          <Value>Apply for checklist period:</Value>
+        </Label>
+      </LabelCollection>
+      <Table>
+        <Name>FPT_ENV_KPI_SSMT</Name>
+        <StartRow>4</StartRow>
+        <StartColumn>1</StartColumn>
+        <HeaderIndex>3</HeaderIndex>
+        <ColumnCollection>
+          <Column>
+            <Name>Period</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat>yyyyMMdd</DataFormat>
+            <Index>1</Index>
+            <DBName>AUDIT_DATE</DBName>
+          </Column>
+          <Column>
+            <Name>Store_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>2</Index>
+            <DBName>STORE_CODE</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Store_name</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>3</Index>
+            <DBName>STORE_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Brand_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>4</Index>
+            <DBName>BRAND_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Brand</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>5</Index>
+            <DBName>BRAND_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Sector_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>6</Index>
+            <DBName>SECTOR_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Sector</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>7</Index>
+            <DBName>SECTOR_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Market_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>8</Index>
+            <DBName>MARKET_ID</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Market</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>9</Index>
+            <DBName>MARKET_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Category_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>10</Index>
+            <DBName>CATEGORY_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Category</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>11</Index>
+            <DBName>CAT_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Shelf standard (1/0/NA)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>12</Index>
+            <DBName>SHELF_STANDARD</DBName>
+          </Column>
+          <Column>
+            <Name>Month of Report</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>13</Index>
+            <DBName>REPORT_MONTH</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+        </ColumnCollection>
+      </Table>
+    </Sheet>
+    <Sheet>
+      <Name>SSGT</Name>
+      <Index>0</Index>
+      <HeaderTemplate>
+        <Property>
+          <Name>ChecklistPeriod</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat>yyyyMM</DataFormat>
+          <Column>4</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>ChannelCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>2</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>RegionCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>3</Column>
+          <Row>1</Row>
+        </Property>
+      </HeaderTemplate>
+      <LabelCollection>
+        <Label>
+          <Name>Label1</Name>
+          <Column>1</Column>
+          <Row>1</Row>
+          <Value>Apply for checklist period:</Value>
+        </Label>
+      </LabelCollection>
+      <Table>
+        <Name>FPT_ENV_KPI_SSGT</Name>
+        <StartRow>4</StartRow>
+        <StartColumn>1</StartColumn>
+        <HeaderIndex>3</HeaderIndex>
+        <ColumnCollection>
+          <Column>
+            <Name>Period</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat>yyyyMMdd</DataFormat>
+            <Index>1</Index>
+            <DBName>AUDIT_DATE</DBName>
+          </Column>
+          <Column>
+            <Name>Store_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>2</Index>
+            <DBName>STORE_CODE</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Store_name</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>3</Index>
+            <DBName>STORE_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Store_Loc_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>4</Index>
+            <DBName>STORE_LOC_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Store Location</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>5</Index>
+            <DBName>STORE_LOC_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Brand_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>6</Index>
+            <DBName>BRAND_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Brand</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>7</Index>
+            <DBName>BRAND_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Sector_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>8</Index>
+            <DBName>SECTOR_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Sector</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>9</Index>
+            <DBName>SECTOR_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Market_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>10</Index>
+            <DBName>MARKET_ID</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Market</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>11</Index>
+            <DBName>MARKET_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Category_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>12</Index>
+            <DBName>CATEGORY_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Category</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>13</Index>
+            <DBName>CAT_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Display Quantity (1/0/NA)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>14</Index>
+            <DBName>DISPLAY_QUANTITY</DBName>
+          </Column>
+          <Column>
+            <Name>Display Order (1/0/NA)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>15</Index>
+            <DBName>DISPLAY_ORDER</DBName>
+          </Column>
+          <Column>
+            <Name>Display Zone (1/0/NA)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>16</Index>
+            <DBName>DISPLAY_ZONE</DBName>
+          </Column>
+          <Column>
+            <Name>POSM (1/0/NA)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>17</Index>
+            <DBName>POSM</DBName>
+          </Column>
+          <Column>
+            <Name>Display Result (1/0/NA)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>18</Index>
+            <DBName>DISPLAY_RESULT</DBName>
+          </Column>
+          <Column>
+            <Name>Month of Report</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>19</Index>
+            <DBName>REPORT_MONTH</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+        </ColumnCollection>
+      </Table>
+    </Sheet>
+    <Sheet>
+      <Name>Share of Gondola</Name>
+      <Index>0</Index>
+      <HeaderTemplate>
+        <Property>
+          <Name>ChecklistPeriod</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat>yyyyMM</DataFormat>
+          <Column>4</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>ChannelCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>2</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>RegionCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>3</Column>
+          <Row>1</Row>
+        </Property>
+      </HeaderTemplate>
+      <LabelCollection>
+        <Label>
+          <Name>Label1</Name>
+          <Column>1</Column>
+          <Row>1</Row>
+          <Value>Apply for checklist period:</Value>
+        </Label>
+      </LabelCollection>
+      <Table>
+        <Name>FPT_ENV_KPI_SOG</Name>
+        <StartRow>4</StartRow>
+        <StartColumn>1</StartColumn>
+        <HeaderIndex>3</HeaderIndex>
+        <ColumnCollection>
+          <Column>
+            <Name>Period</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat>yyyyMMdd</DataFormat>
+            <Index>1</Index>
+            <DBName>AUDIT_DATE</DBName>
+          </Column>
+          <Column>
+            <Name>Store_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>2</Index>
+            <DBName>STORE_CODE</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Store_name</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>3</Index>
+            <DBName>STORE_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Brand_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>4</Index>
+            <DBName>BRAND_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Brand</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>5</Index>
+            <DBName>BRAND_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Sector_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>6</Index>
+            <DBName>SECTOR_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Sector</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>7</Index>
+            <DBName>SECTOR_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Market_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>8</Index>
+            <DBName>MARKET_ID</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Market</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>9</Index>
+            <DBName>MARKET_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Category_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>10</Index>
+            <DBName>CATEGORY_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Category</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>11</Index>
+            <DBName>CAT_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Total(Numeric)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>12</Index>
+            <DBName>TOTAL</DBName>
+          </Column>
+          <Column>
+            <Name>Actual Unilever(Numeric)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>13</Index>
+            <DBName>ACTUAL_UL</DBName>
+          </Column>
+          <Column>
+            <Name>Month of Report</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>14</Index>
+            <DBName>REPORT_MONTH</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+        </ColumnCollection>
+      </Table>
+    </Sheet>
+    <Sheet>
+      <Name>Share of Secondary Stand</Name>
+      <Index>0</Index>
+      <HeaderTemplate>
+        <Property>
+          <Name>ChecklistPeriod</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat>yyyyMM</DataFormat>
+          <Column>4</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>ChannelCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>2</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>RegionCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>3</Column>
+          <Row>1</Row>
+        </Property>
+      </HeaderTemplate>
+      <LabelCollection>
+        <Label>
+          <Name>Label1</Name>
+          <Column>1</Column>
+          <Row>1</Row>
+          <Value>Apply for checklist period:</Value>
+        </Label>
+      </LabelCollection>
+      <Table>
+        <Name>FPT_ENV_KPI_SSD</Name>
+        <StartRow>4</StartRow>
+        <StartColumn>1</StartColumn>
+        <HeaderIndex>3</HeaderIndex>
+        <ColumnCollection>
+          <Column>
+            <Name>Period</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat>yyyyMMdd</DataFormat>
+            <Index>1</Index>
+            <DBName>AUDIT_DATE</DBName>
+          </Column>
+          <Column>
+            <Name>Store_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>2</Index>
+            <DBName>STORE_CODE</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Store_name</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>3</Index>
+            <DBName>STORE_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Brand_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>4</Index>
+            <DBName>BRAND_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Brand</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>5</Index>
+            <DBName>BRAND_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Sector_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>6</Index>
+            <DBName>SECTOR_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Sector</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>7</Index>
+            <DBName>SECTOR_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Market_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>8</Index>
+            <DBName>MARKET_ID</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Market</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>9</Index>
+            <DBName>MARKET_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Category_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>10</Index>
+            <DBName>CATEGORY_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Category</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>11</Index>
+            <DBName>CAT_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Total(Numeric)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>12</Index>
+            <DBName>TOTAL</DBName>
+          </Column>
+          <Column>
+            <Name>Actual Unilever(Numeric)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>13</Index>
+            <DBName>ACTUAL_UL</DBName>
+          </Column>
+          <Column>
+            <Name>Month of Report</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>14</Index>
+            <DBName>REPORT_MONTH</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+        </ColumnCollection>
+      </Table>
+    </Sheet>
+    <Sheet>
+      <Name>POSM</Name>
+      <Index>0</Index>
+      <HeaderTemplate>
+        <Property>
+          <Name>ChecklistPeriod</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat>yyyyMM</DataFormat>
+          <Column>4</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>ChannelCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>2</Column>
+          <Row>1</Row>
+        </Property>
+        <Property>
+          <Name>RegionCode</Name>
+          <TypeName>System.String</TypeName>
+          <DataFormat></DataFormat>
+          <Column>3</Column>
+          <Row>1</Row>
+        </Property>
+      </HeaderTemplate>
+      <LabelCollection>
+        <Label>
+          <Name>Label1</Name>
+          <Column>1</Column>
+          <Row>1</Row>
+          <Value>Apply for checklist period:</Value>
+        </Label>
+      </LabelCollection>
+      <Table>
+        <Name>FPT_ENV_KPI_POSM</Name>
+        <StartRow>4</StartRow>
+        <StartColumn>1</StartColumn>
+        <HeaderIndex>3</HeaderIndex>
+        <ColumnCollection>
+          <Column>
+            <Name>Period</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat>yyyyMMdd</DataFormat>
+            <Index>1</Index>
+            <DBName>AUDIT_DATE</DBName>
+          </Column>
+          <Column>
+            <Name>Store_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>2</Index>
+            <DBName>STORE_CODE</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Store_name</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>3</Index>
+            <DBName>STORE_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Brand_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>4</Index>
+            <DBName>BRAND_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Brand</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>5</Index>
+            <DBName>BRAND_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Sector_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>6</Index>
+            <DBName>SECTOR_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Sector</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>7</Index>
+            <DBName>SECTOR_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Market_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>8</Index>
+            <DBName>MARKET_ID</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+          <Column>
+            <Name>Market</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>9</Index>
+            <DBName>MARKET_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>Category_id</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>10</Index>
+            <DBName>CATEGORY_ID</DBName>
+          </Column>
+          <Column>
+            <Name>Category</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>11</Index>
+            <DBName>CAT_NAME</DBName>
+          </Column>
+          <Column>
+            <Name>POSM Item</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>12</Index>
+            <DBName>POSM_ITEM</DBName>
+          </Column>
+          <Column>
+            <Name>Actual Unilever(Numeric)</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>13</Index>
+            <DBName>ACTUAL_UL</DBName>
+          </Column>
+          <Column>
+            <Name>Month of Report</Name>
+            <TypeName>System.String</TypeName>
+            <DataFormat />
+            <Index>14</Index>
+            <DBName>REPORT_MONTH</DBName>
+            <IsKey>true</IsKey>
+          </Column>
+        </ColumnCollection>
+      </Table>
+    </Sheet>
+  </SheetCollection>
+</ImportTemplate>

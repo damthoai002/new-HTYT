@@ -1,0 +1,3 @@
+﻿2015-12-09 09:42:02,717 [4] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-12-09 13:48:05,309 [4] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-12-09 16:06:30,491 [4] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.

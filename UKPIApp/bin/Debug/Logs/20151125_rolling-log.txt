@@ -1,0 +1,81 @@
+﻿2015-11-25 15:38:22,903 [10] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 15:43:31,588 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 15:44:06,388 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 15:45:16,006 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 15:46:43,086 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 15:55:53,577 [10] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 15:57:46,102 [10] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 15:58:41,064 [10] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-11-25 16:02:54,724 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 16:43:30,288 [12] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 16:45:27,241 [12] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-11-25 17:00:47,843 [12] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 17:03:19,781 [10] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 17:03:33,774 [10] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-11-25 17:19:10,756 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 17:24:07,346 [9] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-11-25 17:28:04,908 [11] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 17:30:15,929 [11] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-11-25 18:37:40,951 [12] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 18:38:57,876 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 18:39:41,404 [7] ERROR UKPI.DataAccessObject.clsBaseDAO - System.Data.SqlClient.SqlException: Received an invalid column length from the bcp client for colid 31.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternal()
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServer(Int32 columnCount)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table, DataRowState rowState)
+   at UKPI.DataAccessObject.clsBaseDAO.BulkInsert(DataTable table, String tableName) in D:\new HTYT\UKPIApp\DataAccessObject\clsBaseDAO.cs:line 1459
+2015-11-25 18:47:19,705 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 18:50:23,063 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 18:52:50,357 [13] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 18:53:15,297 [11] ERROR UKPI.DataAccessObject.clsBaseDAO - System.Data.SqlClient.SqlException: Received an invalid column length from the bcp client for colid 31.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternal()
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServer(Int32 columnCount)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table, DataRowState rowState)
+   at UKPI.DataAccessObject.clsBaseDAO.BulkInsert(DataTable table, String tableName) in D:\new HTYT\UKPIApp\DataAccessObject\clsBaseDAO.cs:line 1459
+2015-11-25 18:57:20,505 [12] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-25 18:57:44,005 [10] ERROR UKPI.DataAccessObject.clsBaseDAO - System.Data.SqlClient.SqlException: Received an invalid column length from the bcp client for colid 31.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternal()
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServer(Int32 columnCount)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table, DataRowState rowState)
+   at UKPI.DataAccessObject.clsBaseDAO.BulkInsert(DataTable table, String tableName) in D:\new HTYT\UKPIApp\DataAccessObject\clsBaseDAO.cs:line 1459
+2015-11-25 18:59:50,986 [10] ERROR UKPI.DataAccessObject.clsBaseDAO - System.Data.SqlClient.SqlException: Received an invalid column length from the bcp client for colid 31.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternal()
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServer(Int32 columnCount)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table, DataRowState rowState)
+   at UKPI.DataAccessObject.clsBaseDAO.BulkInsert(DataTable table, String tableName) in D:\new HTYT\UKPIApp\DataAccessObject\clsBaseDAO.cs:line 1459
+2015-11-25 19:01:36,245 [10] ERROR UKPI.DataAccessObject.clsBaseDAO - System.Data.SqlClient.SqlException: Received an invalid column length from the bcp client for colid 31.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternal()
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServer(Int32 columnCount)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table, DataRowState rowState)
+   at UKPI.DataAccessObject.clsBaseDAO.BulkInsert(DataTable table, String tableName) in D:\new HTYT\UKPIApp\DataAccessObject\clsBaseDAO.cs:line 1459
+2015-11-25 19:02:39,101 [10] ERROR UKPI.DataAccessObject.clsBaseDAO - System.Data.SqlClient.SqlException: Received an invalid column length from the bcp client for colid 31.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternal()
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServer(Int32 columnCount)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table, DataRowState rowState)
+   at UKPI.DataAccessObject.clsBaseDAO.BulkInsert(DataTable table, String tableName) in D:\new HTYT\UKPIApp\DataAccessObject\clsBaseDAO.cs:line 1459
+2015-11-25 19:07:12,625 [10] ERROR UKPI.DataAccessObject.clsBaseDAO - System.Data.SqlClient.SqlException: Received an invalid column length from the bcp client for colid 31.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternal()
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServer(Int32 columnCount)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table, DataRowState rowState)
+   at UKPI.DataAccessObject.clsBaseDAO.BulkInsert(DataTable table, String tableName) in D:\new HTYT\UKPIApp\DataAccessObject\clsBaseDAO.cs:line 1459
+2015-11-25 19:11:25,792 [12] DEBUG UKPI.frmMain - Thread was being aborted.

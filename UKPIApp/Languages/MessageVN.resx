@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConfirmOrder_CallExcelError" xml:space="preserve">
+    <value>Hª thèng kh«ng thÓ khëi ®éng Excel. Cã thÓ do m¸y ch­a cµi Excel.</value>
+  </data>
+  <data name="ConfirmOrder_ExportCOFinish" xml:space="preserve">
+    <value>Qu¸ tr×nh xuÊt ®¬n hµng ®· kÕt thóc.</value>
+  </data>
+  <data name="ConfirmOrder_ExportConfirm" xml:space="preserve">
+    <value>Cã ph¶i b¹n muèn göi ®¬n hµng cho SIP?</value>
+  </data>
+  <data name="ConfirmOrder_exportfail" xml:space="preserve">
+    <value>Qu¸ tr×nh göi ®¬n hµng ®· thÊt b¹i</value>
+  </data>
+  <data name="ConfirmOrder_genaralConfirm" xml:space="preserve">
+    <value>X¸c nhËn</value>
+  </data>
+  <data name="ConfirmOrder_genaralError" xml:space="preserve">
+    <value>Lçi</value>
+  </data>
+  <data name="ConfirmOrder_Information" xml:space="preserve">
+    <value>Th«ng b¸o</value>
+  </data>
+  <data name="ConfirmOrder_LoadImportGridError" xml:space="preserve">
+    <value>§· cã lçi x¶y ra trong qu¸ tr×nh xem ®¬n hµng cËp nhËt.</value>
+  </data>
+  <data name="ConfirmOrder_NotCheck" xml:space="preserve">
+    <value>Ch­a chän ®¬n hµng ®Ó göi.</value>
+  </data>
+  <data name="ConfirmOrder_ReadCOFromFolderError" xml:space="preserve">
+    <value>Qu¸ tr×nh nhËp ®¬n giao hµng tõ th­ môc '{0}' ®· thÊt b¹i. Cã thÓ tËp tin cÊu h×nh ch­a ®óng.</value>
+  </data>
+  <data name="ConfirmOrder_ReadCOMailFromSIPError" xml:space="preserve">
+    <value>Qu¸ tr×nh nhËp ®¬n giao hµng tõ mail ®· thÊt b¹i. Cã thÓ tËp tin cÊu h×nh ch­a ®óng.</value>
+  </data>
+  <data name="ConfirmOrder_ReadCOSuccess" xml:space="preserve">
+    <value>Qu¸ tr×nh cËp nhËt ®¬n hµng ®· kÕt thóc.</value>
+  </data>
+  <data name="CustomerMapping_CustIdEmpty" xml:space="preserve">
+    <value>B¹n ph¶i chän kh¸ch hµng , nhÊn F3 ®Ó chän.</value>
+  </data>
+  <data name="CustomerMapping_CustIdToolTip" xml:space="preserve">
+    <value>NhÊn F3 ®Ó chän kh¸ch hµng</value>
+  </data>
+  <data name="CustomerMapping_DeleteConfirm" xml:space="preserve">
+    <value>Cã ph¶i b¹n muèn xãa kh¸ch hµng nµy kh«ng?</value>
+  </data>
+  <data name="CustomerMapping_DeleteNotCheck" xml:space="preserve">
+    <value>Chän kh¸ch hµng mµ b¹n muèn xãa</value>
+  </data>
+  <data name="CustomerMapping_EmailEmpty" xml:space="preserve">
+    <value>B¹n ph¶i nhËp liÖu vµo « Email SIP.</value>
+  </data>
+  <data name="CustomerMapping_genaralError" xml:space="preserve">
+    <value>Lçi</value>
+  </data>
+  <data name="CustomerMapping_SaveConfirm" xml:space="preserve">
+    <value>Cã ph¶i b¹n muèn l­u kh¸ch hµng nµy kh«ng?</value>
+  </data>
+  <data name="CustomerMapping_savefail" xml:space="preserve">
+    <value>Qu¸ tr×nh l­u kh¸ch hµng ®· thÊt b¹i</value>
+  </data>
+  <data name="CustomerMapping_savesuccess" xml:space="preserve">
+    <value>Qu¸ tr×nh l­u kh¸ch hµng ®· thµnh c«ng</value>
+  </data>
+  <data name="CustomerMapping_SipEmpty" xml:space="preserve">
+    <value>B¹n ph¶i nhËp liÖu vµo «  m· SIP.</value>
+  </data>
+  <data name="CustomerMapping_SystemMessage" xml:space="preserve">
+    <value>Th«ng b¸o</value>
+  </data>
+  <data name="CustomerMapping_unchange" xml:space="preserve">
+    <value>Kh«ng cã g× thay ®æi</value>
+  </data>
+  <data name="Mainform_ExitConfirm" xml:space="preserve">
+    <value>B¹n cã muèn tho¸t ch­¬ng tr×nh kh«ng?</value>
+  </data>
+  <data name="Mainform_ExportTextFileError" xml:space="preserve">
+    <value>§· cã lçi x¶y ra trong qu¸ tr×nh xuÊt ®¬n hµng ra file text. Vui lßng kiÓm tra l¹i c¸c ®¬n hµng tr¹ng th¸i chê xö lý.</value>
+  </data>
+  <data name="Mainform_ExportTextFileFinish" xml:space="preserve">
+    <value>Kh«ng cã ®¬n hµng míi.</value>
+  </data>
+  <data name="Mainform_genaralError" xml:space="preserve">
+    <value>Lçi</value>
+  </data>
+  <data name="Mainform_ImportPOTextFileError" xml:space="preserve">
+    <value>§· cã lçi x¶y ra trong qu¸ tr×nh nhËp file text.</value>
+  </data>
+  <data name="Mainform_ImportPOTextFileFinish" xml:space="preserve">
+    <value>Qu¸ tr×nh nhËp ®¬n hµng file text ®· kÕt thóc.</value>
+  </data>
+  <data name="Mainform_Information" xml:space="preserve">
+    <value>Th«ng b¸o</value>
+  </data>
+  <data name="Reason_FileNotFound" xml:space="preserve">
+    <value>Kh«ng t×m thÊy file reason</value>
+  </data>
+  <data name="Reason_generalError" xml:space="preserve">
+    <value>Cã lçi trong qu¸ tr×nh import reason</value>
+  </data>
+  <data name="Report_ExportSipError" xml:space="preserve">
+    <value>Xin vui lßng nhËp ®Çy ®ñ lý do cho c¸c mÆt hµng trªn l­íi</value>
+  </data>
+  <data name="Report_ExportSipSuccess" xml:space="preserve">
+    <value>XuÊt göi U thµnh c«ng</value>
+  </data>
+  <data name="Report_OpenFileExportConfirm" xml:space="preserve">
+    <value>B¹n cã muèn më file võa export</value>
+  </data>
+  <data name="Report_TemplateNotFound" xml:space="preserve">
+    <value>Kh«ng t×m thÊy template cña report</value>
+  </data>
+  <data name="Report_Type_DMS_Cat_Report" xml:space="preserve">
+    <value>DMS Cat Report</value>
+  </data>
+  <data name="Report_Type_DMS_CCFOT" xml:space="preserve">
+    <value>DMS CCFOT</value>
+  </data>
+  <data name="Report_Type_DMS_Good_Report" xml:space="preserve">
+    <value>DMS Return Good Report</value>
+  </data>
+  <data name="Report_Type_DMS_MainLoss_Report" xml:space="preserve">
+    <value>Dms Mainloss Report</value>
+  </data>
+  <data name="Report_Type_DMS_Raw_Data" xml:space="preserve">
+    <value>DMS Raw Data</value>
+  </data>
+  <data name="Report_Type_DMS_RC_Report" xml:space="preserve">
+    <value>DMS RC Report</value>
+  </data>
+  <data name="Report_Type_DMS_Shortage_Report" xml:space="preserve">
+    <value>DMS Shortage</value>
+  </data>
+  <data name="SalesOrder_AttachFileNotExists" xml:space="preserve">
+    <value>Khong co file dinh kem</value>
+    <comment>kh«ng tån t¹i attach file</comment>
+  </data>
+  <data name="SalesOrder_DeleteConfirm" xml:space="preserve">
+    <value>Cã ph¶i b¹n muèn xãa ®¬n hµng nµy kh«ng?</value>
+  </data>
+  <data name="SalesOrder_deletefail" xml:space="preserve">
+    <value>Qu¸ tr×nh xãa ®¬n hµng ®· thÊt b¹i</value>
+  </data>
+  <data name="SalesOrder_fileError" xml:space="preserve">
+    <value>B¹n chän tËp tin ®¬n hµng kh«ng hîp lÖ</value>
+  </data>
+  <data name="SalesOrder_fileNotExitsError" xml:space="preserve">
+    <value>B¹n ch­a chän tËp tin ®¬n hµng</value>
+  </data>
+  <data name="SalesOrder_genaralConfirm" xml:space="preserve">
+    <value>X¸c nhËn</value>
+  </data>
+  <data name="SalesOrder_genaralError" xml:space="preserve">
+    <value>Lçi</value>
+  </data>
+  <data name="SalesOrder_genaralwarning" xml:space="preserve">
+    <value>C¶nh b¸o</value>
+  </data>
+  <data name="SalesOrder_importfail" xml:space="preserve">
+    <value>Qu¸ tr×nh nhËp ®¬n hµng ®· th©t b¹i</value>
+  </data>
+  <data name="SalesOrder_importManual" xml:space="preserve">
+    <value>Qu¸ tr×nh import tù ®éng kh«ng thµnh c«ng ! Xin vui lßng import b»ng tay</value>
+    <comment>Quá trình import tự động không thành công ! Xin vui lòng import bằng tay</comment>
+  </data>
+  <data name="SalesOrder_ImportOrderCodeExists" xml:space="preserve">
+    <value>Don hang nay da ton tai</value>
+    <comment>§¬n hµng ®· tån t¹i</comment>
+  </data>
+  <data name="SalesOrder_ImportOrderCusMappingError" xml:space="preserve">
+    <value>Sieu thi chua co nhan vien quan ly</value>
+  </data>
+  <data name="SalesOrder_ImportOrderDateError" xml:space="preserve">
+    <value>Ngay dat hang sai</value>
+    <comment>Ngµy ®Æt hµng sai</comment>
+  </data>
+  <data name="SalesOrder_ImportOrderFileWrongFormat" xml:space="preserve">
+    <value>Sai format file</value>
+  </data>
+  <data name="SalesOrder_importsuccess" xml:space="preserve">
+    <value>Qu¸ tr×nh nhËp ®¬n hµng  ®· thµnh c«ng {0} ®¬n hµng</value>
+  </data>
+  <data name="SalesOrder_importsuccess_NoOrder" xml:space="preserve">
+    <value>Qu¸ tr×nh import kÕt thóc. Kh«ng cã ®¬n hµng nµo ®­îc import</value>
+  </data>
+  <data name="SalesOrder_MailError" xml:space="preserve">
+    <value>Loi xay ra khi nhap don dat hang</value>
+  </data>
+  <data name="SalesOrder_MailTitle" xml:space="preserve">
+    <value>Don dat hang</value>
+  </data>
+  <data name="SalesOrder_NotCheck" xml:space="preserve">
+    <value>B¹n ch­a chän  ®¬n hµng cÇn xãa</value>
+  </data>
+  <data name="SalesOrder_NotImport" xml:space="preserve">
+    <value>Kh«ng thÓ nhËp ®¬n hµng nµy</value>
+  </data>
+  <data name="SalesOrder_SystemMessage" xml:space="preserve">
+    <value>Th«ng b¸o</value>
+  </data>
+  <data name="SalesOrder_WrongFileName" xml:space="preserve">
+    <value>Sai ten file attach</value>
+    <comment>Sai tªn file attach </comment>
+  </data>
+</root>

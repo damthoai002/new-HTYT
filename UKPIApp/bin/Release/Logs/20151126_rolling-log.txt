@@ -1,0 +1,12 @@
+﻿2015-11-26 11:40:08,572 [4] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-26 11:40:16,242 [1] ERROR UKPI.DataAccessObject.clsBaseDAO - System.Data.SqlClient.SqlException: Received an invalid column length from the bcp client for colid 31.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternal()
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServer(Int32 columnCount)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table, DataRowState rowState)
+   at UKPI.DataAccessObject.clsBaseDAO.BulkInsert(DataTable table, String tableName)
+2015-11-26 13:14:48,163 [4] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-11-26 13:20:00,024 [4] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-11-26 13:24:57,137 [4] DEBUG UKPI.frmMain - Thread was being aborted.

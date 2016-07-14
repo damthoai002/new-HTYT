@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UKPI", "UKPIApp\UKPI.csproj", "{335111FD-CD1C-4F2F-AAD6-842BFE3E9607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UKPI.ImportRegistration", "UKPI.ImportRegistration\UKPI.ImportRegistration.csproj", "{93629FD0-63A4-44CF-921A-24079F203FAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UKPI.Core", "UKPI.Core\UKPI.Core.csproj", "{480C8475-5AF3-4FC5-85C3-3898FF9B17EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UKPI.BlendedReport", "UKPI.BlendedReport\UKPI.BlendedReport.csproj", "{66520BE1-0AB6-4821-AEA7-F6CE49008242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UKPI.AuditResult", "UKPI.AuditResult\UKPI.AuditResult.csproj", "{E73A1B4E-B5C6-4F76-991B-42608FA2B349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPT.Component.ExcelPlus", "FPT.Componet.Excel\FPT.Component.ExcelPlus.csproj", "{8F68EE94-F371-4722-9B26-3113F1FC80AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{335111FD-CD1C-4F2F-AAD6-842BFE3E9607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335111FD-CD1C-4F2F-AAD6-842BFE3E9607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335111FD-CD1C-4F2F-AAD6-842BFE3E9607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335111FD-CD1C-4F2F-AAD6-842BFE3E9607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93629FD0-63A4-44CF-921A-24079F203FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93629FD0-63A4-44CF-921A-24079F203FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93629FD0-63A4-44CF-921A-24079F203FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93629FD0-63A4-44CF-921A-24079F203FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{480C8475-5AF3-4FC5-85C3-3898FF9B17EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{480C8475-5AF3-4FC5-85C3-3898FF9B17EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{480C8475-5AF3-4FC5-85C3-3898FF9B17EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{480C8475-5AF3-4FC5-85C3-3898FF9B17EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66520BE1-0AB6-4821-AEA7-F6CE49008242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66520BE1-0AB6-4821-AEA7-F6CE49008242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66520BE1-0AB6-4821-AEA7-F6CE49008242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66520BE1-0AB6-4821-AEA7-F6CE49008242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73A1B4E-B5C6-4F76-991B-42608FA2B349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73A1B4E-B5C6-4F76-991B-42608FA2B349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73A1B4E-B5C6-4F76-991B-42608FA2B349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73A1B4E-B5C6-4F76-991B-42608FA2B349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F68EE94-F371-4722-9B26-3113F1FC80AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F68EE94-F371-4722-9B26-3113F1FC80AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F68EE94-F371-4722-9B26-3113F1FC80AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F68EE94-F371-4722-9B26-3113F1FC80AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

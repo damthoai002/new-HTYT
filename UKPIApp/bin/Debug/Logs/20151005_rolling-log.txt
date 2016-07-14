@@ -1,0 +1,21 @@
+﻿2015-10-05 13:27:39,800 [11] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-05 13:30:55,648 [11] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-10-05 15:04:24,201 [10] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-05 15:04:25,313 [10] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-10-05 15:05:04,707 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-05 15:05:18,261 [9] DEBUG UKPI.frmMain - Thread was being aborted.
+2015-10-05 15:29:19,286 [9] ERROR UKPI.frmMain - Exception has been thrown by the target of an invocation.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NotImplementedException: The method or operation is not implemented.
+   at UKPI.Presentation.frmbaocaolichsubenhnhan.SetNhomBenh() in D:\new HTYT\UKPIApp\Presentation\frmbaocaolichsubenhnhan.cs:line 98
+   at UKPI.Presentation.frmbaocaolichsubenhnhan.SetDefauldValue() in D:\new HTYT\UKPIApp\Presentation\frmbaocaolichsubenhnhan.cs:line 80
+   at UKPI.Presentation.frmbaocaolichsubenhnhan..ctor() in D:\new HTYT\UKPIApp\Presentation\frmbaocaolichsubenhnhan.cs:line 69
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at UKPI.frmMain.MenuItem_OnClick(Object sender, EventArgs e) in D:\new HTYT\UKPIApp\Presentation\frmMain.cs:line 646
+2015-10-05 15:29:22,798 [11] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2015-10-05 15:37:43,023 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.

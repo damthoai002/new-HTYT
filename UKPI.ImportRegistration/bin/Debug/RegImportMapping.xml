@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tables>
+  <Mapping>
+    <SourceColumn>ProgramCode</SourceColumn>
+    <DestinationColumn>ProgramCode</DestinationColumn>
+    <DataType>System.string</DataType>
+  </Mapping>
+  <Mapping>
+    <SourceColumn>DealID</SourceColumn>
+    <DestinationColumn>DealID</DestinationColumn>
+    <DataType>System.string</DataType>
+  </Mapping>
+  <Mapping>
+    <SourceColumn>StoreCode</SourceColumn>
+    <DestinationColumn>StoreCode</DestinationColumn>
+    <DataType>System.string</DataType>
+  </Mapping>
+  <Mapping>
+    <SourceColumn>DisplaySetCode</SourceColumn>
+    <DestinationColumn>DisplaySetCode</DestinationColumn>
+    <DataType>System.string</DataType>
+  </Mapping>
+  <Mapping>
+    <SourceColumn>NoOfReg</SourceColumn>
+    <DestinationColumn>NoOfReg</DestinationColumn>
+    <DataType>System.string</DataType>
+  </Mapping>
+  <Mapping>
+    <SourceColumn>RegisterDate</SourceColumn>
+    <DestinationColumn>RegisteredDate</DestinationColumn>
+    <DataType>System.DateTime</DataType>
+  </Mapping>
+</Tables>
