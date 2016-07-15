@@ -58,6 +58,11 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.Entity" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
       <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>
   </dependency>
@@ -110,14 +115,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HHCC.exe" size="13864960">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HHCC.exe" size="13869056">
       <assemblyIdentity name="HHCC" version="1.7.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>05alWQHNi0IFmt2SPvW4Xb0DRrQ=</dsig:DigestValue>
+        <dsig:DigestValue>Vv72S5jlbvsWElkLfFsovGRd8zs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -170,26 +175,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.Common.dll" size="6388088">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.Common.dll" size="6391672">
       <assemblyIdentity name="Microsoft.ReportViewer.Common" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>QiAil54/CFh8DCuvJi9aLunfT/I=</dsig:DigestValue>
+        <dsig:DigestValue>JkA25Av6n+2C1n0smnudC+VwzTo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.WinForms.dll" size="546688">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.WinForms.dll" size="548224">
       <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>y1gucs00/+kgYr+kyePEt2dBkds=</dsig:DigestValue>
+        <dsig:DigestValue>5F6aT03ed2E6iC5r7BkGwIRlbfI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -230,14 +235,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UKPI.AuditResult.dll" size="33792">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UKPI.AuditResult.dll" size="32768">
       <assemblyIdentity name="UKPI.AuditResult" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>6tNBssNWB9lRmZPm24XLR55EFYs=</dsig:DigestValue>
+        <dsig:DigestValue>9HJz1e/CLs+hx37M7yvdtauYNmE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -254,26 +259,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UKPI.Core.dll" size="38912">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UKPI.Core.dll" size="37888">
       <assemblyIdentity name="UKPI.Core" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>du+pxnYMcX4ibySXYAm6MPTUgQM=</dsig:DigestValue>
+        <dsig:DigestValue>7CNvCBOYLuSQM73wagy3xNj9O9Y=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UKPI.ImportRegistration.dll" size="33792">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UKPI.ImportRegistration.dll" size="33280">
       <assemblyIdentity name="UKPI.ImportRegistration" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>imPbllEaQ2xuidG+UHiNoSHwI08=</dsig:DigestValue>
+        <dsig:DigestValue>aUa4efawe/tVuOsbSmz9zr995MY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -316,13 +321,13 @@
       <dsig:DigestValue>oUMoMyhWr1j8EJwnDGfNWQC2lsI=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="HHCC.exe.config" size="8979">
+  <file name="HHCC.exe.config" size="8999">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>OT4wX9wSKV2Yi2CS5LpjCj80FEc=</dsig:DigestValue>
+      <dsig:DigestValue>p29UuWpsA/azIq36dtupx7rgzgQ=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Icons\applications.ico" size="29926">
@@ -973,22 +978,22 @@
       <dsig:DigestValue>kK6zh3bJcqjte/RwMcd8ZMcKqxg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="UKPI.Messages.EN.xml" size="70524" writeableType="applicationData">
+  <file name="UKPI.Messages.EN.xml" size="70549" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>892CBAqP8Psr5Z2OaaPeLtT6hQY=</dsig:DigestValue>
+      <dsig:DigestValue>NCZgWsK/bwRasZJgbb6A4++66Fs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="UKPI.Messages.VN.xml" size="54147" writeableType="applicationData">
+  <file name="UKPI.Messages.VN.xml" size="54277" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>vZToRUSeNwjkE0VWFzXSWIUYfcQ=</dsig:DigestValue>
+      <dsig:DigestValue>eCS5kr04eIoTVJggwyNWOcW97Bc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="UKPI.Titles.EN.xml" size="97162" writeableType="applicationData">

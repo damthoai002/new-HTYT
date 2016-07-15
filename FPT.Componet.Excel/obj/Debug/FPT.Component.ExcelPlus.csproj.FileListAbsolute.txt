@@ -13,3 +13,18 @@ D:\new HTYT\FPT.Componet.Excel\bin\Debug\EPPlus.xml
 D:\new HTYT\FPT.Componet.Excel\obj\Debug\FPT.Component.ExcelPlus.csprojResolveAssemblyReference.cache
 D:\new HTYT\FPT.Componet.Excel\obj\Debug\FPT.Component.ExcelPlus.dll
 D:\new HTYT\FPT.Componet.Excel\obj\Debug\FPT.Component.ExcelPlus.pdb
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\FPT.Componet.Excel\bin\Debug\Library\EPPlusXmlDocumentationFile.xml
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\FPT.Componet.Excel\bin\Debug\Library\EPPlus_License.txt
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\FPT.Componet.Excel\bin\Debug\Library\Ionic_Utils_Zip_license.txt
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\FPT.Componet.Excel\bin\Debug\Library\NPOI_License.txt
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\FPT.Componet.Excel\bin\Debug\FPT.Component.ExcelPlus.dll.config
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\FPT.Componet.Excel\bin\Debug\FPT.Component.ExcelPlus.dll
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\FPT.Componet.Excel\bin\Debug\FPT.Component.ExcelPlus.pdb
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\FPT.Componet.Excel\bin\Debug\EPPlus.dll
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\FPT.Componet.Excel\bin\Debug\Interop.Excel.dll
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\FPT.Componet.Excel\bin\Debug\NPOI.dll
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\FPT.Componet.Excel\bin\Debug\Ionic.Zip.dll
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\FPT.Componet.Excel\bin\Debug\EPPlus.xml
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\FPT.Componet.Excel\obj\Debug\FPT.Component.ExcelPlus.csprojResolveAssemblyReference.cache
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\FPT.Componet.Excel\obj\Debug\FPT.Component.ExcelPlus.dll
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\FPT.Componet.Excel\obj\Debug\FPT.Component.ExcelPlus.pdb

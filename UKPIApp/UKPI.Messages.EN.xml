@@ -1258,7 +1258,10 @@
   <!--About Form-->
   <Messages>
     <Name>frmAbout.txtAboutInfo.Content</Name>
-    <Value>This software copyrighted by Unilever Viet Nam. Vendor Managed Inventory and Unilever Logos are trademarks  of the Unilever Vietnam. All rights reserved.</Value>
+    <Value>
+      This software was developed by Le and Friends Systems. Version RFID Beta. Date 07/15/2016
+      Address: 240/11/6 Cach Mang Thang 8 Street, Dist 03, Ho Chi Minh City.
+    </Value>
   </Messages>
   <Messages>
     <Name>frmAbout.txtAboutInfo.Content_seperate</Name>
@@ -1266,7 +1269,7 @@
   </Messages>
   <Messages>
     <Name>frmAbout.lblVersion.Content</Name>
-    <Value>{0}v.{1}. Build 17-Feb-2012 1240</Value>
+    <Value>{0}v.{1}. Build 15-July-2016 </Value>
   </Messages>
   <!--End - About Form-->
   <!-- Import Blend -->

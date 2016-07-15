@@ -1192,7 +1192,11 @@
   <!--About Form-->
   <Messages>
     <Name>frmAbout.txtAboutInfo.Content</Name>
-    <Value>This software copyrighted by Unilever Viet Nam. Vendor Managed Inventory and Unilever Logos are trademarks  of the Unilever Vietnam. All rights reserved.</Value>
+    <Value>
+      Phần mềm quản lý kho bãi được phát triển bởi Le and Friends Systems. Phiên bản thử nghiệm version 1.0
+      Phiên bản RFID. Ngày 15/7/2016
+      Địa chỉ: 240/11/16 Cách Mạng Tháng 8, Phường 10, Quận 3, Thành Phố Hồ Chí Minh
+    </Value>
   </Messages>
   <Messages>
     <Name>frmAbout.txtAboutInfo.Content_seperate</Name>
@@ -1200,7 +1204,7 @@
   </Messages>
   <Messages>
     <Name>frmAbout.lblVersion.Content</Name>
-    <Value>{0}v.{1}. Build 24-Oct-2011 1130</Value>
+    <Value>{0}v.{1}. Build 15-July-2016</Value>
   </Messages>
   <!--End - About Form-->
   <!-- Import Blend -->

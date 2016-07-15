@@ -71,3 +71,10 @@ D:\new HTYT\UKPI.Core\bin\Debug\log4net.dll
 D:\new HTYT\UKPI.Core\obj\Debug\UKPI.Core.csprojResolveAssemblyReference.cache
 D:\new HTYT\UKPI.Core\obj\Debug\UKPI.Core.dll
 D:\new HTYT\UKPI.Core\obj\Debug\UKPI.Core.pdb
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.Core\bin\Debug\UKPI.Core.dll
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.Core\bin\Debug\UKPI.Core.pdb
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.Core\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.Core\bin\Debug\log4net.dll
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.Core\obj\Debug\UKPI.Core.csprojResolveAssemblyReference.cache
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.Core\obj\Debug\UKPI.Core.dll
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.Core\obj\Debug\UKPI.Core.pdb

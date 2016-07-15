@@ -92,7 +92,7 @@ namespace UKPI.Presentation
             // 
             this.lblClose.ForeColor = System.Drawing.SystemColors.Control;
             this.lblClose.Image = ((System.Drawing.Image)(resources.GetObject("lblClose.Image")));
-            this.lblClose.Location = new System.Drawing.Point(432, 368);
+            this.lblClose.Location = new System.Drawing.Point(406, 350);
             this.lblClose.Name = "lblClose";
             this.lblClose.Size = new System.Drawing.Size(56, 24);
             this.lblClose.TabIndex = 1;
@@ -105,15 +105,15 @@ namespace UKPI.Presentation
             // 
             this.txtAboutInfo.BackColor = System.Drawing.SystemColors.HighlightText;
             this.txtAboutInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtAboutInfo.Location = new System.Drawing.Point(232, 8);
+            this.txtAboutInfo.Location = new System.Drawing.Point(77, 127);
             this.txtAboutInfo.Multiline = true;
             this.txtAboutInfo.Name = "txtAboutInfo";
             this.txtAboutInfo.ReadOnly = true;
-            this.txtAboutInfo.Size = new System.Drawing.Size(256, 360);
+            this.txtAboutInfo.Size = new System.Drawing.Size(303, 89);
             this.txtAboutInfo.TabIndex = 2;
-            this.txtAboutInfo.Text = "This software copyrighted by Unilever Viet Nam. Vendor Managed Inventory and Unil" +
-                "ever Logos are trademarks  of the Unilever Vietnam. All rights reserved.";
+            this.txtAboutInfo.Text = resources.GetString("txtAboutInfo.Text");
             this.txtAboutInfo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtAboutInfo.UseWaitCursor = true;
             // 
             // lblVersion
             // 
@@ -125,17 +125,18 @@ namespace UKPI.Presentation
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(33, 75);
+            this.pictureBox1.Location = new System.Drawing.Point(77, 43);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(162, 222);
+            this.pictureBox1.Size = new System.Drawing.Size(303, 78);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
             // frmAbout
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(492, 397);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(484, 389);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblVersion);

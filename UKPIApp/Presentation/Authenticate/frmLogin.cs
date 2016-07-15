@@ -24,7 +24,7 @@ namespace UKPI.Presentation
 		private System.Windows.Forms.TextBox txtUserName;
 		private System.Windows.Forms.TextBox txtPassword;
 		private System.Windows.Forms.ErrorProvider ep;
-		private DotNetSkin.SkinControls.SkinButton btnLogin;
+        private DotNetSkin.SkinControls.SkinButton btnLogin;
 		#endregion Window Control
 
 		#region Constructor and Destructor
@@ -94,17 +94,19 @@ namespace UKPI.Presentation
             // 
             // btnLogin
             // 
-            this.btnLogin.BackColor = System.Drawing.Color.Transparent;
+            this.btnLogin.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnLogin.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnLogin.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.btnLogin.Location = new System.Drawing.Point(257, 152);
+            this.btnLogin.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnLogin.FlatAppearance.BorderSize = 10;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnLogin.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnLogin.Location = new System.Drawing.Point(453, 190);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(64, 24);
+            this.btnLogin.Size = new System.Drawing.Size(66, 26);
             this.btnLogin.Stardard = true;
             this.btnLogin.TabIndex = 2;
-            this.btnLogin.Text = "Log in";
-            this.btnLogin.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogIn_Click);
             // 
@@ -112,11 +114,12 @@ namespace UKPI.Presentation
             // 
             this.btnCancel.BackColor = System.Drawing.Color.Transparent;
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnCancel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.btnCancel.Location = new System.Drawing.Point(322, 152);
+            this.btnCancel.Location = new System.Drawing.Point(523, 190);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(64, 24);
+            this.btnCancel.Size = new System.Drawing.Size(72, 25);
             this.btnCancel.Stardard = true;
             this.btnCancel.TabIndex = 3;
             this.btnCancel.Text = "Cancel";
@@ -127,20 +130,20 @@ namespace UKPI.Presentation
             // txtUserName
             // 
             this.txtUserName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtUserName.Location = new System.Drawing.Point(238, 91);
+            this.txtUserName.Location = new System.Drawing.Point(467, 133);
             this.txtUserName.MaxLength = 20;
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(145, 13);
+            this.txtUserName.Size = new System.Drawing.Size(119, 13);
             this.txtUserName.TabIndex = 0;
             // 
             // txtPassword
             // 
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPassword.Location = new System.Drawing.Point(238, 129);
+            this.txtPassword.Location = new System.Drawing.Point(468, 158);
             this.txtPassword.MaxLength = 20;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(145, 13);
+            this.txtPassword.Size = new System.Drawing.Size(118, 13);
             this.txtPassword.TabIndex = 1;
             // 
             // ep
@@ -152,7 +155,7 @@ namespace UKPI.Presentation
             this.AcceptButton = this.btnLogin;
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(400, 300);
+            this.ClientSize = new System.Drawing.Size(607, 300);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.btnLogin);

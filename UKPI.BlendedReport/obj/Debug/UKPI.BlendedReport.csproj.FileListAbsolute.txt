@@ -15,3 +15,20 @@ D:\new HTYT\UKPI.BlendedReport\bin\Debug\EPPlus.xml
 D:\new HTYT\UKPI.BlendedReport\obj\Debug\UKPI.BlendedReport.csprojResolveAssemblyReference.cache
 D:\new HTYT\UKPI.BlendedReport\obj\Debug\UKPI.BlendedReport.dll
 D:\new HTYT\UKPI.BlendedReport\obj\Debug\UKPI.BlendedReport.pdb
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.BlendedReport\bin\Debug\Library\EPPlusXmlDocumentationFile.xml
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.BlendedReport\bin\Debug\Library\EPPlus_License.txt
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.BlendedReport\bin\Debug\Library\Ionic_Utils_Zip_license.txt
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.BlendedReport\bin\Debug\Library\NPOI_License.txt
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.BlendedReport\bin\Debug\BlendConfig.xml
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.BlendedReport\bin\Debug\UKPI.BlendedReport.dll
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.BlendedReport\bin\Debug\UKPI.BlendedReport.pdb
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.BlendedReport\bin\Debug\FPT.Component.ExcelPlus.dll
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.BlendedReport\bin\Debug\NPOI.dll
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.BlendedReport\bin\Debug\EPPlus.dll
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.BlendedReport\bin\Debug\Interop.Excel.dll
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.BlendedReport\bin\Debug\Ionic.Zip.dll
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.BlendedReport\bin\Debug\FPT.Component.ExcelPlus.pdb
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.BlendedReport\bin\Debug\EPPlus.xml
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.BlendedReport\obj\Debug\UKPI.BlendedReport.csprojResolveAssemblyReference.cache
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.BlendedReport\obj\Debug\UKPI.BlendedReport.dll
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.BlendedReport\obj\Debug\UKPI.BlendedReport.pdb

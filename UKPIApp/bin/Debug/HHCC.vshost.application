@@ -4,14 +4,14 @@
   <description asmv2:publisher="HHCC" asmv2:product="HHCC" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="HHCC.exe.manifest" size="46757">
+    <dependentAssembly dependencyType="install" codebase="HHCC.exe.manifest" size="47052">
       <assemblyIdentity name="HHCC.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Lo4GwsDBv9nxx4qWTIwV4gHXm/w=</dsig:DigestValue>
+        <dsig:DigestValue>LyS+3QdEt3nvpAo+BfbZxxht2T8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
