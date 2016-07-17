@@ -320,6 +320,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>HTYTHomebaseDataSet9.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Presentation\frmDanhMucHangHoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmDanhMucHangHoa.Designer.cs">
+      <DependentUpon>frmDanhMucHangHoa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentation\frmViewBenhNhanKhambenh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1413,6 +1419,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Languages\TitleVN.resx">
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmDanhMucHangHoa.resx">
+      <DependentUpon>frmDanhMucHangHoa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentation\frmViewBenhNhanKhambenh.resx">
       <DependentUpon>frmViewBenhNhanKhambenh.cs</DependentUpon>

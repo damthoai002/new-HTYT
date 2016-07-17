@@ -115,14 +115,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HHCC.exe" size="13869056">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HHCC.exe" size="13877248">
       <assemblyIdentity name="HHCC" version="1.7.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Vv72S5jlbvsWElkLfFsovGRd8zs=</dsig:DigestValue>
+        <dsig:DigestValue>fPl69uzWO8tfkCk/lnNPOYj5xtw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -996,13 +996,13 @@
       <dsig:DigestValue>eCS5kr04eIoTVJggwyNWOcW97Bc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="UKPI.Titles.EN.xml" size="97162" writeableType="applicationData">
+  <file name="UKPI.Titles.EN.xml" size="97364" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>GV/tWzUyTF+j7E1HNtsov5raRac=</dsig:DigestValue>
+      <dsig:DigestValue>aQBkUgUQ4cdzvjMF+KYwKyAdcWo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="UKPI.Titles.VN.xml" size="95790" writeableType="applicationData">

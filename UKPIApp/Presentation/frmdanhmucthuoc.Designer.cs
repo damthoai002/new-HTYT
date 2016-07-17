@@ -55,6 +55,7 @@ namespace UKPI.Presentation
             this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cboCachDung = new System.Windows.Forms.ComboBox();
             this.ckbChonNgayHieuLuc = new System.Windows.Forms.CheckBox();
             this.dtpNgayHieuLuc = new System.Windows.Forms.DateTimePicker();
             this.txtNhomThuoc = new System.Windows.Forms.TextBox();
@@ -123,7 +124,6 @@ namespace UKPI.Presentation
             this.HeSoAnToan = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NhomThuoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.HoatDong = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.cboCachDung = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdToaThuoc)).BeginInit();
             this.SuspendLayout();
@@ -275,8 +275,8 @@ namespace UKPI.Presentation
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.cboCachDung);
             this.groupBox1.Controls.Add(this.ckbChonNgayHieuLuc);
             this.groupBox1.Controls.Add(this.dtpNgayHieuLuc);
@@ -328,6 +328,14 @@ namespace UKPI.Presentation
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin chi tiết";
+            // 
+            // cboCachDung
+            // 
+            this.cboCachDung.FormattingEnabled = true;
+            this.cboCachDung.Location = new System.Drawing.Point(777, 123);
+            this.cboCachDung.Name = "cboCachDung";
+            this.cboCachDung.Size = new System.Drawing.Size(140, 21);
+            this.cboCachDung.TabIndex = 42;
             // 
             // ckbChonNgayHieuLuc
             // 
@@ -751,9 +759,9 @@ namespace UKPI.Presentation
             // 
             this.grdToaThuoc.AllowUserToAddRows = false;
             this.grdToaThuoc.AllowUserToDeleteRows = false;
-            this.grdToaThuoc.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.grdToaThuoc.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -941,14 +949,6 @@ namespace UKPI.Presentation
             this.HoatDong.ReadOnly = true;
             this.HoatDong.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.HoatDong.Width = 80;
-            // 
-            // cboCachDung
-            // 
-            this.cboCachDung.FormattingEnabled = true;
-            this.cboCachDung.Location = new System.Drawing.Point(777, 123);
-            this.cboCachDung.Name = "cboCachDung";
-            this.cboCachDung.Size = new System.Drawing.Size(140, 21);
-            this.cboCachDung.TabIndex = 42;
             // 
             // frmdanhmucthuoc
             // 

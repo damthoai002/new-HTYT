@@ -1,0 +1,106 @@
+﻿2016-07-16 00:00:53,807 [11] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2016-07-16 00:01:45,002 [11] DEBUG UKPI.frmMain - Thread was being aborted.
+2016-07-16 00:01:55,769 [12] DEBUG UKPI.frmMain - Thread was being aborted.
+2016-07-16 00:14:43,669 [11] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2016-07-16 00:14:56,434 [11] DEBUG UKPI.frmMain - Thread was being aborted.
+2016-07-16 00:17:19,047 [11] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2016-07-16 00:21:25,537 [11] DEBUG UKPI.frmMain - Thread was being aborted.
+2016-07-16 00:35:03,368 [12] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2016-07-16 00:35:06,320 [12] DEBUG UKPI.frmMain - Thread was being aborted.
+2016-07-16 00:36:02,056 [11] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2016-07-16 00:37:48,613 [11] DEBUG UKPI.frmMain - Thread was being aborted.
+2016-07-16 00:38:05,197 [11] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2016-07-16 00:57:56,323 [10] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2016-07-16 00:58:00,723 [10] DEBUG UKPI.frmMain - Thread was being aborted.
+2016-07-16 01:17:13,020 [11] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2016-07-16 01:17:21,922 [11] DEBUG UKPI.frmMain - Thread was being aborted.
+2016-07-16 12:44:44,128 [12] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2016-07-16 12:44:49,780 [12] DEBUG UKPI.frmMain - Thread was being aborted.
+2016-07-16 13:04:05,342 [12] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2016-07-16 13:04:09,227 [9] ERROR UKPI.DataAccessObject.QuanLyThuocDao - Conversion failed when converting date and/or time from character string.
+System.Data.SqlClient.SqlException: Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.QuanLyThuocDao.LoadDanhMucThuoc(String maThuocYTe, String tenThuoc) in F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\DataAccessObject\QuanLyThuocDao.cs:line 113
+2016-07-16 13:04:09,443 [9] ERROR UKPI.DataAccessObject.ShareEntityDao - Could not find stored procedure 'p_LoadCachDung'.
+System.Data.SqlClient.SqlException: Could not find stored procedure 'p_LoadCachDung'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ShareEntityDao.LoadCachDung() in F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\DataAccessObject\ShareEntityDao.cs:line 857
+2016-07-16 13:04:18,295 [12] DEBUG UKPI.frmMain - Thread was being aborted.
+2016-07-16 13:05:54,528 [9] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2016-07-16 13:06:01,383 [9] DEBUG UKPI.frmMain - Thread was being aborted.
+2016-07-16 13:07:06,860 [11] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2016-07-16 13:07:12,493 [11] DEBUG UKPI.frmMain - Thread was being aborted.
+2016-07-16 13:09:10,407 [10] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2016-07-16 13:09:11,159 [8] ERROR UKPI.DataAccessObject.QuanLyThuocDao - Conversion failed when converting date and/or time from character string.
+System.Data.SqlClient.SqlException: Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.QuanLyThuocDao.LoadDanhMucThuoc(String maThuocYTe, String tenThuoc) in F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\DataAccessObject\QuanLyThuocDao.cs:line 113
+2016-07-16 13:09:11,209 [8] ERROR UKPI.DataAccessObject.ShareEntityDao - Could not find stored procedure 'p_LoadCachDung'.
+System.Data.SqlClient.SqlException: Could not find stored procedure 'p_LoadCachDung'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UKPI.Utils.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\Utils\SQLHelper.cs:line 548
+   at UKPI.Utils.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\Utils\SQLHelper.cs:line 455
+   at UKPI.Utils.DataServices.ExecuteDataTable(CommandType commandType, String commandText, SqlParameter[] commandParameters) in F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\Utils\DataServices.cs:line 33
+   at UKPI.DataAccessObject.ShareEntityDao.LoadCachDung() in F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\DataAccessObject\ShareEntityDao.cs:line 857
+2016-07-16 13:09:19,989 [10] DEBUG UKPI.frmMain - Thread was being aborted.
+2016-07-16 13:13:23,433 [11] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2016-07-16 13:13:31,917 [11] DEBUG UKPI.frmMain - Thread was being aborted.
+2016-07-16 13:14:19,867 [11] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.
+2016-07-16 13:22:03,806 [11] DEBUG UKPI.frmMain - Thread was being aborted.

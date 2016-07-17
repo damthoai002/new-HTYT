@@ -1946,6 +1946,10 @@
 		<Name>frmMain.mnuReport</Name>
 		<Value>Báo Cáo</Value>
 	</Titles>
+  <Titles>
+    <Name>frmMain.mnuHangHoa</Name>
+    <Value>Hàng Hóa</Value>
+  </Titles>
 	<Titles>
 		<Name>frmMain.mnuThuoc</Name>
 		<Value>Thuốc</Value>
@@ -2007,7 +2011,10 @@
 		<Name>frmMain.mnudanhmucthuoc</Name>
 		<Value>Danh Mục Thuốc</Value>
 	</Titles>
-
+  <Titles>
+    <Name>frmMain.mnuDanhMucHangHoa</Name>
+    <Value>Danh Mục Hàng Hóa</Value>
+  </Titles>
 	<Titles>
 		<Name>frmMain.mnuBaoCaoDanhMucThuocTTBH</Name>
 		<Value>Báo Cáo Thuốc Tân Dược TT BHYT</Value>

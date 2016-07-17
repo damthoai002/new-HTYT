@@ -619,3 +619,4 @@ F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\bin\Debug
 F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\bin\Debug\EPPlus.xml
 F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\obj\Debug\HHCC.exe.manifest
 F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\obj\Debug\HHCC.application
+F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPIApp\obj\Debug\UKPI.Presentation.frmDanhMucHangHoa.resources
