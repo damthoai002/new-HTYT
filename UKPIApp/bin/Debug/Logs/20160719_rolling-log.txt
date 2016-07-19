@@ -1,0 +1,1 @@
+﻿2016-07-19 16:36:18,457 [12] ERROR UKPI.frmMain - Import folder 'D:\UKPI\Import\Stores' is not exist.

@@ -118,3 +118,13 @@ F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.ImportRegist
 F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.csprojResolveAssemblyReference.cache
 F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.dll
 F:\AYAKA VN\Ayaka VN\RFID\Phong RFID SOFT\GitHub Team\new-HTYT\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.pdb
+D:\new HTYT\new-HTYT\UKPI.ImportRegistration\bin\Debug\RegImportMapping.xml
+D:\new HTYT\new-HTYT\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.dll
+D:\new HTYT\new-HTYT\UKPI.ImportRegistration\bin\Debug\UKPI.ImportRegistration.pdb
+D:\new HTYT\new-HTYT\UKPI.ImportRegistration\bin\Debug\log4net.dll
+D:\new HTYT\new-HTYT\UKPI.ImportRegistration\bin\Debug\UKPI.Core.dll
+D:\new HTYT\new-HTYT\UKPI.ImportRegistration\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\new HTYT\new-HTYT\UKPI.ImportRegistration\bin\Debug\UKPI.Core.pdb
+D:\new HTYT\new-HTYT\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.csprojResolveAssemblyReference.cache
+D:\new HTYT\new-HTYT\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.dll
+D:\new HTYT\new-HTYT\UKPI.ImportRegistration\obj\Debug\UKPI.ImportRegistration.pdb

@@ -1231,11 +1231,15 @@
     <Compile Include="Controls\DataGridComboBoxColumn.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controls\DataGridDisableCell.cs" />
+    <Compile Include="Controls\DataGridDisableCell.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Controls\DataGridRadioColumn.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controls\DataGridTextAutoHilight.cs" />
+    <Compile Include="Controls\DataGridTextAutoHilight.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Controls\DataGridTimePickerColumn.cs">
       <SubType>Component</SubType>
     </Compile>
